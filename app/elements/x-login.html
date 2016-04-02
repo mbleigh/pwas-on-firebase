@@ -1,0 +1,124 @@
+<link rel="import" href="../bower_components/neon-animation/neon-animation-runner-behavior.html">
+<link rel="import" href="../bower_components/neon-animation/animations/slide-from-bottom-animation.html">
+<link rel="import" href="../bower_components/neon-animation/animations/slide-down-animation.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+
+<dom-module id="x-login">
+  <template>
+    <style>
+      :host {
+        display: block;
+        @apply(--layout-fit);
+        @apply(--layout-vertical);
+        @apply(--layout-center);
+        @apply(--layout-center-justified);
+        background: var(--paper-blue-500);
+        color: white;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 72px;
+        text-align: center;
+        margin: 16px 0 0;
+      }
+
+      h2 {
+        color: rgba(255,255,255,0.87);
+        font-size: 24px;
+        text-align: center;
+        font-weight: 300;
+        margin: 8px 0 48px;
+      }
+
+      img {
+        vertical-align: top;
+      }
+
+      #bigimg {
+        display: block;
+        margin: 0 auto 16px;
+        width: 260px;
+        height: 260px;
+      }
+
+      paper-button {
+        background: var(--paper-blue-700);
+        color: white;
+        padding: 16px 32px;
+      }
+
+      a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    </style>
+
+    <img id="bigimg" src="https://twemoji.maxcdn.com/2/svg/1f60d.svg">
+    <h1>Teamoji</h1>
+    <h2><img src="https://twemoji.maxcdn.com/2/svg/23f2.svg" width="24" height="24"> Team Status <img src="https://twemoji.maxcdn.com/2/svg/1f680.svg" width="24" height="24"></h2>
+
+    <paper-button on-tap="login" raised>Sign in with Google</paper-button>
+
+    <div id="space"></div>
+    <p>powered by <a href="https://firebase.google.com/" target="_blank">Firebase</a>
+  </template>
+  <script>
+    Polymer({
+      is: 'x-login',
+      behaviors: Polymer.NeonAnimationRunnerBehavior,
+      properties: {
+        user: {
+          type: Object,
+          observer: '_authStateChanged',
+          value: function() { return {email: 'bleigh@google.com'}; }
+        },
+        entryAnimation: {
+          type: String,
+          value: 'slide-from-bottom-animation'
+        },
+        exitAnimation: {
+          type: String,
+          value: 'slide-down-animation'
+        }
+      },
+      listeners: {
+        'neon-animation-finish': '_animationFinished'
+      },
+      ready: function() {
+        this._t0 = Date.now();
+        var auth = firebase.auth();
+        var self = this;
+        firebase.auth().addAuthStateListener(function(state) {
+          self.user = state.currentUser;
+        });
+      },
+      login: function() {
+        // firebase.auth().signInWithPopup(new firebase.GoogleAuthProvider());
+        this.user = {email: 'bleigh@google.com'};
+      },
+      _hide: function() {
+        if (Date.now() - 1000 > this._t0) {
+          this['playAnimation']('exit');
+        } else {
+          this.style.display = 'none';
+        }
+      },
+      _show: function() {
+        this.style.display = 'flex';
+        if (Date.now() - 1000 > this._t0) {
+          this['playAnimation']('entry');
+        }
+      },
+      _authStateChanged: function() {
+        this.user ? this._hide() : this._show();
+      },
+      _animationFinished: function() {
+        if (this.user) {
+          this.style.display = 'none';
+        }
+      }
+    });
+  </script>
+</dom-module>

@@ -1,0 +1,4 @@
+// Rules for Firebase Storage.
+service firebase.storage {
+
+}

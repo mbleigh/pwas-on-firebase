@@ -62,138 +62,19 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <body unresolved>
   <span id="browser-sync-binding"></span>
-  <template is="dom-bind" id="app">
-
-    <paper-drawer-panel id="paperDrawerPanel">
-      <!-- Drawer Scroll Header Panel -->
-      <paper-scroll-header-panel drawer fixed>
-
-        <!-- Drawer Toolbar -->
-        <paper-toolbar id="drawerToolbar">
-          <span class="menu-name">Menu</span>
-        </paper-toolbar>
-
-        <!-- Drawer Content -->
-        <paper-menu attr-for-selected="data-route" selected="[[route]]">
-          <a data-route="home" href="{{baseUrl}}">
-            <iron-icon icon="home"></iron-icon>
-            <span>Home</span>
-          </a>
-
-          <a data-route="users" href="{{baseUrl}}users">
-            <iron-icon icon="info"></iron-icon>
-            <span>Users</span>
-          </a>
-
-          <a data-route="contact" href="{{baseUrl}}contact">
-            <iron-icon icon="mail"></iron-icon>
-            <span>Contact</span>
-          </a>
-        </paper-menu>
-      </paper-scroll-header-panel>
-
-      <!-- Main Area -->
-      <paper-header-panel main id="headerPanelMain">
-        <!-- Main Toolbar -->
-        <paper-toolbar id="mainToolbar">
-          <paper-icon-button id="paperToggle" icon="menu" paper-drawer-toggle></paper-icon-button>
-          <!-- Application name -->
-          <img src="https://twemoji.maxcdn.com/72x72/1f354.png" with="36" height="36" class="title-emoji">
-          <div class="app-name">Teamoji</div>
-        </paper-toolbar>
-
-        <!-- Main Content -->
-        <div class="content">
-          <iron-pages attr-for-selected="data-route" selected="{{route}}">
-            <section data-route="home">
-              <paper-material elevation="1">
-                <my-greeting></my-greeting>
-
-                <p class="subhead">You now have:</p>
-                <my-list></my-list>
-
-                <p>Looking for more Web App layouts? Check out our <a href="https://github.com/PolymerElements/app-layout-templates">layouts</a> collection. You can also <a href="http://polymerelements.github.io/app-layout-templates/">preview</a> them live.</p>
-              </paper-material>
-
-              <paper-material elevation="1">
-                <p>This is another card.</p>
-              </paper-material>
-
-              <paper-material elevation="1">
-                <h1 id="license">License</h1>
-                <p>Everything in this repo is BSD style license unless otherwise specified.</p>
-                <p>Copyright (c) 2015 The Polymer Authors. All rights reserved.</p>
-                <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
-                <ul>
-                <li>Redistributions of source code must retain the above copyright
-                notice, this list of conditions and the following disclaimer.</li>
-                <li>Redistributions in binary form must reproduce the above
-                copyright notice, this list of conditions and the following disclaimer
-                in the documentation and/or other materials provided with the
-                distribution.</li>
-                <li>Neither the name of Google Inc. nor the names of its
-                contributors may be used to endorse or promote products derived from
-                this software without specific prior written permission.</li>
-                </ul>
-                <p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
-              </paper-material>
-            </section>
-
-            <section data-route="users">
-              <paper-material elevation="1">
-                <h2 class="page-title">Users</h2>
-                <p>This is the users section</p>
-                <a href$="{{baseUrl}}users/Addy">Addy</a><br>
-                <a href$="{{baseUrl}}users/Rob">Rob</a><br>
-                <a href$="{{baseUrl}}users/Chuck">Chuck</a><br>
-                <a href$="{{baseUrl}}users/Sam">Sam</a>
-              </paper-material>
-            </section>
-
-            <section data-route="user-info">
-              <paper-material elevation="1">
-                <h2 class="page-title">User: {{params.name}}</h2>
-                <div>This is {{params.name}}'s section</div>
-              </paper-material>
-            </section>
-
-            <section data-route="contact">
-              <paper-material elevation="1">
-                <h2 class="page-title">Contact</h2>
-                <p>This is the contact section</p>
-              </paper-material>
-            </section>
-          </iron-pages>
-        </div>
-      </paper-header-panel>
-    </paper-drawer-panel>
-
-    <paper-toast id="toast">
-      <span class="toast-hide-button" role="button" tabindex="0" onclick="app.$.toast.hide()">Ok</span>
-    </paper-toast>
-
-    <!-- Uncomment next block to enable Service Worker support (1/2) -->
-    <!--
-    <paper-toast id="caching-complete"
-                 duration="6000"
-                 text="Caching complete! This app will work offline.">
-    </paper-toast>
-
-    <platinum-sw-register auto-register
-                          clients-claim
-                          skip-waiting
-                          base-uri="bower_components/platinum-sw/bootstrap"
-                          on-service-worker-installed="displayInstalledToast">
-      <platinum-sw-cache default-cache-strategy="fastest"
-                         cache-config-file="cache-config.json">
-      </platinum-sw-cache>
-    </platinum-sw-register>
-    -->
-
-  </template>
-
+  <script src="https://www.gstatic.com/firebasejs/staging/3.0.0-eap.2/firebase.js" charset="utf-8"></script>
+  <script>
+    firebase.App.initialize({
+      projectId: 'teamoji-app',
+      apiKey: 'AIzaSyBNaEV7LS8DwYfx3AmypFIF7LsnN5yEIno',
+      databaseUrl: 'https://teamoji-app.firebaeseio.com',
+      authDomain: 'teamoji-app.firebaseapp.com'
+    });
+  </script>
+  <x-app id="app"></x-app>
   <!-- build:js scripts/app.js -->
   <script src="scripts/app.js"></script>
+  <script src="scripts/service-worker-registration.js"></script>
   <!-- endbuild-->
 </body>
 

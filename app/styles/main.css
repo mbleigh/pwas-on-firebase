@@ -8,7 +8,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 */
 
 body {
-  background: #fafafa;
+  /* --paper-amber-200 */
+  background: #ffe082;
   font-family: 'Varela Round', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
 }

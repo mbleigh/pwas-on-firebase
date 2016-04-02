@@ -1,0 +1,10311 @@
+[
+  {
+    "desc": "grinning face",
+    "tags": [
+      "face",
+      "grin"
+    ],
+    "code": "1f600",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f600.svg"
+  },
+  {
+    "desc": "grinning face with smiling eyes",
+    "tags": [
+      "eye",
+      "face",
+      "grin",
+      "smile"
+    ],
+    "code": "1f601",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f601.svg"
+  },
+  {
+    "desc": "face with tears of joy",
+    "tags": [
+      "face",
+      "joy",
+      "laugh",
+      "tear"
+    ],
+    "code": "1f602",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f602.svg"
+  },
+  {
+    "desc": "smiling face with open mouth",
+    "tags": [
+      "face",
+      "mouth",
+      "open",
+      "smile"
+    ],
+    "code": "1f603",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f603.svg"
+  },
+  {
+    "desc": "smiling face with open mouth and smiling eyes",
+    "tags": [
+      "eye",
+      "face",
+      "mouth",
+      "open",
+      "smile"
+    ],
+    "code": "1f604",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f604.svg"
+  },
+  {
+    "desc": "smiling face with open mouth and cold sweat",
+    "tags": [
+      "cold",
+      "face",
+      "open",
+      "smile",
+      "sweat"
+    ],
+    "code": "1f605",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f605.svg"
+  },
+  {
+    "desc": "smiling face with open mouth and tightly-closed eyes",
+    "tags": [
+      "face",
+      "laugh",
+      "mouth",
+      "open",
+      "satisfied",
+      "smile"
+    ],
+    "code": "1f606",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f606.svg"
+  },
+  {
+    "desc": "winking face",
+    "tags": [
+      "face",
+      "wink"
+    ],
+    "code": "1f609",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f609.svg"
+  },
+  {
+    "desc": "smiling face with smiling eyes",
+    "tags": [
+      "blush",
+      "eye",
+      "face",
+      "smile"
+    ],
+    "code": "1f60a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f60a.svg"
+  },
+  {
+    "desc": "face savouring delicious food",
+    "tags": [
+      "delicious",
+      "face",
+      "savouring",
+      "smile",
+      "um",
+      "yum"
+    ],
+    "code": "1f60b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f60b.svg"
+  },
+  {
+    "desc": "smiling face with sunglasses",
+    "tags": [
+      "bright",
+      "cool",
+      "eye",
+      "eyewear",
+      "face",
+      "glasses",
+      "smile",
+      "sun",
+      "sunglasses",
+      "weather"
+    ],
+    "code": "1f60e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f60e.svg"
+  },
+  {
+    "desc": "smiling face with heart-shaped eyes",
+    "tags": [
+      "eye",
+      "face",
+      "heart",
+      "love",
+      "smile"
+    ],
+    "code": "1f60d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f60d.svg"
+  },
+  {
+    "desc": "face throwing a kiss",
+    "tags": [
+      "face",
+      "heart",
+      "kiss"
+    ],
+    "code": "1f618",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f618.svg"
+  },
+  {
+    "desc": "kissing face",
+    "tags": [
+      "face",
+      "kiss"
+    ],
+    "code": "1f617",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f617.svg"
+  },
+  {
+    "desc": "kissing face with smiling eyes",
+    "tags": [
+      "eye",
+      "face",
+      "kiss",
+      "smile"
+    ],
+    "code": "1f619",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f619.svg"
+  },
+  {
+    "desc": "kissing face with closed eyes",
+    "tags": [
+      "closed",
+      "eye",
+      "face",
+      "kiss"
+    ],
+    "code": "1f61a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f61a.svg"
+  },
+  {
+    "desc": "smiling face",
+    "tags": [
+      "face",
+      "outlined",
+      "relaxed",
+      "smile"
+    ],
+    "code": "263a",
+    "url": "https://twemoji.maxcdn.com/2/svg/263a.svg"
+  },
+  {
+    "desc": "slightly smiling face",
+    "tags": [
+      "face",
+      "smile"
+    ],
+    "code": "1f642",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f642.svg"
+  },
+  {
+    "desc": "hugging face",
+    "tags": [
+      "face",
+      "hug",
+      "hugging"
+    ],
+    "code": "1f917",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f917.svg"
+  },
+  {
+    "desc": "smiling face with halo",
+    "tags": [
+      "angel",
+      "face",
+      "fairy tale",
+      "fantasy",
+      "halo",
+      "innocent",
+      "smile"
+    ],
+    "code": "1f607",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f607.svg"
+  },
+  {
+    "desc": "thinking face",
+    "tags": [
+      "face",
+      "thinking"
+    ],
+    "code": "1f914",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f914.svg"
+  },
+  {
+    "desc": "neutral face",
+    "tags": [
+      "deadpan",
+      "face",
+      "neutral"
+    ],
+    "code": "1f610",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f610.svg"
+  },
+  {
+    "desc": "expressionless face",
+    "tags": [
+      "expressionless",
+      "face",
+      "inexpressive",
+      "unexpressive"
+    ],
+    "code": "1f611",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f611.svg"
+  },
+  {
+    "desc": "face without mouth",
+    "tags": [
+      "face",
+      "mouth",
+      "quiet",
+      "silent"
+    ],
+    "code": "1f636",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f636.svg"
+  },
+  {
+    "desc": "face with rolling eyes",
+    "tags": [
+      "eyes",
+      "face",
+      "rolling"
+    ],
+    "code": "1f644",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f644.svg"
+  },
+  {
+    "desc": "smirking face",
+    "tags": [
+      "face",
+      "smirk"
+    ],
+    "code": "1f60f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f60f.svg"
+  },
+  {
+    "desc": "persevering face",
+    "tags": [
+      "face",
+      "persevere"
+    ],
+    "code": "1f623",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f623.svg"
+  },
+  {
+    "desc": "disappointed but relieved face",
+    "tags": [
+      "disappointed",
+      "face",
+      "relieved",
+      "whew"
+    ],
+    "code": "1f625",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f625.svg"
+  },
+  {
+    "desc": "face with open mouth",
+    "tags": [
+      "face",
+      "mouth",
+      "open",
+      "sympathy"
+    ],
+    "code": "1f62e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f62e.svg"
+  },
+  {
+    "desc": "zipper-mouth face",
+    "tags": [
+      "face",
+      "mouth",
+      "zipper"
+    ],
+    "code": "1f910",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f910.svg"
+  },
+  {
+    "desc": "hushed face",
+    "tags": [
+      "face",
+      "hushed",
+      "stunned",
+      "surprised"
+    ],
+    "code": "1f62f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f62f.svg"
+  },
+  {
+    "desc": "sleepy face",
+    "tags": [
+      "face",
+      "sleep"
+    ],
+    "code": "1f62a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f62a.svg"
+  },
+  {
+    "desc": "tired face",
+    "tags": [
+      "face",
+      "tired"
+    ],
+    "code": "1f62b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f62b.svg"
+  },
+  {
+    "desc": "sleeping face",
+    "tags": [
+      "face",
+      "sleep",
+      "zzz"
+    ],
+    "code": "1f634",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f634.svg"
+  },
+  {
+    "desc": "relieved face",
+    "tags": [
+      "face",
+      "relieved"
+    ],
+    "code": "1f60c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f60c.svg"
+  },
+  {
+    "desc": "nerd face",
+    "tags": [
+      "face",
+      "geek",
+      "nerd"
+    ],
+    "code": "1f913",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f913.svg"
+  },
+  {
+    "desc": "face with stuck-out tongue",
+    "tags": [
+      "face",
+      "tongue"
+    ],
+    "code": "1f61b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f61b.svg"
+  },
+  {
+    "desc": "face with stuck-out tongue and winking eye",
+    "tags": [
+      "eye",
+      "face",
+      "joke",
+      "tongue",
+      "wink"
+    ],
+    "code": "1f61c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f61c.svg"
+  },
+  {
+    "desc": "face with stuck-out tongue and tightly-closed eyes",
+    "tags": [
+      "eye",
+      "face",
+      "horrible",
+      "taste",
+      "tongue"
+    ],
+    "code": "1f61d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f61d.svg"
+  },
+  {
+    "desc": "frowning face",
+    "tags": [
+      "face",
+      "frown"
+    ],
+    "code": "2639",
+    "url": "https://twemoji.maxcdn.com/2/svg/2639.svg"
+  },
+  {
+    "desc": "slightly frowning face",
+    "tags": [
+      "face",
+      "frown"
+    ],
+    "code": "1f641",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f641.svg"
+  },
+  {
+    "desc": "unamused face",
+    "tags": [
+      "face",
+      "unamused",
+      "unhappy"
+    ],
+    "code": "1f612",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f612.svg"
+  },
+  {
+    "desc": "face with cold sweat",
+    "tags": [
+      "cold",
+      "face",
+      "sweat"
+    ],
+    "code": "1f613",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f613.svg"
+  },
+  {
+    "desc": "pensive face",
+    "tags": [
+      "dejected",
+      "face",
+      "pensive"
+    ],
+    "code": "1f614",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f614.svg"
+  },
+  {
+    "desc": "confused face",
+    "tags": [
+      "confused",
+      "face"
+    ],
+    "code": "1f615",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f615.svg"
+  },
+  {
+    "desc": "confounded face",
+    "tags": [
+      "confounded",
+      "face"
+    ],
+    "code": "1f616",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f616.svg"
+  },
+  {
+    "desc": "upside-down face",
+    "tags": [
+      "face",
+      "upside-down"
+    ],
+    "code": "1f643",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f643.svg"
+  },
+  {
+    "desc": "face with medical mask",
+    "tags": [
+      "cold",
+      "doctor",
+      "face",
+      "mask",
+      "medicine",
+      "sick"
+    ],
+    "code": "1f637",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f637.svg"
+  },
+  {
+    "desc": "face with thermometer",
+    "tags": [
+      "face",
+      "ill",
+      "sick",
+      "thermometer"
+    ],
+    "code": "1f912",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f912.svg"
+  },
+  {
+    "desc": "face with head-bandage",
+    "tags": [
+      "bandage",
+      "face",
+      "hurt",
+      "injury"
+    ],
+    "code": "1f915",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f915.svg"
+  },
+  {
+    "desc": "money-mouth face",
+    "tags": [
+      "face",
+      "money",
+      "mouth"
+    ],
+    "code": "1f911",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f911.svg"
+  },
+  {
+    "desc": "astonished face",
+    "tags": [
+      "astonished",
+      "face",
+      "shocked",
+      "totally"
+    ],
+    "code": "1f632",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f632.svg"
+  },
+  {
+    "desc": "disappointed face",
+    "tags": [
+      "disappointed",
+      "face"
+    ],
+    "code": "1f61e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f61e.svg"
+  },
+  {
+    "desc": "worried face",
+    "tags": [
+      "face",
+      "worried"
+    ],
+    "code": "1f61f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f61f.svg"
+  },
+  {
+    "desc": "face with steam from nose",
+    "tags": [
+      "face",
+      "triumph",
+      "won"
+    ],
+    "code": "1f624",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f624.svg"
+  },
+  {
+    "desc": "crying face",
+    "tags": [
+      "cry",
+      "face",
+      "sad",
+      "tear"
+    ],
+    "code": "1f622",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f622.svg"
+  },
+  {
+    "desc": "loudly crying face",
+    "tags": [
+      "cry",
+      "face",
+      "sad",
+      "sob",
+      "tear"
+    ],
+    "code": "1f62d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f62d.svg"
+  },
+  {
+    "desc": "frowning face with open mouth",
+    "tags": [
+      "face",
+      "frown",
+      "mouth",
+      "open"
+    ],
+    "code": "1f626",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f626.svg"
+  },
+  {
+    "desc": "anguished face",
+    "tags": [
+      "anguished",
+      "face"
+    ],
+    "code": "1f627",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f627.svg"
+  },
+  {
+    "desc": "fearful face",
+    "tags": [
+      "face",
+      "fear",
+      "fearful",
+      "scared"
+    ],
+    "code": "1f628",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f628.svg"
+  },
+  {
+    "desc": "weary face",
+    "tags": [
+      "face",
+      "tired",
+      "weary"
+    ],
+    "code": "1f629",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f629.svg"
+  },
+  {
+    "desc": "grimacing face",
+    "tags": [
+      "face",
+      "grimace"
+    ],
+    "code": "1f62c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f62c.svg"
+  },
+  {
+    "desc": "face with open mouth and cold sweat",
+    "tags": [
+      "blue",
+      "cold",
+      "face",
+      "mouth",
+      "open",
+      "rushed",
+      "sweat"
+    ],
+    "code": "1f630",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f630.svg"
+  },
+  {
+    "desc": "face screaming in fear",
+    "tags": [
+      "face",
+      "fear",
+      "fearful",
+      "munch",
+      "scared",
+      "scream"
+    ],
+    "code": "1f631",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f631.svg"
+  },
+  {
+    "desc": "flushed face",
+    "tags": [
+      "dazed",
+      "face",
+      "flushed"
+    ],
+    "code": "1f633",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f633.svg"
+  },
+  {
+    "desc": "dizzy face",
+    "tags": [
+      "dizzy",
+      "face"
+    ],
+    "code": "1f635",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f635.svg"
+  },
+  {
+    "desc": "pouting face",
+    "tags": [
+      "angry",
+      "face",
+      "mad",
+      "pouting",
+      "rage",
+      "red"
+    ],
+    "code": "1f621",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f621.svg"
+  },
+  {
+    "desc": "angry face",
+    "tags": [
+      "angry",
+      "face",
+      "mad"
+    ],
+    "code": "1f620",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f620.svg"
+  },
+  {
+    "desc": "smiling face with horns",
+    "tags": [
+      "face",
+      "fairy tale",
+      "fantasy",
+      "horns",
+      "smile"
+    ],
+    "code": "1f608",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f608.svg"
+  },
+  {
+    "desc": "imp",
+    "tags": [
+      "demon",
+      "devil",
+      "face",
+      "fairy tale",
+      "fantasy"
+    ],
+    "code": "1f47f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f47f.svg"
+  },
+  {
+    "desc": "ogre",
+    "tags": [
+      "creature",
+      "face",
+      "fairy tale",
+      "fantasy",
+      "japanese",
+      "monster"
+    ],
+    "code": "1f479",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f479.svg"
+  },
+  {
+    "desc": "goblin",
+    "tags": [
+      "creature",
+      "face",
+      "fairy tale",
+      "fantasy",
+      "japanese",
+      "monster"
+    ],
+    "code": "1f47a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f47a.svg"
+  },
+  {
+    "desc": "skull",
+    "tags": [
+      "body",
+      "death",
+      "face",
+      "fairy tale",
+      "monster"
+    ],
+    "code": "1f480",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f480.svg"
+  },
+  {
+    "desc": "skull and crossbones",
+    "tags": [
+      "body",
+      "crossbones",
+      "death",
+      "face",
+      "monster",
+      "skull"
+    ],
+    "code": "2620",
+    "url": "https://twemoji.maxcdn.com/2/svg/2620.svg"
+  },
+  {
+    "desc": "ghost",
+    "tags": [
+      "creature",
+      "face",
+      "fairy tale",
+      "fantasy",
+      "monster"
+    ],
+    "code": "1f47b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f47b.svg"
+  },
+  {
+    "desc": "alien",
+    "tags": [
+      "creature",
+      "extraterrestrial",
+      "face",
+      "fairy tale",
+      "fantasy",
+      "monster",
+      "space",
+      "ufo"
+    ],
+    "code": "1f47d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f47d.svg"
+  },
+  {
+    "desc": "alien monster",
+    "tags": [
+      "alien",
+      "creature",
+      "extraterrestrial",
+      "face",
+      "fairy tale",
+      "fantasy",
+      "monster",
+      "space",
+      "ufo"
+    ],
+    "code": "1f47e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f47e.svg"
+  },
+  {
+    "desc": "robot face",
+    "tags": [
+      "face",
+      "monster",
+      "robot"
+    ],
+    "code": "1f916",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f916.svg"
+  },
+  {
+    "desc": "pile of poo",
+    "tags": [
+      "comic",
+      "dung",
+      "face",
+      "monster",
+      "poo",
+      "poop"
+    ],
+    "code": "1f4a9",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4a9.svg"
+  },
+  {
+    "desc": "smiling cat face with open mouth",
+    "tags": [
+      "cat",
+      "face",
+      "mouth",
+      "open",
+      "smile"
+    ],
+    "code": "1f63a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f63a.svg"
+  },
+  {
+    "desc": "grinning cat face with smiling eyes",
+    "tags": [
+      "cat",
+      "eye",
+      "face",
+      "grin",
+      "smile"
+    ],
+    "code": "1f638",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f638.svg"
+  },
+  {
+    "desc": "cat face with tears of joy",
+    "tags": [
+      "cat",
+      "face",
+      "joy",
+      "tear"
+    ],
+    "code": "1f639",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f639.svg"
+  },
+  {
+    "desc": "smiling cat face with heart-shaped eyes",
+    "tags": [
+      "cat",
+      "eye",
+      "face",
+      "heart",
+      "love",
+      "smile"
+    ],
+    "code": "1f63b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f63b.svg"
+  },
+  {
+    "desc": "cat face with wry smile",
+    "tags": [
+      "cat",
+      "face",
+      "ironic",
+      "smile",
+      "wry"
+    ],
+    "code": "1f63c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f63c.svg"
+  },
+  {
+    "desc": "kissing cat face with closed eyes",
+    "tags": [
+      "cat",
+      "eye",
+      "face",
+      "kiss"
+    ],
+    "code": "1f63d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f63d.svg"
+  },
+  {
+    "desc": "weary cat face",
+    "tags": [
+      "cat",
+      "face",
+      "oh",
+      "surprised",
+      "weary"
+    ],
+    "code": "1f640",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f640.svg"
+  },
+  {
+    "desc": "crying cat face",
+    "tags": [
+      "cat",
+      "cry",
+      "face",
+      "sad",
+      "tear"
+    ],
+    "code": "1f63f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f63f.svg"
+  },
+  {
+    "desc": "pouting cat face",
+    "tags": [
+      "cat",
+      "face",
+      "pouting"
+    ],
+    "code": "1f63e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f63e.svg"
+  },
+  {
+    "desc": "see-no-evil",
+    "tags": [
+      "evil",
+      "face",
+      "forbidden",
+      "gesture",
+      "monkey",
+      "no",
+      "not",
+      "prohibited",
+      "see"
+    ],
+    "code": "1f648",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f648.svg"
+  },
+  {
+    "desc": "hear-no-evil",
+    "tags": [
+      "evil",
+      "face",
+      "forbidden",
+      "gesture",
+      "hear",
+      "monkey",
+      "no",
+      "not",
+      "prohibited"
+    ],
+    "code": "1f649",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f649.svg"
+  },
+  {
+    "desc": "speak-no-evil",
+    "tags": [
+      "evil",
+      "face",
+      "forbidden",
+      "gesture",
+      "monkey",
+      "no",
+      "not",
+      "prohibited",
+      "speak"
+    ],
+    "code": "1f64a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f64a.svg"
+  },
+  {
+    "desc": "boy",
+    "tags": [
+      "boy"
+    ],
+    "code": "1f466",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f466.svg"
+  },
+  {
+    "desc": "girl",
+    "tags": [
+      "maiden",
+      "virgin",
+      "virgo",
+      "zodiac"
+    ],
+    "code": "1f467",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f467.svg"
+  },
+  {
+    "desc": "man",
+    "tags": [
+      "man"
+    ],
+    "code": "1f468",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f468.svg"
+  },
+  {
+    "desc": "woman",
+    "tags": [
+      "woman"
+    ],
+    "code": "1f469",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f469.svg"
+  },
+  {
+    "desc": "old man",
+    "tags": [
+      "man",
+      "old"
+    ],
+    "code": "1f474",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f474.svg"
+  },
+  {
+    "desc": "old woman",
+    "tags": [
+      "old",
+      "woman"
+    ],
+    "code": "1f475",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f475.svg"
+  },
+  {
+    "desc": "baby",
+    "tags": [
+      "baby"
+    ],
+    "code": "1f476",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f476.svg"
+  },
+  {
+    "desc": "person with blond hair",
+    "tags": [
+      "blond"
+    ],
+    "code": "1f471",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f471.svg"
+  },
+  {
+    "desc": "police officer",
+    "tags": [
+      "cop",
+      "officer",
+      "police"
+    ],
+    "code": "1f46e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f46e.svg"
+  },
+  {
+    "desc": "man with chinese cap",
+    "tags": [
+      "gua pi mao",
+      "hat",
+      "man"
+    ],
+    "code": "1f472",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f472.svg"
+  },
+  {
+    "desc": "man with turban",
+    "tags": [
+      "man",
+      "turban"
+    ],
+    "code": "1f473",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f473.svg"
+  },
+  {
+    "desc": "construction worker",
+    "tags": [
+      "construction",
+      "hat",
+      "worker"
+    ],
+    "code": "1f477",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f477.svg"
+  },
+  {
+    "desc": "helmet with white cross",
+    "tags": [
+      "aid",
+      "cross",
+      "face",
+      "hat",
+      "helmet"
+    ],
+    "code": "26d1",
+    "url": "https://twemoji.maxcdn.com/2/svg/26d1.svg"
+  },
+  {
+    "desc": "princess",
+    "tags": [
+      "fairy tale",
+      "fantasy"
+    ],
+    "code": "1f478",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f478.svg"
+  },
+  {
+    "desc": "guardsman",
+    "tags": [
+      "guard"
+    ],
+    "code": "1f482",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f482.svg"
+  },
+  {
+    "desc": "detective",
+    "tags": [
+      "sleuth",
+      "spy"
+    ],
+    "code": "1f575",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f575.svg"
+  },
+  {
+    "desc": "santa claus",
+    "tags": [
+      "celebration",
+      "christmas",
+      "fairy tale",
+      "fantasy",
+      "father",
+      "santa"
+    ],
+    "code": "1f385",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f385.svg"
+  },
+  {
+    "desc": "baby angel",
+    "tags": [
+      "angel",
+      "baby",
+      "face",
+      "fairy tale",
+      "fantasy"
+    ],
+    "code": "1f47c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f47c.svg"
+  },
+  {
+    "desc": "face massage",
+    "tags": [
+      "massage",
+      "salon"
+    ],
+    "code": "1f486",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f486.svg"
+  },
+  {
+    "desc": "haircut",
+    "tags": [
+      "barber",
+      "beauty",
+      "parlor"
+    ],
+    "code": "1f487",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f487.svg"
+  },
+  {
+    "desc": "bride with veil",
+    "tags": [
+      "bride",
+      "veil",
+      "wedding"
+    ],
+    "code": "1f470",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f470.svg"
+  },
+  {
+    "desc": "person frowning",
+    "tags": [
+      "frown",
+      "gesture"
+    ],
+    "code": "1f64d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f64d.svg"
+  },
+  {
+    "desc": "person pouting",
+    "tags": [
+      "gesture",
+      "pouting"
+    ],
+    "code": "1f64e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f64e.svg"
+  },
+  {
+    "desc": "gesturing no",
+    "tags": [
+      "forbidden",
+      "gesture",
+      "hand",
+      "no",
+      "not",
+      "prohibited"
+    ],
+    "code": "1f645",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f645.svg"
+  },
+  {
+    "desc": "gesturing ok",
+    "tags": [
+      "gesture",
+      "hand",
+      "ok"
+    ],
+    "code": "1f646",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f646.svg"
+  },
+  {
+    "desc": "information desk person",
+    "tags": [
+      "hand",
+      "help",
+      "information",
+      "sassy"
+    ],
+    "code": "1f481",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f481.svg"
+  },
+  {
+    "desc": "happy person raising hand",
+    "tags": [
+      "gesture",
+      "hand",
+      "happy",
+      "raised"
+    ],
+    "code": "1f64b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f64b.svg"
+  },
+  {
+    "desc": "person bowing",
+    "tags": [
+      "apology",
+      "bow",
+      "gesture",
+      "sorry"
+    ],
+    "code": "1f647",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f647.svg"
+  },
+  {
+    "desc": "person raising hands",
+    "tags": [
+      "body",
+      "celebration",
+      "gesture",
+      "hand",
+      "hooray",
+      "raised"
+    ],
+    "code": "1f64c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f64c.svg"
+  },
+  {
+    "desc": "folded hands",
+    "tags": [
+      "ask",
+      "body",
+      "bow",
+      "folded",
+      "gesture",
+      "hand",
+      "please",
+      "pray",
+      "thanks"
+    ],
+    "code": "1f64f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f64f.svg"
+  },
+  {
+    "desc": "speaking head",
+    "tags": [
+      "face",
+      "head",
+      "silhouette",
+      "speak",
+      "speaking"
+    ],
+    "code": "1f5e3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5e3.svg"
+  },
+  {
+    "desc": "bust in silhouette",
+    "tags": [
+      "bust",
+      "silhouette"
+    ],
+    "code": "1f464",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f464.svg"
+  },
+  {
+    "desc": "busts in silhouette",
+    "tags": [
+      "bust",
+      "silhouette"
+    ],
+    "code": "1f465",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f465.svg"
+  },
+  {
+    "desc": "pedestrian",
+    "tags": [
+      "hike",
+      "walk",
+      "walking"
+    ],
+    "code": "1f6b6",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6b6.svg"
+  },
+  {
+    "desc": "runner",
+    "tags": [
+      "marathon",
+      "running"
+    ],
+    "code": "1f3c3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3c3.svg"
+  },
+  {
+    "desc": "women partying",
+    "tags": [
+      "bunny",
+      "dancer",
+      "ear",
+      "girl",
+      "woman"
+    ],
+    "code": "1f46f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f46f.svg"
+  },
+  {
+    "desc": "dancer",
+    "tags": [
+      "dancer"
+    ],
+    "code": "1f483",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f483.svg"
+  },
+  {
+    "desc": "man in business suit levitating",
+    "tags": [
+      "business",
+      "man",
+      "suit"
+    ],
+    "code": "1f574",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f574.svg"
+  },
+  {
+    "desc": "kiss",
+    "tags": [
+      "couple",
+      "romance"
+    ],
+    "code": "1f48f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f48f.svg"
+  },
+  {
+    "desc": "couple with heart",
+    "tags": [
+      "couple",
+      "heart",
+      "love",
+      "romance"
+    ],
+    "code": "1f491",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f491.svg"
+  },
+  {
+    "desc": "family",
+    "tags": [
+      "child",
+      "father",
+      "mother"
+    ],
+    "code": "1f46a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f46a.svg"
+  },
+  {
+    "desc": "man and woman holding hands",
+    "tags": [
+      "couple",
+      "hand",
+      "hold",
+      "man",
+      "woman"
+    ],
+    "code": "1f46b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f46b.svg"
+  },
+  {
+    "desc": "two men holding hands",
+    "tags": [
+      "couple",
+      "gemini",
+      "hand",
+      "hold",
+      "man",
+      "twins",
+      "zodiac"
+    ],
+    "code": "1f46c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f46c.svg"
+  },
+  {
+    "desc": "two women holding hands",
+    "tags": [
+      "couple",
+      "hand",
+      "hold",
+      "woman"
+    ],
+    "code": "1f46d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f46d.svg"
+  },
+  {
+    "desc": "skin type-1-2",
+    "tags": [
+      "emoji modifier",
+      "fitzpatrick",
+      "skin",
+      "tone"
+    ],
+    "code": "1f3fb",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3fb.svg"
+  },
+  {
+    "desc": "skin type-3",
+    "tags": [
+      "emoji modifier",
+      "fitzpatrick",
+      "skin",
+      "tone"
+    ],
+    "code": "1f3fc",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3fc.svg"
+  },
+  {
+    "desc": "skin type-4",
+    "tags": [
+      "emoji modifier",
+      "fitzpatrick",
+      "skin",
+      "tone"
+    ],
+    "code": "1f3fd",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3fd.svg"
+  },
+  {
+    "desc": "skin type-5",
+    "tags": [
+      "emoji modifier",
+      "fitzpatrick",
+      "skin",
+      "tone"
+    ],
+    "code": "1f3fe",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3fe.svg"
+  },
+  {
+    "desc": "skin type-6",
+    "tags": [
+      "emoji modifier",
+      "fitzpatrick",
+      "skin",
+      "tone"
+    ],
+    "code": "1f3ff",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3ff.svg"
+  },
+  {
+    "desc": "flexed biceps",
+    "tags": [
+      "biceps",
+      "body",
+      "comic",
+      "flex",
+      "muscle"
+    ],
+    "code": "1f4aa",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4aa.svg"
+  },
+  {
+    "desc": "backhand index pointing left",
+    "tags": [
+      "backhand",
+      "body",
+      "finger",
+      "hand",
+      "index",
+      "point"
+    ],
+    "code": "1f448",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f448.svg"
+  },
+  {
+    "desc": "backhand index pointing right",
+    "tags": [
+      "backhand",
+      "body",
+      "finger",
+      "hand",
+      "index",
+      "point"
+    ],
+    "code": "1f449",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f449.svg"
+  },
+  {
+    "desc": "index pointing up",
+    "tags": [
+      "body",
+      "finger",
+      "hand",
+      "index",
+      "point",
+      "up"
+    ],
+    "code": "261d",
+    "url": "https://twemoji.maxcdn.com/2/svg/261d.svg"
+  },
+  {
+    "desc": "backhand index pointing up",
+    "tags": [
+      "backhand",
+      "body",
+      "finger",
+      "hand",
+      "index",
+      "point",
+      "up"
+    ],
+    "code": "1f446",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f446.svg"
+  },
+  {
+    "desc": "middle finger",
+    "tags": [
+      "body",
+      "finger",
+      "hand"
+    ],
+    "code": "1f595",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f595.svg"
+  },
+  {
+    "desc": "backhand index pointing down",
+    "tags": [
+      "backhand",
+      "body",
+      "down",
+      "finger",
+      "hand",
+      "index",
+      "point"
+    ],
+    "code": "1f447",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f447.svg"
+  },
+  {
+    "desc": "victory hand",
+    "tags": [
+      "body",
+      "hand",
+      "v",
+      "victory"
+    ],
+    "code": "270c",
+    "url": "https://twemoji.maxcdn.com/2/svg/270c.svg"
+  },
+  {
+    "desc": "vulcan salute",
+    "tags": [
+      "body",
+      "finger",
+      "hand",
+      "spock",
+      "vulcan"
+    ],
+    "code": "1f596",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f596.svg"
+  },
+  {
+    "desc": "sign of the horns",
+    "tags": [
+      "body",
+      "finger",
+      "hand",
+      "horns",
+      "rock-on"
+    ],
+    "code": "1f918",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f918.svg"
+  },
+  {
+    "desc": "raised hand with fingers splayed",
+    "tags": [
+      "body",
+      "finger",
+      "hand",
+      "splayed"
+    ],
+    "code": "1f590",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f590.svg"
+  },
+  {
+    "desc": "raised hand",
+    "tags": [
+      "body",
+      "hand"
+    ],
+    "code": "270b",
+    "url": "https://twemoji.maxcdn.com/2/svg/270b.svg"
+  },
+  {
+    "desc": "ok hand",
+    "tags": [
+      "body",
+      "hand",
+      "ok"
+    ],
+    "code": "1f44c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f44c.svg"
+  },
+  {
+    "desc": "thumbs up",
+    "tags": [
+      "+1",
+      "body",
+      "hand",
+      "thumb",
+      "up"
+    ],
+    "code": "1f44d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f44d.svg"
+  },
+  {
+    "desc": "thumbs down",
+    "tags": [
+      "-1",
+      "body",
+      "down",
+      "hand",
+      "thumb"
+    ],
+    "code": "1f44e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f44e.svg"
+  },
+  {
+    "desc": "raised fist",
+    "tags": [
+      "body",
+      "clenched",
+      "fist",
+      "hand",
+      "punch"
+    ],
+    "code": "270a",
+    "url": "https://twemoji.maxcdn.com/2/svg/270a.svg"
+  },
+  {
+    "desc": "oncoming fist",
+    "tags": [
+      "body",
+      "clenched",
+      "fist",
+      "hand",
+      "punch"
+    ],
+    "code": "1f44a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f44a.svg"
+  },
+  {
+    "desc": "waving hand",
+    "tags": [
+      "body",
+      "hand",
+      "wave",
+      "waving"
+    ],
+    "code": "1f44b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f44b.svg"
+  },
+  {
+    "desc": "clapping hands",
+    "tags": [
+      "body",
+      "clap",
+      "hand"
+    ],
+    "code": "1f44f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f44f.svg"
+  },
+  {
+    "desc": "open hands",
+    "tags": [
+      "body",
+      "hand",
+      "open"
+    ],
+    "code": "1f450",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f450.svg"
+  },
+  {
+    "desc": "writing hand",
+    "tags": [
+      "body",
+      "hand",
+      "write"
+    ],
+    "code": "270d",
+    "url": "https://twemoji.maxcdn.com/2/svg/270d.svg"
+  },
+  {
+    "desc": "nail polish",
+    "tags": [
+      "body",
+      "care",
+      "cosmetics",
+      "manicure",
+      "nail",
+      "polish"
+    ],
+    "code": "1f485",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f485.svg"
+  },
+  {
+    "desc": "ear",
+    "tags": [
+      "body"
+    ],
+    "code": "1f442",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f442.svg"
+  },
+  {
+    "desc": "nose",
+    "tags": [
+      "body"
+    ],
+    "code": "1f443",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f443.svg"
+  },
+  {
+    "desc": "footprints",
+    "tags": [
+      "body",
+      "clothing",
+      "footprint",
+      "print"
+    ],
+    "code": "1f463",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f463.svg"
+  },
+  {
+    "desc": "eyes",
+    "tags": [
+      "body",
+      "eye",
+      "face"
+    ],
+    "code": "1f440",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f440.svg"
+  },
+  {
+    "desc": "eye",
+    "tags": [
+      "body"
+    ],
+    "code": "1f441",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f441.svg"
+  },
+  {
+    "desc": "tongue",
+    "tags": [
+      "body"
+    ],
+    "code": "1f445",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f445.svg"
+  },
+  {
+    "desc": "mouth",
+    "tags": [
+      "body",
+      "lips"
+    ],
+    "code": "1f444",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f444.svg"
+  },
+  {
+    "desc": "kiss mark",
+    "tags": [
+      "heart",
+      "kiss",
+      "lips",
+      "mark",
+      "romance"
+    ],
+    "code": "1f48b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f48b.svg"
+  },
+  {
+    "desc": "heart with arrow",
+    "tags": [
+      "arrow",
+      "cupid",
+      "heart",
+      "romance"
+    ],
+    "code": "1f498",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f498.svg"
+  },
+  {
+    "desc": "red heart",
+    "tags": [
+      "heart"
+    ],
+    "code": "2764",
+    "url": "https://twemoji.maxcdn.com/2/svg/2764.svg"
+  },
+  {
+    "desc": "beating heart",
+    "tags": [
+      "beating",
+      "heart",
+      "heartbeat",
+      "pulsating"
+    ],
+    "code": "1f493",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f493.svg"
+  },
+  {
+    "desc": "broken heart",
+    "tags": [
+      "break",
+      "broken",
+      "heart"
+    ],
+    "code": "1f494",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f494.svg"
+  },
+  {
+    "desc": "two hearts",
+    "tags": [
+      "heart",
+      "love"
+    ],
+    "code": "1f495",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f495.svg"
+  },
+  {
+    "desc": "sparkling heart",
+    "tags": [
+      "excited",
+      "heart",
+      "sparkle"
+    ],
+    "code": "1f496",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f496.svg"
+  },
+  {
+    "desc": "growing heart",
+    "tags": [
+      "excited",
+      "growing",
+      "heart",
+      "heartpulse",
+      "nervous"
+    ],
+    "code": "1f497",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f497.svg"
+  },
+  {
+    "desc": "blue heart",
+    "tags": [
+      "blue",
+      "heart"
+    ],
+    "code": "1f499",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f499.svg"
+  },
+  {
+    "desc": "green heart",
+    "tags": [
+      "green",
+      "heart"
+    ],
+    "code": "1f49a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f49a.svg"
+  },
+  {
+    "desc": "yellow heart",
+    "tags": [
+      "heart",
+      "yellow"
+    ],
+    "code": "1f49b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f49b.svg"
+  },
+  {
+    "desc": "purple heart",
+    "tags": [
+      "heart",
+      "purple"
+    ],
+    "code": "1f49c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f49c.svg"
+  },
+  {
+    "desc": "heart with ribbon",
+    "tags": [
+      "heart",
+      "ribbon",
+      "valentine"
+    ],
+    "code": "1f49d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f49d.svg"
+  },
+  {
+    "desc": "revolving hearts",
+    "tags": [
+      "heart",
+      "revolving"
+    ],
+    "code": "1f49e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f49e.svg"
+  },
+  {
+    "desc": "heart decoration",
+    "tags": [
+      "heart"
+    ],
+    "code": "1f49f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f49f.svg"
+  },
+  {
+    "desc": "heavy heart exclamation mark ornament",
+    "tags": [
+      "exclamation",
+      "heart",
+      "mark",
+      "punctuation"
+    ],
+    "code": "2763",
+    "url": "https://twemoji.maxcdn.com/2/svg/2763.svg"
+  },
+  {
+    "desc": "love letter",
+    "tags": [
+      "heart",
+      "letter",
+      "love",
+      "mail",
+      "romance"
+    ],
+    "code": "1f48c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f48c.svg"
+  },
+  {
+    "desc": "zzz",
+    "tags": [
+      "comic",
+      "sleep"
+    ],
+    "code": "1f4a4",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4a4.svg"
+  },
+  {
+    "desc": "anger symbol",
+    "tags": [
+      "angry",
+      "comic",
+      "mad"
+    ],
+    "code": "1f4a2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4a2.svg"
+  },
+  {
+    "desc": "bomb",
+    "tags": [
+      "comic"
+    ],
+    "code": "1f4a3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4a3.svg"
+  },
+  {
+    "desc": "collision",
+    "tags": [
+      "boom",
+      "comic"
+    ],
+    "code": "1f4a5",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4a5.svg"
+  },
+  {
+    "desc": "sweat droplets",
+    "tags": [
+      "comic",
+      "splashing",
+      "sweat"
+    ],
+    "code": "1f4a6",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4a6.svg"
+  },
+  {
+    "desc": "dashing",
+    "tags": [
+      "comic",
+      "dash",
+      "running"
+    ],
+    "code": "1f4a8",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4a8.svg"
+  },
+  {
+    "desc": "dizzy",
+    "tags": [
+      "comic",
+      "star"
+    ],
+    "code": "1f4ab",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4ab.svg"
+  },
+  {
+    "desc": "speech balloon",
+    "tags": [
+      "balloon",
+      "bubble",
+      "comic",
+      "dialog",
+      "speech"
+    ],
+    "code": "1f4ac",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4ac.svg"
+  },
+  {
+    "desc": "left speech bubble",
+    "tags": [
+      "dialog",
+      "speech"
+    ],
+    "code": "1f5e8",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5e8.svg"
+  },
+  {
+    "desc": "right anger bubble",
+    "tags": [
+      "angry",
+      "balloon",
+      "bubble",
+      "mad"
+    ],
+    "code": "1f5ef",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5ef.svg"
+  },
+  {
+    "desc": "thought balloon",
+    "tags": [
+      "balloon",
+      "bubble",
+      "comic",
+      "thought"
+    ],
+    "code": "1f4ad",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4ad.svg"
+  },
+  {
+    "desc": "hole",
+    "tags": [
+      "hole"
+    ],
+    "code": "1f573",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f573.svg"
+  },
+  {
+    "desc": "glasses",
+    "tags": [
+      "clothing",
+      "eye",
+      "eyeglasses",
+      "eyewear"
+    ],
+    "code": "1f453",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f453.svg"
+  },
+  {
+    "desc": "sunglasses",
+    "tags": [
+      "dark",
+      "eye",
+      "eyewear",
+      "glasses"
+    ],
+    "code": "1f576",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f576.svg"
+  },
+  {
+    "desc": "necktie",
+    "tags": [
+      "clothing"
+    ],
+    "code": "1f454",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f454.svg"
+  },
+  {
+    "desc": "t-shirt",
+    "tags": [
+      "clothing",
+      "shirt",
+      "tshirt"
+    ],
+    "code": "1f455",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f455.svg"
+  },
+  {
+    "desc": "jeans",
+    "tags": [
+      "clothing",
+      "pants",
+      "trousers"
+    ],
+    "code": "1f456",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f456.svg"
+  },
+  {
+    "desc": "dress",
+    "tags": [
+      "clothing"
+    ],
+    "code": "1f457",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f457.svg"
+  },
+  {
+    "desc": "kimono",
+    "tags": [
+      "clothing"
+    ],
+    "code": "1f458",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f458.svg"
+  },
+  {
+    "desc": "bikini",
+    "tags": [
+      "clothing",
+      "swim"
+    ],
+    "code": "1f459",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f459.svg"
+  },
+  {
+    "desc": "woman’s clothes",
+    "tags": [
+      "clothing",
+      "woman"
+    ],
+    "code": "1f45a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f45a.svg"
+  },
+  {
+    "desc": "purse",
+    "tags": [
+      "clothing",
+      "coin"
+    ],
+    "code": "1f45b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f45b.svg"
+  },
+  {
+    "desc": "handbag",
+    "tags": [
+      "bag",
+      "clothing"
+    ],
+    "code": "1f45c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f45c.svg"
+  },
+  {
+    "desc": "pouch",
+    "tags": [
+      "bag",
+      "clothing"
+    ],
+    "code": "1f45d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f45d.svg"
+  },
+  {
+    "desc": "shopping bags",
+    "tags": [
+      "bag",
+      "hotel",
+      "shopping"
+    ],
+    "code": "1f6cd",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6cd.svg"
+  },
+  {
+    "desc": "school backpack",
+    "tags": [
+      "bag",
+      "satchel",
+      "school"
+    ],
+    "code": "1f392",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f392.svg"
+  },
+  {
+    "desc": "man’s shoe",
+    "tags": [
+      "clothing",
+      "man",
+      "shoe"
+    ],
+    "code": "1f45e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f45e.svg"
+  },
+  {
+    "desc": "running shoe",
+    "tags": [
+      "athletic",
+      "clothing",
+      "shoe",
+      "sneaker"
+    ],
+    "code": "1f45f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f45f.svg"
+  },
+  {
+    "desc": "high-heeled shoe",
+    "tags": [
+      "clothing",
+      "heel",
+      "shoe",
+      "woman"
+    ],
+    "code": "1f460",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f460.svg"
+  },
+  {
+    "desc": "woman’s sandal",
+    "tags": [
+      "clothing",
+      "sandal",
+      "shoe",
+      "woman"
+    ],
+    "code": "1f461",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f461.svg"
+  },
+  {
+    "desc": "woman’s boot",
+    "tags": [
+      "boot",
+      "clothing",
+      "shoe",
+      "woman"
+    ],
+    "code": "1f462",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f462.svg"
+  },
+  {
+    "desc": "crown",
+    "tags": [
+      "clothing",
+      "king",
+      "queen"
+    ],
+    "code": "1f451",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f451.svg"
+  },
+  {
+    "desc": "woman’s hat",
+    "tags": [
+      "clothing",
+      "hat",
+      "woman"
+    ],
+    "code": "1f452",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f452.svg"
+  },
+  {
+    "desc": "top hat",
+    "tags": [
+      "clothing",
+      "hat",
+      "top",
+      "tophat"
+    ],
+    "code": "1f3a9",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3a9.svg"
+  },
+  {
+    "desc": "graduation cap",
+    "tags": [
+      "cap",
+      "celebration",
+      "clothing",
+      "graduation",
+      "hat"
+    ],
+    "code": "1f393",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f393.svg"
+  },
+  {
+    "desc": "prayer beads",
+    "tags": [
+      "beads",
+      "clothing",
+      "necklace",
+      "prayer",
+      "religion"
+    ],
+    "code": "1f4ff",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4ff.svg"
+  },
+  {
+    "desc": "lipstick",
+    "tags": [
+      "cosmetics",
+      "makeup"
+    ],
+    "code": "1f484",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f484.svg"
+  },
+  {
+    "desc": "ring",
+    "tags": [
+      "diamond",
+      "romance"
+    ],
+    "code": "1f48d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f48d.svg"
+  },
+  {
+    "desc": "gem stone",
+    "tags": [
+      "diamond",
+      "gem",
+      "jewel",
+      "romance"
+    ],
+    "code": "1f48e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f48e.svg"
+  },
+  {
+    "desc": "monkey face",
+    "tags": [
+      "face",
+      "monkey"
+    ],
+    "code": "1f435",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f435.svg"
+  },
+  {
+    "desc": "monkey",
+    "tags": [
+      "monkey"
+    ],
+    "code": "1f412",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f412.svg"
+  },
+  {
+    "desc": "dog face",
+    "tags": [
+      "dog",
+      "face",
+      "pet"
+    ],
+    "code": "1f436",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f436.svg"
+  },
+  {
+    "desc": "dog",
+    "tags": [
+      "pet"
+    ],
+    "code": "1f415",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f415.svg"
+  },
+  {
+    "desc": "poodle",
+    "tags": [
+      "dog"
+    ],
+    "code": "1f429",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f429.svg"
+  },
+  {
+    "desc": "wolf face",
+    "tags": [
+      "face",
+      "wolf"
+    ],
+    "code": "1f43a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f43a.svg"
+  },
+  {
+    "desc": "cat face",
+    "tags": [
+      "cat",
+      "face",
+      "pet"
+    ],
+    "code": "1f431",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f431.svg"
+  },
+  {
+    "desc": "cat",
+    "tags": [
+      "pet"
+    ],
+    "code": "1f408",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f408.svg"
+  },
+  {
+    "desc": "lion face",
+    "tags": [
+      "face",
+      "leo",
+      "lion",
+      "zodiac"
+    ],
+    "code": "1f981",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f981.svg"
+  },
+  {
+    "desc": "tiger face",
+    "tags": [
+      "face",
+      "tiger"
+    ],
+    "code": "1f42f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f42f.svg"
+  },
+  {
+    "desc": "tiger",
+    "tags": [
+      "tiger"
+    ],
+    "code": "1f405",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f405.svg"
+  },
+  {
+    "desc": "leopard",
+    "tags": [
+      "leopard"
+    ],
+    "code": "1f406",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f406.svg"
+  },
+  {
+    "desc": "horse face",
+    "tags": [
+      "face",
+      "horse"
+    ],
+    "code": "1f434",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f434.svg"
+  },
+  {
+    "desc": "horse",
+    "tags": [
+      "racehorse",
+      "racing"
+    ],
+    "code": "1f40e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f40e.svg"
+  },
+  {
+    "desc": "unicorn face",
+    "tags": [
+      "face",
+      "unicorn"
+    ],
+    "code": "1f984",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f984.svg"
+  },
+  {
+    "desc": "cow face",
+    "tags": [
+      "cow",
+      "face"
+    ],
+    "code": "1f42e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f42e.svg"
+  },
+  {
+    "desc": "ox",
+    "tags": [
+      "bull",
+      "taurus",
+      "zodiac"
+    ],
+    "code": "1f402",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f402.svg"
+  },
+  {
+    "desc": "water buffalo",
+    "tags": [
+      "buffalo",
+      "water"
+    ],
+    "code": "1f403",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f403.svg"
+  },
+  {
+    "desc": "cow",
+    "tags": [
+      "cow"
+    ],
+    "code": "1f404",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f404.svg"
+  },
+  {
+    "desc": "pig face",
+    "tags": [
+      "face",
+      "pig"
+    ],
+    "code": "1f437",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f437.svg"
+  },
+  {
+    "desc": "pig",
+    "tags": [
+      "sow"
+    ],
+    "code": "1f416",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f416.svg"
+  },
+  {
+    "desc": "boar",
+    "tags": [
+      "pig"
+    ],
+    "code": "1f417",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f417.svg"
+  },
+  {
+    "desc": "pig nose",
+    "tags": [
+      "face",
+      "nose",
+      "pig"
+    ],
+    "code": "1f43d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f43d.svg"
+  },
+  {
+    "desc": "ram",
+    "tags": [
+      "aries",
+      "sheep",
+      "zodiac"
+    ],
+    "code": "1f40f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f40f.svg"
+  },
+  {
+    "desc": "sheep",
+    "tags": [
+      "ewe"
+    ],
+    "code": "1f411",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f411.svg"
+  },
+  {
+    "desc": "goat",
+    "tags": [
+      "capricorn",
+      "zodiac"
+    ],
+    "code": "1f410",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f410.svg"
+  },
+  {
+    "desc": "camel",
+    "tags": [
+      "dromedary",
+      "hump"
+    ],
+    "code": "1f42a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f42a.svg"
+  },
+  {
+    "desc": "two-hump camel",
+    "tags": [
+      "bactrian",
+      "camel",
+      "hump"
+    ],
+    "code": "1f42b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f42b.svg"
+  },
+  {
+    "desc": "elephant",
+    "tags": [
+      "elephant"
+    ],
+    "code": "1f418",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f418.svg"
+  },
+  {
+    "desc": "mouse face",
+    "tags": [
+      "face",
+      "mouse"
+    ],
+    "code": "1f42d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f42d.svg"
+  },
+  {
+    "desc": "mouse",
+    "tags": [
+      "mouse"
+    ],
+    "code": "1f401",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f401.svg"
+  },
+  {
+    "desc": "rat",
+    "tags": [
+      "rat"
+    ],
+    "code": "1f400",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f400.svg"
+  },
+  {
+    "desc": "hamster face",
+    "tags": [
+      "face",
+      "hamster",
+      "pet"
+    ],
+    "code": "1f439",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f439.svg"
+  },
+  {
+    "desc": "rabbit face",
+    "tags": [
+      "bunny",
+      "face",
+      "pet",
+      "rabbit"
+    ],
+    "code": "1f430",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f430.svg"
+  },
+  {
+    "desc": "rabbit",
+    "tags": [
+      "bunny",
+      "pet"
+    ],
+    "code": "1f407",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f407.svg"
+  },
+  {
+    "desc": "chipmunk",
+    "tags": [
+      "chipmunk"
+    ],
+    "code": "1f43f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f43f.svg"
+  },
+  {
+    "desc": "bear face",
+    "tags": [
+      "bear",
+      "face"
+    ],
+    "code": "1f43b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f43b.svg"
+  },
+  {
+    "desc": "koala",
+    "tags": [
+      "bear"
+    ],
+    "code": "1f428",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f428.svg"
+  },
+  {
+    "desc": "panda face",
+    "tags": [
+      "face",
+      "panda"
+    ],
+    "code": "1f43c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f43c.svg"
+  },
+  {
+    "desc": "paw prints",
+    "tags": [
+      "feet",
+      "paw",
+      "print"
+    ],
+    "code": "1f43e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f43e.svg"
+  },
+  {
+    "desc": "turkey",
+    "tags": [
+      "turkey"
+    ],
+    "code": "1f983",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f983.svg"
+  },
+  {
+    "desc": "chicken",
+    "tags": [
+      "chicken"
+    ],
+    "code": "1f414",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f414.svg"
+  },
+  {
+    "desc": "rooster",
+    "tags": [
+      "rooster"
+    ],
+    "code": "1f413",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f413.svg"
+  },
+  {
+    "desc": "hatching chick",
+    "tags": [
+      "baby",
+      "chick",
+      "hatching"
+    ],
+    "code": "1f423",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f423.svg"
+  },
+  {
+    "desc": "baby chick",
+    "tags": [
+      "baby",
+      "chick"
+    ],
+    "code": "1f424",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f424.svg"
+  },
+  {
+    "desc": "front-facing baby chick",
+    "tags": [
+      "baby",
+      "chick"
+    ],
+    "code": "1f425",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f425.svg"
+  },
+  {
+    "desc": "bird",
+    "tags": [
+      "bird"
+    ],
+    "code": "1f426",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f426.svg"
+  },
+  {
+    "desc": "penguin",
+    "tags": [
+      "penguin"
+    ],
+    "code": "1f427",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f427.svg"
+  },
+  {
+    "desc": "dove",
+    "tags": [
+      "bird",
+      "fly",
+      "peace"
+    ],
+    "code": "1f54a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f54a.svg"
+  },
+  {
+    "desc": "frog face",
+    "tags": [
+      "face",
+      "frog"
+    ],
+    "code": "1f438",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f438.svg"
+  },
+  {
+    "desc": "crocodile",
+    "tags": [
+      "crocodile"
+    ],
+    "code": "1f40a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f40a.svg"
+  },
+  {
+    "desc": "turtle",
+    "tags": [
+      "turtle"
+    ],
+    "code": "1f422",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f422.svg"
+  },
+  {
+    "desc": "snake",
+    "tags": [
+      "bearer",
+      "ophiuchus",
+      "serpent",
+      "zodiac"
+    ],
+    "code": "1f40d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f40d.svg"
+  },
+  {
+    "desc": "dragon face",
+    "tags": [
+      "dragon",
+      "face",
+      "fairy tale"
+    ],
+    "code": "1f432",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f432.svg"
+  },
+  {
+    "desc": "dragon",
+    "tags": [
+      "fairy tale"
+    ],
+    "code": "1f409",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f409.svg"
+  },
+  {
+    "desc": "spouting whale",
+    "tags": [
+      "face",
+      "spouting",
+      "whale"
+    ],
+    "code": "1f433",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f433.svg"
+  },
+  {
+    "desc": "whale",
+    "tags": [
+      "whale"
+    ],
+    "code": "1f40b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f40b.svg"
+  },
+  {
+    "desc": "dolphin",
+    "tags": [
+      "flipper"
+    ],
+    "code": "1f42c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f42c.svg"
+  },
+  {
+    "desc": "fish",
+    "tags": [
+      "pisces",
+      "zodiac"
+    ],
+    "code": "1f41f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f41f.svg"
+  },
+  {
+    "desc": "tropical fish",
+    "tags": [
+      "fish",
+      "tropical"
+    ],
+    "code": "1f420",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f420.svg"
+  },
+  {
+    "desc": "blowfish",
+    "tags": [
+      "fish"
+    ],
+    "code": "1f421",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f421.svg"
+  },
+  {
+    "desc": "octopus",
+    "tags": [
+      "octopus"
+    ],
+    "code": "1f419",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f419.svg"
+  },
+  {
+    "desc": "spiral shell",
+    "tags": [
+      "shell",
+      "spiral"
+    ],
+    "code": "1f41a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f41a.svg"
+  },
+  {
+    "desc": "crab",
+    "tags": [
+      "cancer",
+      "zodiac"
+    ],
+    "code": "1f980",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f980.svg"
+  },
+  {
+    "desc": "snail",
+    "tags": [
+      "snail"
+    ],
+    "code": "1f40c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f40c.svg"
+  },
+  {
+    "desc": "bug",
+    "tags": [
+      "insect"
+    ],
+    "code": "1f41b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f41b.svg"
+  },
+  {
+    "desc": "ant",
+    "tags": [
+      "insect"
+    ],
+    "code": "1f41c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f41c.svg"
+  },
+  {
+    "desc": "honeybee",
+    "tags": [
+      "bee",
+      "insect"
+    ],
+    "code": "1f41d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f41d.svg"
+  },
+  {
+    "desc": "lady beetle",
+    "tags": [
+      "beetle",
+      "insect",
+      "ladybird",
+      "ladybug"
+    ],
+    "code": "1f41e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f41e.svg"
+  },
+  {
+    "desc": "spider",
+    "tags": [
+      "insect"
+    ],
+    "code": "1f577",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f577.svg"
+  },
+  {
+    "desc": "spider web",
+    "tags": [
+      "spider",
+      "web"
+    ],
+    "code": "1f578",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f578.svg"
+  },
+  {
+    "desc": "scorpion",
+    "tags": [
+      "scorpio",
+      "scorpius",
+      "zodiac"
+    ],
+    "code": "1f982",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f982.svg"
+  },
+  {
+    "desc": "bouquet",
+    "tags": [
+      "flower",
+      "plant",
+      "romance"
+    ],
+    "code": "1f490",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f490.svg"
+  },
+  {
+    "desc": "cherry blossom",
+    "tags": [
+      "blossom",
+      "cherry",
+      "flower",
+      "plant"
+    ],
+    "code": "1f338",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f338.svg"
+  },
+  {
+    "desc": "white flower",
+    "tags": [
+      "flower"
+    ],
+    "code": "1f4ae",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4ae.svg"
+  },
+  {
+    "desc": "rosette",
+    "tags": [
+      "plant"
+    ],
+    "code": "1f3f5",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3f5.svg"
+  },
+  {
+    "desc": "rose",
+    "tags": [
+      "flower",
+      "plant"
+    ],
+    "code": "1f339",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f339.svg"
+  },
+  {
+    "desc": "hibiscus",
+    "tags": [
+      "flower",
+      "plant"
+    ],
+    "code": "1f33a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f33a.svg"
+  },
+  {
+    "desc": "sunflower",
+    "tags": [
+      "flower",
+      "plant",
+      "sun"
+    ],
+    "code": "1f33b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f33b.svg"
+  },
+  {
+    "desc": "blossom",
+    "tags": [
+      "flower",
+      "plant"
+    ],
+    "code": "1f33c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f33c.svg"
+  },
+  {
+    "desc": "tulip",
+    "tags": [
+      "flower",
+      "plant"
+    ],
+    "code": "1f337",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f337.svg"
+  },
+  {
+    "desc": "seedling",
+    "tags": [
+      "plant",
+      "young"
+    ],
+    "code": "1f331",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f331.svg"
+  },
+  {
+    "desc": "evergreen",
+    "tags": [
+      "plant",
+      "tree"
+    ],
+    "code": "1f332",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f332.svg"
+  },
+  {
+    "desc": "deciduous tree",
+    "tags": [
+      "deciduous",
+      "plant",
+      "shedding",
+      "tree"
+    ],
+    "code": "1f333",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f333.svg"
+  },
+  {
+    "desc": "palm tree",
+    "tags": [
+      "palm",
+      "plant",
+      "tree"
+    ],
+    "code": "1f334",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f334.svg"
+  },
+  {
+    "desc": "cactus",
+    "tags": [
+      "plant"
+    ],
+    "code": "1f335",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f335.svg"
+  },
+  {
+    "desc": "sheaf of rice",
+    "tags": [
+      "ear",
+      "plant",
+      "rice"
+    ],
+    "code": "1f33e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f33e.svg"
+  },
+  {
+    "desc": "herb",
+    "tags": [
+      "leaf",
+      "plant"
+    ],
+    "code": "1f33f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f33f.svg"
+  },
+  {
+    "desc": "shamrock",
+    "tags": [
+      "plant"
+    ],
+    "code": "2618",
+    "url": "https://twemoji.maxcdn.com/2/svg/2618.svg"
+  },
+  {
+    "desc": "four leaf clover",
+    "tags": [
+      "4",
+      "clover",
+      "four",
+      "leaf",
+      "plant"
+    ],
+    "code": "1f340",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f340.svg"
+  },
+  {
+    "desc": "maple leaf",
+    "tags": [
+      "falling",
+      "leaf",
+      "maple",
+      "plant"
+    ],
+    "code": "1f341",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f341.svg"
+  },
+  {
+    "desc": "fallen leaf",
+    "tags": [
+      "falling",
+      "leaf",
+      "plant"
+    ],
+    "code": "1f342",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f342.svg"
+  },
+  {
+    "desc": "leaf fluttering in wind",
+    "tags": [
+      "blow",
+      "flutter",
+      "leaf",
+      "plant",
+      "wind"
+    ],
+    "code": "1f343",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f343.svg"
+  },
+  {
+    "desc": "grapes",
+    "tags": [
+      "fruit",
+      "grape",
+      "plant"
+    ],
+    "code": "1f347",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f347.svg"
+  },
+  {
+    "desc": "melon",
+    "tags": [
+      "fruit",
+      "plant"
+    ],
+    "code": "1f348",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f348.svg"
+  },
+  {
+    "desc": "watermelon",
+    "tags": [
+      "fruit",
+      "plant"
+    ],
+    "code": "1f349",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f349.svg"
+  },
+  {
+    "desc": "tangerine",
+    "tags": [
+      "fruit",
+      "orange",
+      "plant"
+    ],
+    "code": "1f34a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f34a.svg"
+  },
+  {
+    "desc": "lemon",
+    "tags": [
+      "citrus",
+      "fruit",
+      "plant"
+    ],
+    "code": "1f34b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f34b.svg"
+  },
+  {
+    "desc": "banana",
+    "tags": [
+      "fruit",
+      "plant"
+    ],
+    "code": "1f34c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f34c.svg"
+  },
+  {
+    "desc": "pineapple",
+    "tags": [
+      "fruit",
+      "plant"
+    ],
+    "code": "1f34d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f34d.svg"
+  },
+  {
+    "desc": "red apple",
+    "tags": [
+      "apple",
+      "fruit",
+      "plant",
+      "red"
+    ],
+    "code": "1f34e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f34e.svg"
+  },
+  {
+    "desc": "green apple",
+    "tags": [
+      "apple",
+      "fruit",
+      "green",
+      "plant"
+    ],
+    "code": "1f34f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f34f.svg"
+  },
+  {
+    "desc": "pear",
+    "tags": [
+      "fruit",
+      "plant"
+    ],
+    "code": "1f350",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f350.svg"
+  },
+  {
+    "desc": "peach",
+    "tags": [
+      "fruit",
+      "plant"
+    ],
+    "code": "1f351",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f351.svg"
+  },
+  {
+    "desc": "cherries",
+    "tags": [
+      "cherry",
+      "fruit",
+      "plant"
+    ],
+    "code": "1f352",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f352.svg"
+  },
+  {
+    "desc": "strawberry",
+    "tags": [
+      "berry",
+      "fruit",
+      "plant"
+    ],
+    "code": "1f353",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f353.svg"
+  },
+  {
+    "desc": "tomato",
+    "tags": [
+      "plant",
+      "vegetable"
+    ],
+    "code": "1f345",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f345.svg"
+  },
+  {
+    "desc": "eggplant",
+    "tags": [
+      "aubergine",
+      "plant",
+      "vegetable"
+    ],
+    "code": "1f346",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f346.svg"
+  },
+  {
+    "desc": "ear of corn",
+    "tags": [
+      "corn",
+      "ear",
+      "maize",
+      "maze",
+      "plant"
+    ],
+    "code": "1f33d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f33d.svg"
+  },
+  {
+    "desc": "hot pepper",
+    "tags": [
+      "hot",
+      "pepper",
+      "plant"
+    ],
+    "code": "1f336",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f336.svg"
+  },
+  {
+    "desc": "mushroom",
+    "tags": [
+      "plant"
+    ],
+    "code": "1f344",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f344.svg"
+  },
+  {
+    "desc": "chestnut",
+    "tags": [
+      "plant"
+    ],
+    "code": "1f330",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f330.svg"
+  },
+  {
+    "desc": "bread",
+    "tags": [
+      "loaf"
+    ],
+    "code": "1f35e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f35e.svg"
+  },
+  {
+    "desc": "cheese wedge",
+    "tags": [
+      "cheese"
+    ],
+    "code": "1f9c0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f9c0.svg"
+  },
+  {
+    "desc": "meat on bone",
+    "tags": [
+      "bone",
+      "meat"
+    ],
+    "code": "1f356",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f356.svg"
+  },
+  {
+    "desc": "poultry leg",
+    "tags": [
+      "bone",
+      "chicken",
+      "leg",
+      "poultry"
+    ],
+    "code": "1f357",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f357.svg"
+  },
+  {
+    "desc": "hamburger",
+    "tags": [
+      "burger"
+    ],
+    "code": "1f354",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f354.svg"
+  },
+  {
+    "desc": "french fries",
+    "tags": [
+      "french",
+      "fries"
+    ],
+    "code": "1f35f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f35f.svg"
+  },
+  {
+    "desc": "pizza",
+    "tags": [
+      "cheese",
+      "slice"
+    ],
+    "code": "1f355",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f355.svg"
+  },
+  {
+    "desc": "hot dog",
+    "tags": [
+      "frankfurter",
+      "hotdog",
+      "sausage"
+    ],
+    "code": "1f32d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f32d.svg"
+  },
+  {
+    "desc": "taco",
+    "tags": [
+      "mexican"
+    ],
+    "code": "1f32e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f32e.svg"
+  },
+  {
+    "desc": "burrito",
+    "tags": [
+      "mexican"
+    ],
+    "code": "1f32f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f32f.svg"
+  },
+  {
+    "desc": "popcorn",
+    "tags": [
+      "popcorn"
+    ],
+    "code": "1f37f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f37f.svg"
+  },
+  {
+    "desc": "pot of food",
+    "tags": [
+      "pot",
+      "stew"
+    ],
+    "code": "1f372",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f372.svg"
+  },
+  {
+    "desc": "bento box",
+    "tags": [
+      "bento",
+      "box"
+    ],
+    "code": "1f371",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f371.svg"
+  },
+  {
+    "desc": "rice cracker",
+    "tags": [
+      "cracker",
+      "rice"
+    ],
+    "code": "1f358",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f358.svg"
+  },
+  {
+    "desc": "rice ball",
+    "tags": [
+      "ball",
+      "japanese",
+      "rice"
+    ],
+    "code": "1f359",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f359.svg"
+  },
+  {
+    "desc": "cooked rice",
+    "tags": [
+      "cooked",
+      "rice"
+    ],
+    "code": "1f35a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f35a.svg"
+  },
+  {
+    "desc": "curry rice",
+    "tags": [
+      "curry",
+      "rice"
+    ],
+    "code": "1f35b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f35b.svg"
+  },
+  {
+    "desc": "steaming bowl",
+    "tags": [
+      "bowl",
+      "noodle",
+      "ramen",
+      "steaming"
+    ],
+    "code": "1f35c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f35c.svg"
+  },
+  {
+    "desc": "spaghetti",
+    "tags": [
+      "pasta"
+    ],
+    "code": "1f35d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f35d.svg"
+  },
+  {
+    "desc": "roasted sweet potato",
+    "tags": [
+      "potato",
+      "roasted",
+      "sweet"
+    ],
+    "code": "1f360",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f360.svg"
+  },
+  {
+    "desc": "oden",
+    "tags": [
+      "kebab",
+      "seafood",
+      "skewer",
+      "stick"
+    ],
+    "code": "1f362",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f362.svg"
+  },
+  {
+    "desc": "sushi",
+    "tags": [
+      "sushi"
+    ],
+    "code": "1f363",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f363.svg"
+  },
+  {
+    "desc": "fried shrimp",
+    "tags": [
+      "fried",
+      "prawn",
+      "shrimp",
+      "tempura"
+    ],
+    "code": "1f364",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f364.svg"
+  },
+  {
+    "desc": "fish cake with swirl",
+    "tags": [
+      "cake",
+      "fish",
+      "pastry",
+      "swirl"
+    ],
+    "code": "1f365",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f365.svg"
+  },
+  {
+    "desc": "dango",
+    "tags": [
+      "dessert",
+      "japanese",
+      "skewer",
+      "stick",
+      "sweet"
+    ],
+    "code": "1f361",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f361.svg"
+  },
+  {
+    "desc": "soft ice cream",
+    "tags": [
+      "cream",
+      "dessert",
+      "ice",
+      "icecream",
+      "soft",
+      "sweet"
+    ],
+    "code": "1f366",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f366.svg"
+  },
+  {
+    "desc": "shaved ice",
+    "tags": [
+      "dessert",
+      "ice",
+      "shaved",
+      "sweet"
+    ],
+    "code": "1f367",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f367.svg"
+  },
+  {
+    "desc": "ice cream",
+    "tags": [
+      "cream",
+      "dessert",
+      "ice",
+      "sweet"
+    ],
+    "code": "1f368",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f368.svg"
+  },
+  {
+    "desc": "doughnut",
+    "tags": [
+      "dessert",
+      "donut",
+      "sweet"
+    ],
+    "code": "1f369",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f369.svg"
+  },
+  {
+    "desc": "cookie",
+    "tags": [
+      "dessert",
+      "sweet"
+    ],
+    "code": "1f36a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f36a.svg"
+  },
+  {
+    "desc": "birthday cake",
+    "tags": [
+      "birthday",
+      "cake",
+      "celebration",
+      "dessert",
+      "pastry",
+      "sweet"
+    ],
+    "code": "1f382",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f382.svg"
+  },
+  {
+    "desc": "shortcake",
+    "tags": [
+      "cake",
+      "dessert",
+      "pastry",
+      "slice",
+      "sweet"
+    ],
+    "code": "1f370",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f370.svg"
+  },
+  {
+    "desc": "chocolate bar",
+    "tags": [
+      "bar",
+      "chocolate",
+      "dessert",
+      "sweet"
+    ],
+    "code": "1f36b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f36b.svg"
+  },
+  {
+    "desc": "candy",
+    "tags": [
+      "dessert",
+      "sweet"
+    ],
+    "code": "1f36c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f36c.svg"
+  },
+  {
+    "desc": "lollipop",
+    "tags": [
+      "candy",
+      "dessert",
+      "sweet"
+    ],
+    "code": "1f36d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f36d.svg"
+  },
+  {
+    "desc": "custard",
+    "tags": [
+      "dessert",
+      "pudding",
+      "sweet"
+    ],
+    "code": "1f36e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f36e.svg"
+  },
+  {
+    "desc": "honey pot",
+    "tags": [
+      "honey",
+      "honeypot",
+      "pot",
+      "sweet"
+    ],
+    "code": "1f36f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f36f.svg"
+  },
+  {
+    "desc": "baby bottle",
+    "tags": [
+      "baby",
+      "bottle",
+      "drink",
+      "milk"
+    ],
+    "code": "1f37c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f37c.svg"
+  },
+  {
+    "desc": "hot beverage",
+    "tags": [
+      "beverage",
+      "coffee",
+      "drink",
+      "hot",
+      "steaming",
+      "tea"
+    ],
+    "code": "2615",
+    "url": "https://twemoji.maxcdn.com/2/svg/2615.svg"
+  },
+  {
+    "desc": "teacup without handle",
+    "tags": [
+      "beverage",
+      "cup",
+      "drink",
+      "tea",
+      "teacup"
+    ],
+    "code": "1f375",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f375.svg"
+  },
+  {
+    "desc": "sake",
+    "tags": [
+      "bar",
+      "beverage",
+      "bottle",
+      "cup",
+      "drink"
+    ],
+    "code": "1f376",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f376.svg"
+  },
+  {
+    "desc": "bottle with popping cork",
+    "tags": [
+      "bar",
+      "bottle",
+      "cork",
+      "drink",
+      "popping"
+    ],
+    "code": "1f37e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f37e.svg"
+  },
+  {
+    "desc": "wine glass",
+    "tags": [
+      "bar",
+      "beverage",
+      "drink",
+      "glass",
+      "wine"
+    ],
+    "code": "1f377",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f377.svg"
+  },
+  {
+    "desc": "cocktail glass",
+    "tags": [
+      "bar",
+      "cocktail",
+      "drink",
+      "glass"
+    ],
+    "code": "1f378",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f378.svg"
+  },
+  {
+    "desc": "tropical drink",
+    "tags": [
+      "bar",
+      "drink",
+      "tropical"
+    ],
+    "code": "1f379",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f379.svg"
+  },
+  {
+    "desc": "beer mug",
+    "tags": [
+      "bar",
+      "beer",
+      "drink",
+      "mug"
+    ],
+    "code": "1f37a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f37a.svg"
+  },
+  {
+    "desc": "clinking beer mugs",
+    "tags": [
+      "bar",
+      "beer",
+      "clink",
+      "drink",
+      "mug"
+    ],
+    "code": "1f37b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f37b.svg"
+  },
+  {
+    "desc": "fork and knife with plate",
+    "tags": [
+      "cooking",
+      "fork",
+      "knife",
+      "plate"
+    ],
+    "code": "1f37d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f37d.svg"
+  },
+  {
+    "desc": "fork and knife",
+    "tags": [
+      "cooking",
+      "fork",
+      "knife"
+    ],
+    "code": "1f374",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f374.svg"
+  },
+  {
+    "desc": "cooking",
+    "tags": [
+      "egg",
+      "frying",
+      "pan"
+    ],
+    "code": "1f373",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f373.svg"
+  },
+  {
+    "desc": "amphora",
+    "tags": [
+      "aquarius",
+      "cooking",
+      "drink",
+      "jug",
+      "tool",
+      "weapon",
+      "zodiac"
+    ],
+    "code": "1f3fa",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3fa.svg"
+  },
+  {
+    "desc": "globe showing europe-africa",
+    "tags": [
+      "africa",
+      "earth",
+      "europe",
+      "globe",
+      "world"
+    ],
+    "code": "1f30d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f30d.svg"
+  },
+  {
+    "desc": "globe showing americas",
+    "tags": [
+      "americas",
+      "earth",
+      "globe",
+      "world"
+    ],
+    "code": "1f30e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f30e.svg"
+  },
+  {
+    "desc": "globe showing asia-australia",
+    "tags": [
+      "asia",
+      "australia",
+      "earth",
+      "globe",
+      "world"
+    ],
+    "code": "1f30f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f30f.svg"
+  },
+  {
+    "desc": "globe with meridians",
+    "tags": [
+      "earth",
+      "globe",
+      "meridians",
+      "world"
+    ],
+    "code": "1f310",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f310.svg"
+  },
+  {
+    "desc": "world map",
+    "tags": [
+      "map",
+      "world"
+    ],
+    "code": "1f5fa",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5fa.svg"
+  },
+  {
+    "desc": "snow-capped mountain",
+    "tags": [
+      "cold",
+      "mountain",
+      "snow"
+    ],
+    "code": "1f3d4",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3d4.svg"
+  },
+  {
+    "desc": "mountain",
+    "tags": [
+      "mountain"
+    ],
+    "code": "26f0",
+    "url": "https://twemoji.maxcdn.com/2/svg/26f0.svg"
+  },
+  {
+    "desc": "volcano",
+    "tags": [
+      "eruption",
+      "mountain",
+      "weather"
+    ],
+    "code": "1f30b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f30b.svg"
+  },
+  {
+    "desc": "mount fuji",
+    "tags": [
+      "fuji",
+      "mountain"
+    ],
+    "code": "1f5fb",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5fb.svg"
+  },
+  {
+    "desc": "camping",
+    "tags": [
+      "camping"
+    ],
+    "code": "1f3d5",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3d5.svg"
+  },
+  {
+    "desc": "beach with umbrella",
+    "tags": [
+      "beach",
+      "umbrella"
+    ],
+    "code": "1f3d6",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3d6.svg"
+  },
+  {
+    "desc": "desert",
+    "tags": [
+      "desert"
+    ],
+    "code": "1f3dc",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3dc.svg"
+  },
+  {
+    "desc": "desert island",
+    "tags": [
+      "desert",
+      "island"
+    ],
+    "code": "1f3dd",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3dd.svg"
+  },
+  {
+    "desc": "national park",
+    "tags": [
+      "park"
+    ],
+    "code": "1f3de",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3de.svg"
+  },
+  {
+    "desc": "stadium",
+    "tags": [
+      "stadium"
+    ],
+    "code": "1f3df",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3df.svg"
+  },
+  {
+    "desc": "classical building",
+    "tags": [
+      "building",
+      "classical"
+    ],
+    "code": "1f3db",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3db.svg"
+  },
+  {
+    "desc": "building construction",
+    "tags": [
+      "building",
+      "construction"
+    ],
+    "code": "1f3d7",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3d7.svg"
+  },
+  {
+    "desc": "house buildings",
+    "tags": [
+      "building",
+      "house"
+    ],
+    "code": "1f3d8",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3d8.svg"
+  },
+  {
+    "desc": "cityscape",
+    "tags": [
+      "building",
+      "city"
+    ],
+    "code": "1f3d9",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3d9.svg"
+  },
+  {
+    "desc": "derelict house building",
+    "tags": [
+      "building",
+      "derelict",
+      "house"
+    ],
+    "code": "1f3da",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3da.svg"
+  },
+  {
+    "desc": "house building",
+    "tags": [
+      "building",
+      "home",
+      "house"
+    ],
+    "code": "1f3e0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3e0.svg"
+  },
+  {
+    "desc": "house with garden",
+    "tags": [
+      "building",
+      "garden",
+      "home",
+      "house"
+    ],
+    "code": "1f3e1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3e1.svg"
+  },
+  {
+    "desc": "church",
+    "tags": [
+      "building",
+      "christian",
+      "cross",
+      "religion"
+    ],
+    "code": "26ea",
+    "url": "https://twemoji.maxcdn.com/2/svg/26ea.svg"
+  },
+  {
+    "desc": "kaaba",
+    "tags": [
+      "islam",
+      "muslim",
+      "religion"
+    ],
+    "code": "1f54b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f54b.svg"
+  },
+  {
+    "desc": "mosque",
+    "tags": [
+      "islam",
+      "muslim",
+      "religion"
+    ],
+    "code": "1f54c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f54c.svg"
+  },
+  {
+    "desc": "synagogue",
+    "tags": [
+      "jew",
+      "jewish",
+      "religion",
+      "temple"
+    ],
+    "code": "1f54d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f54d.svg"
+  },
+  {
+    "desc": "shinto shrine",
+    "tags": [
+      "religion",
+      "shinto",
+      "shrine"
+    ],
+    "code": "26e9",
+    "url": "https://twemoji.maxcdn.com/2/svg/26e9.svg"
+  },
+  {
+    "desc": "office building",
+    "tags": [
+      "building"
+    ],
+    "code": "1f3e2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3e2.svg"
+  },
+  {
+    "desc": "japanese post office",
+    "tags": [
+      "building",
+      "japanese",
+      "post"
+    ],
+    "code": "1f3e3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3e3.svg"
+  },
+  {
+    "desc": "post office",
+    "tags": [
+      "building",
+      "european",
+      "post"
+    ],
+    "code": "1f3e4",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3e4.svg"
+  },
+  {
+    "desc": "hospital",
+    "tags": [
+      "building",
+      "doctor",
+      "medicine"
+    ],
+    "code": "1f3e5",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3e5.svg"
+  },
+  {
+    "desc": "bank",
+    "tags": [
+      "building"
+    ],
+    "code": "1f3e6",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3e6.svg"
+  },
+  {
+    "desc": "hotel",
+    "tags": [
+      "building"
+    ],
+    "code": "1f3e8",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3e8.svg"
+  },
+  {
+    "desc": "love hotel",
+    "tags": [
+      "building",
+      "hotel",
+      "love"
+    ],
+    "code": "1f3e9",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3e9.svg"
+  },
+  {
+    "desc": "convenience store",
+    "tags": [
+      "building",
+      "convenience",
+      "store"
+    ],
+    "code": "1f3ea",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3ea.svg"
+  },
+  {
+    "desc": "school",
+    "tags": [
+      "building"
+    ],
+    "code": "1f3eb",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3eb.svg"
+  },
+  {
+    "desc": "department store",
+    "tags": [
+      "building",
+      "department",
+      "store"
+    ],
+    "code": "1f3ec",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3ec.svg"
+  },
+  {
+    "desc": "factory",
+    "tags": [
+      "building"
+    ],
+    "code": "1f3ed",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3ed.svg"
+  },
+  {
+    "desc": "japanese castle",
+    "tags": [
+      "building",
+      "castle",
+      "japanese"
+    ],
+    "code": "1f3ef",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3ef.svg"
+  },
+  {
+    "desc": "castle",
+    "tags": [
+      "building",
+      "european"
+    ],
+    "code": "1f3f0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3f0.svg"
+  },
+  {
+    "desc": "wedding",
+    "tags": [
+      "chapel",
+      "romance"
+    ],
+    "code": "1f492",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f492.svg"
+  },
+  {
+    "desc": "tokyo tower",
+    "tags": [
+      "tokyo",
+      "tower"
+    ],
+    "code": "1f5fc",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5fc.svg"
+  },
+  {
+    "desc": "statue of liberty",
+    "tags": [
+      "liberty",
+      "statue"
+    ],
+    "code": "1f5fd",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5fd.svg"
+  },
+  {
+    "desc": "map of japan",
+    "tags": [
+      "japan",
+      "map"
+    ],
+    "code": "1f5fe",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5fe.svg"
+  },
+  {
+    "desc": "fountain",
+    "tags": [
+      "fountain"
+    ],
+    "code": "26f2",
+    "url": "https://twemoji.maxcdn.com/2/svg/26f2.svg"
+  },
+  {
+    "desc": "tent",
+    "tags": [
+      "camping"
+    ],
+    "code": "26fa",
+    "url": "https://twemoji.maxcdn.com/2/svg/26fa.svg"
+  },
+  {
+    "desc": "foggy",
+    "tags": [
+      "fog",
+      "weather"
+    ],
+    "code": "1f301",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f301.svg"
+  },
+  {
+    "desc": "night with stars",
+    "tags": [
+      "night",
+      "star",
+      "weather"
+    ],
+    "code": "1f303",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f303.svg"
+  },
+  {
+    "desc": "sunrise over mountains",
+    "tags": [
+      "morning",
+      "mountain",
+      "sun",
+      "sunrise",
+      "weather"
+    ],
+    "code": "1f304",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f304.svg"
+  },
+  {
+    "desc": "sunrise",
+    "tags": [
+      "morning",
+      "sun",
+      "weather"
+    ],
+    "code": "1f305",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f305.svg"
+  },
+  {
+    "desc": "cityscape at dusk",
+    "tags": [
+      "building",
+      "city",
+      "dusk",
+      "evening",
+      "landscape",
+      "sun",
+      "sunset",
+      "weather"
+    ],
+    "code": "1f306",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f306.svg"
+  },
+  {
+    "desc": "sunset",
+    "tags": [
+      "building",
+      "dusk",
+      "sun",
+      "weather"
+    ],
+    "code": "1f307",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f307.svg"
+  },
+  {
+    "desc": "bridge at night",
+    "tags": [
+      "bridge",
+      "night",
+      "weather"
+    ],
+    "code": "1f309",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f309.svg"
+  },
+  {
+    "desc": "hot springs",
+    "tags": [
+      "hot",
+      "hotsprings",
+      "springs",
+      "steaming"
+    ],
+    "code": "2668",
+    "url": "https://twemoji.maxcdn.com/2/svg/2668.svg"
+  },
+  {
+    "desc": "milky way",
+    "tags": [
+      "space",
+      "weather"
+    ],
+    "code": "1f30c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f30c.svg"
+  },
+  {
+    "desc": "carousel horse",
+    "tags": [
+      "carousel",
+      "horse"
+    ],
+    "code": "1f3a0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3a0.svg"
+  },
+  {
+    "desc": "ferris wheel",
+    "tags": [
+      "amusement park",
+      "ferris",
+      "wheel"
+    ],
+    "code": "1f3a1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3a1.svg"
+  },
+  {
+    "desc": "roller coaster",
+    "tags": [
+      "amusement park",
+      "coaster",
+      "roller"
+    ],
+    "code": "1f3a2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3a2.svg"
+  },
+  {
+    "desc": "barber pole",
+    "tags": [
+      "barber",
+      "haircut",
+      "pole"
+    ],
+    "code": "1f488",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f488.svg"
+  },
+  {
+    "desc": "circus tent",
+    "tags": [
+      "circus",
+      "tent"
+    ],
+    "code": "1f3aa",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3aa.svg"
+  },
+  {
+    "desc": "performing arts",
+    "tags": [
+      "art",
+      "mask",
+      "performing",
+      "theater",
+      "theatre"
+    ],
+    "code": "1f3ad",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3ad.svg"
+  },
+  {
+    "desc": "frame with picture",
+    "tags": [
+      "art",
+      "frame",
+      "museum",
+      "painting",
+      "picture"
+    ],
+    "code": "1f5bc",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5bc.svg"
+  },
+  {
+    "desc": "artist palette",
+    "tags": [
+      "art",
+      "museum",
+      "painting",
+      "palette"
+    ],
+    "code": "1f3a8",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3a8.svg"
+  },
+  {
+    "desc": "slot machine",
+    "tags": [
+      "game",
+      "slot"
+    ],
+    "code": "1f3b0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3b0.svg"
+  },
+  {
+    "desc": "locomotive",
+    "tags": [
+      "engine",
+      "railway",
+      "steam",
+      "train",
+      "vehicle"
+    ],
+    "code": "1f682",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f682.svg"
+  },
+  {
+    "desc": "railway car",
+    "tags": [
+      "car",
+      "electric",
+      "railway",
+      "train",
+      "tram",
+      "trolleybus",
+      "vehicle"
+    ],
+    "code": "1f683",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f683.svg"
+  },
+  {
+    "desc": "high-speed train",
+    "tags": [
+      "railway",
+      "shinkansen",
+      "speed",
+      "train",
+      "vehicle"
+    ],
+    "code": "1f684",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f684.svg"
+  },
+  {
+    "desc": "high-speed train with bullet nose",
+    "tags": [
+      "bullet",
+      "railway",
+      "shinkansen",
+      "speed",
+      "train",
+      "vehicle"
+    ],
+    "code": "1f685",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f685.svg"
+  },
+  {
+    "desc": "train",
+    "tags": [
+      "railway",
+      "vehicle"
+    ],
+    "code": "1f686",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f686.svg"
+  },
+  {
+    "desc": "metro",
+    "tags": [
+      "subway",
+      "vehicle"
+    ],
+    "code": "1f687",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f687.svg"
+  },
+  {
+    "desc": "light rail",
+    "tags": [
+      "railway",
+      "vehicle"
+    ],
+    "code": "1f688",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f688.svg"
+  },
+  {
+    "desc": "station",
+    "tags": [
+      "railway",
+      "train",
+      "vehicle"
+    ],
+    "code": "1f689",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f689.svg"
+  },
+  {
+    "desc": "tram",
+    "tags": [
+      "trolleybus",
+      "vehicle"
+    ],
+    "code": "1f68a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f68a.svg"
+  },
+  {
+    "desc": "monorail",
+    "tags": [
+      "vehicle"
+    ],
+    "code": "1f69d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f69d.svg"
+  },
+  {
+    "desc": "mountain railway",
+    "tags": [
+      "car",
+      "mountain",
+      "railway",
+      "vehicle"
+    ],
+    "code": "1f69e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f69e.svg"
+  },
+  {
+    "desc": "tram car",
+    "tags": [
+      "car",
+      "tram",
+      "trolleybus",
+      "vehicle"
+    ],
+    "code": "1f68b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f68b.svg"
+  },
+  {
+    "desc": "bus",
+    "tags": [
+      "vehicle"
+    ],
+    "code": "1f68c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f68c.svg"
+  },
+  {
+    "desc": "oncoming bus",
+    "tags": [
+      "bus",
+      "oncoming",
+      "vehicle"
+    ],
+    "code": "1f68d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f68d.svg"
+  },
+  {
+    "desc": "trolleybus",
+    "tags": [
+      "bus",
+      "tram",
+      "trolley",
+      "vehicle"
+    ],
+    "code": "1f68e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f68e.svg"
+  },
+  {
+    "desc": "bus stop",
+    "tags": [
+      "bus",
+      "busstop",
+      "stop"
+    ],
+    "code": "1f68f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f68f.svg"
+  },
+  {
+    "desc": "minibus",
+    "tags": [
+      "bus",
+      "vehicle"
+    ],
+    "code": "1f690",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f690.svg"
+  },
+  {
+    "desc": "ambulance",
+    "tags": [
+      "vehicle"
+    ],
+    "code": "1f691",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f691.svg"
+  },
+  {
+    "desc": "fire engine",
+    "tags": [
+      "engine",
+      "fire",
+      "truck",
+      "vehicle"
+    ],
+    "code": "1f692",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f692.svg"
+  },
+  {
+    "desc": "police car",
+    "tags": [
+      "car",
+      "patrol",
+      "police",
+      "vehicle"
+    ],
+    "code": "1f693",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f693.svg"
+  },
+  {
+    "desc": "oncoming police car",
+    "tags": [
+      "car",
+      "oncoming",
+      "police",
+      "vehicle"
+    ],
+    "code": "1f694",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f694.svg"
+  },
+  {
+    "desc": "taxi",
+    "tags": [
+      "vehicle"
+    ],
+    "code": "1f695",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f695.svg"
+  },
+  {
+    "desc": "oncoming taxi",
+    "tags": [
+      "oncoming",
+      "taxi",
+      "vehicle"
+    ],
+    "code": "1f696",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f696.svg"
+  },
+  {
+    "desc": "automobile",
+    "tags": [
+      "car",
+      "vehicle"
+    ],
+    "code": "1f697",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f697.svg"
+  },
+  {
+    "desc": "oncoming automobile",
+    "tags": [
+      "automobile",
+      "car",
+      "oncoming",
+      "vehicle"
+    ],
+    "code": "1f698",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f698.svg"
+  },
+  {
+    "desc": "recreational vehicle",
+    "tags": [
+      "recreational",
+      "rv",
+      "vehicle"
+    ],
+    "code": "1f699",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f699.svg"
+  },
+  {
+    "desc": "delivery truck",
+    "tags": [
+      "delivery",
+      "truck",
+      "vehicle"
+    ],
+    "code": "1f69a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f69a.svg"
+  },
+  {
+    "desc": "articulated lorry",
+    "tags": [
+      "lorry",
+      "semi",
+      "truck",
+      "vehicle"
+    ],
+    "code": "1f69b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f69b.svg"
+  },
+  {
+    "desc": "tractor",
+    "tags": [
+      "vehicle"
+    ],
+    "code": "1f69c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f69c.svg"
+  },
+  {
+    "desc": "bicycle",
+    "tags": [
+      "bike",
+      "vehicle"
+    ],
+    "code": "1f6b2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6b2.svg"
+  },
+  {
+    "desc": "fuel pump",
+    "tags": [
+      "fuel",
+      "fuelpump",
+      "gas",
+      "pump",
+      "station"
+    ],
+    "code": "26fd",
+    "url": "https://twemoji.maxcdn.com/2/svg/26fd.svg"
+  },
+  {
+    "desc": "motorway",
+    "tags": [
+      "highway",
+      "road"
+    ],
+    "code": "1f6e3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6e3.svg"
+  },
+  {
+    "desc": "railway track",
+    "tags": [
+      "railway",
+      "train"
+    ],
+    "code": "1f6e4",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6e4.svg"
+  },
+  {
+    "desc": "police car’s light",
+    "tags": [
+      "beacon",
+      "car",
+      "light",
+      "police",
+      "revolving",
+      "vehicle"
+    ],
+    "code": "1f6a8",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6a8.svg"
+  },
+  {
+    "desc": "horizontal traffic light",
+    "tags": [
+      "light",
+      "signal",
+      "traffic"
+    ],
+    "code": "1f6a5",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6a5.svg"
+  },
+  {
+    "desc": "vertical traffic light",
+    "tags": [
+      "light",
+      "signal",
+      "traffic"
+    ],
+    "code": "1f6a6",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6a6.svg"
+  },
+  {
+    "desc": "construction",
+    "tags": [
+      "barrier"
+    ],
+    "code": "1f6a7",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6a7.svg"
+  },
+  {
+    "desc": "anchor",
+    "tags": [
+      "ship",
+      "tool"
+    ],
+    "code": "2693",
+    "url": "https://twemoji.maxcdn.com/2/svg/2693.svg"
+  },
+  {
+    "desc": "sailboat",
+    "tags": [
+      "boat",
+      "resort",
+      "sea",
+      "vehicle",
+      "yacht"
+    ],
+    "code": "26f5",
+    "url": "https://twemoji.maxcdn.com/2/svg/26f5.svg"
+  },
+  {
+    "desc": "rowboat",
+    "tags": [
+      "boat",
+      "vehicle"
+    ],
+    "code": "1f6a3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6a3.svg"
+  },
+  {
+    "desc": "speedboat",
+    "tags": [
+      "boat",
+      "vehicle"
+    ],
+    "code": "1f6a4",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6a4.svg"
+  },
+  {
+    "desc": "passenger ship",
+    "tags": [
+      "passenger",
+      "ship",
+      "vehicle"
+    ],
+    "code": "1f6f3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6f3.svg"
+  },
+  {
+    "desc": "ferry",
+    "tags": [
+      "boat"
+    ],
+    "code": "26f4",
+    "url": "https://twemoji.maxcdn.com/2/svg/26f4.svg"
+  },
+  {
+    "desc": "motor boat",
+    "tags": [
+      "boat",
+      "motorboat",
+      "vehicle"
+    ],
+    "code": "1f6e5",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6e5.svg"
+  },
+  {
+    "desc": "ship",
+    "tags": [
+      "vehicle"
+    ],
+    "code": "1f6a2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6a2.svg"
+  },
+  {
+    "desc": "airplane",
+    "tags": [
+      "vehicle"
+    ],
+    "code": "2708",
+    "url": "https://twemoji.maxcdn.com/2/svg/2708.svg"
+  },
+  {
+    "desc": "small airplane",
+    "tags": [
+      "airplane",
+      "vehicle"
+    ],
+    "code": "1f6e9",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6e9.svg"
+  },
+  {
+    "desc": "airplane departure",
+    "tags": [
+      "airplane",
+      "check-in",
+      "departure",
+      "departures",
+      "vehicle"
+    ],
+    "code": "1f6eb",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6eb.svg"
+  },
+  {
+    "desc": "airplane arrival",
+    "tags": [
+      "airplane",
+      "arrivals",
+      "arriving",
+      "landing",
+      "vehicle"
+    ],
+    "code": "1f6ec",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6ec.svg"
+  },
+  {
+    "desc": "seat",
+    "tags": [
+      "chair"
+    ],
+    "code": "1f4ba",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4ba.svg"
+  },
+  {
+    "desc": "helicopter",
+    "tags": [
+      "vehicle"
+    ],
+    "code": "1f681",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f681.svg"
+  },
+  {
+    "desc": "suspension railway",
+    "tags": [
+      "railway",
+      "suspension",
+      "vehicle"
+    ],
+    "code": "1f69f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f69f.svg"
+  },
+  {
+    "desc": "mountain cableway",
+    "tags": [
+      "cable",
+      "gondola",
+      "mountain",
+      "vehicle"
+    ],
+    "code": "1f6a0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6a0.svg"
+  },
+  {
+    "desc": "aerial tramway",
+    "tags": [
+      "aerial",
+      "cable",
+      "car",
+      "gondola",
+      "ropeway",
+      "tramway",
+      "vehicle"
+    ],
+    "code": "1f6a1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6a1.svg"
+  },
+  {
+    "desc": "rocket",
+    "tags": [
+      "space",
+      "vehicle"
+    ],
+    "code": "1f680",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f680.svg"
+  },
+  {
+    "desc": "satellite",
+    "tags": [
+      "space",
+      "vehicle"
+    ],
+    "code": "1f6f0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6f0.svg"
+  },
+  {
+    "desc": "bellhop bell",
+    "tags": [
+      "bell",
+      "bellhop",
+      "hotel"
+    ],
+    "code": "1f6ce",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6ce.svg"
+  },
+  {
+    "desc": "door",
+    "tags": [
+      "door"
+    ],
+    "code": "1f6aa",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6aa.svg"
+  },
+  {
+    "desc": "person in bed",
+    "tags": [
+      "hotel",
+      "sleep"
+    ],
+    "code": "1f6cc",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6cc.svg"
+  },
+  {
+    "desc": "bed",
+    "tags": [
+      "hotel",
+      "sleep"
+    ],
+    "code": "1f6cf",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6cf.svg"
+  },
+  {
+    "desc": "couch and lamp",
+    "tags": [
+      "couch",
+      "hotel",
+      "lamp"
+    ],
+    "code": "1f6cb",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6cb.svg"
+  },
+  {
+    "desc": "toilet",
+    "tags": [
+      "toilet"
+    ],
+    "code": "1f6bd",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6bd.svg"
+  },
+  {
+    "desc": "shower",
+    "tags": [
+      "water"
+    ],
+    "code": "1f6bf",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6bf.svg"
+  },
+  {
+    "desc": "person taking bath",
+    "tags": [
+      "bathtub",
+      "bath"
+    ],
+    "code": "1f6c0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6c0.svg"
+  },
+  {
+    "desc": "bathtub",
+    "tags": [
+      "bath"
+    ],
+    "code": "1f6c1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6c1.svg"
+  },
+  {
+    "desc": "hourglass",
+    "tags": [
+      "sand",
+      "timer"
+    ],
+    "code": "231b",
+    "url": "https://twemoji.maxcdn.com/2/svg/231b.svg"
+  },
+  {
+    "desc": "hourglass with flowing sand",
+    "tags": [
+      "hourglass",
+      "sand",
+      "timer"
+    ],
+    "code": "23f3",
+    "url": "https://twemoji.maxcdn.com/2/svg/23f3.svg"
+  },
+  {
+    "desc": "watch",
+    "tags": [
+      "clock"
+    ],
+    "code": "231a",
+    "url": "https://twemoji.maxcdn.com/2/svg/231a.svg"
+  },
+  {
+    "desc": "alarm clock",
+    "tags": [
+      "alarm",
+      "clock"
+    ],
+    "code": "23f0",
+    "url": "https://twemoji.maxcdn.com/2/svg/23f0.svg"
+  },
+  {
+    "desc": "stopwatch",
+    "tags": [
+      "clock"
+    ],
+    "code": "23f1",
+    "url": "https://twemoji.maxcdn.com/2/svg/23f1.svg"
+  },
+  {
+    "desc": "timer clock",
+    "tags": [
+      "clock",
+      "timer"
+    ],
+    "code": "23f2",
+    "url": "https://twemoji.maxcdn.com/2/svg/23f2.svg"
+  },
+  {
+    "desc": "mantelpiece clock",
+    "tags": [
+      "clock"
+    ],
+    "code": "1f570",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f570.svg"
+  },
+  {
+    "desc": "twelve o’clock",
+    "tags": [
+      "00",
+      "12",
+      "12:00",
+      "clock",
+      "o’clock",
+      "twelve"
+    ],
+    "code": "1f55b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f55b.svg"
+  },
+  {
+    "desc": "twelve-thirty",
+    "tags": [
+      "12",
+      "12:30",
+      "30",
+      "clock",
+      "thirty",
+      "twelve"
+    ],
+    "code": "1f567",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f567.svg"
+  },
+  {
+    "desc": "one o’clock",
+    "tags": [
+      "00",
+      "1",
+      "1:00",
+      "clock",
+      "o’clock",
+      "one"
+    ],
+    "code": "1f550",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f550.svg"
+  },
+  {
+    "desc": "one-thirty",
+    "tags": [
+      "1",
+      "1:30",
+      "30",
+      "clock",
+      "one",
+      "thirty"
+    ],
+    "code": "1f55c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f55c.svg"
+  },
+  {
+    "desc": "two o’clock",
+    "tags": [
+      "00",
+      "2",
+      "2:00",
+      "clock",
+      "o’clock",
+      "two"
+    ],
+    "code": "1f551",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f551.svg"
+  },
+  {
+    "desc": "two-thirty",
+    "tags": [
+      "2",
+      "2:30",
+      "30",
+      "clock",
+      "thirty",
+      "two"
+    ],
+    "code": "1f55d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f55d.svg"
+  },
+  {
+    "desc": "three o’clock",
+    "tags": [
+      "00",
+      "3",
+      "3:00",
+      "clock",
+      "o’clock",
+      "three"
+    ],
+    "code": "1f552",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f552.svg"
+  },
+  {
+    "desc": "three-thirty",
+    "tags": [
+      "3",
+      "3:30",
+      "30",
+      "clock",
+      "thirty",
+      "three"
+    ],
+    "code": "1f55e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f55e.svg"
+  },
+  {
+    "desc": "four o’clock",
+    "tags": [
+      "00",
+      "4",
+      "4:00",
+      "clock",
+      "four",
+      "o’clock"
+    ],
+    "code": "1f553",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f553.svg"
+  },
+  {
+    "desc": "four-thirty",
+    "tags": [
+      "30",
+      "4",
+      "4:30",
+      "clock",
+      "four",
+      "thirty"
+    ],
+    "code": "1f55f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f55f.svg"
+  },
+  {
+    "desc": "five o’clock",
+    "tags": [
+      "00",
+      "5",
+      "5:00",
+      "clock",
+      "five",
+      "o’clock"
+    ],
+    "code": "1f554",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f554.svg"
+  },
+  {
+    "desc": "five-thirty",
+    "tags": [
+      "30",
+      "5",
+      "5:30",
+      "clock",
+      "five",
+      "thirty"
+    ],
+    "code": "1f560",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f560.svg"
+  },
+  {
+    "desc": "six o’clock",
+    "tags": [
+      "00",
+      "6",
+      "6:00",
+      "clock",
+      "o’clock",
+      "six"
+    ],
+    "code": "1f555",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f555.svg"
+  },
+  {
+    "desc": "six-thirty",
+    "tags": [
+      "30",
+      "6",
+      "6:30",
+      "clock",
+      "six",
+      "thirty"
+    ],
+    "code": "1f561",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f561.svg"
+  },
+  {
+    "desc": "seven o’clock",
+    "tags": [
+      "00",
+      "7",
+      "7:00",
+      "clock",
+      "o’clock",
+      "seven"
+    ],
+    "code": "1f556",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f556.svg"
+  },
+  {
+    "desc": "seven-thirty",
+    "tags": [
+      "30",
+      "7",
+      "7:30",
+      "clock",
+      "seven",
+      "thirty"
+    ],
+    "code": "1f562",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f562.svg"
+  },
+  {
+    "desc": "eight o’clock",
+    "tags": [
+      "00",
+      "8",
+      "8:00",
+      "clock",
+      "eight",
+      "o’clock"
+    ],
+    "code": "1f557",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f557.svg"
+  },
+  {
+    "desc": "eight-thirty",
+    "tags": [
+      "30",
+      "8",
+      "8:30",
+      "clock",
+      "eight",
+      "thirty"
+    ],
+    "code": "1f563",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f563.svg"
+  },
+  {
+    "desc": "nine o’clock",
+    "tags": [
+      "00",
+      "9",
+      "9:00",
+      "clock",
+      "nine",
+      "o’clock"
+    ],
+    "code": "1f558",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f558.svg"
+  },
+  {
+    "desc": "nine-thirty",
+    "tags": [
+      "30",
+      "9",
+      "9:30",
+      "clock",
+      "nine",
+      "thirty"
+    ],
+    "code": "1f564",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f564.svg"
+  },
+  {
+    "desc": "ten o’clock",
+    "tags": [
+      "00",
+      "10",
+      "10:00",
+      "clock",
+      "o’clock",
+      "ten"
+    ],
+    "code": "1f559",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f559.svg"
+  },
+  {
+    "desc": "ten-thirty",
+    "tags": [
+      "10",
+      "10:30",
+      "30",
+      "clock",
+      "ten",
+      "thirty"
+    ],
+    "code": "1f565",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f565.svg"
+  },
+  {
+    "desc": "eleven o’clock",
+    "tags": [
+      "00",
+      "11",
+      "11:00",
+      "clock",
+      "eleven",
+      "o’clock"
+    ],
+    "code": "1f55a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f55a.svg"
+  },
+  {
+    "desc": "eleven-thirty",
+    "tags": [
+      "11",
+      "11:30",
+      "30",
+      "clock",
+      "eleven",
+      "thirty"
+    ],
+    "code": "1f566",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f566.svg"
+  },
+  {
+    "desc": "new moon",
+    "tags": [
+      "dark",
+      "moon",
+      "space",
+      "weather"
+    ],
+    "code": "1f311",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f311.svg"
+  },
+  {
+    "desc": "waxing crescent moon",
+    "tags": [
+      "crescent",
+      "moon",
+      "space",
+      "waxing",
+      "weather"
+    ],
+    "code": "1f312",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f312.svg"
+  },
+  {
+    "desc": "first quarter moon",
+    "tags": [
+      "moon",
+      "quarter",
+      "space",
+      "weather"
+    ],
+    "code": "1f313",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f313.svg"
+  },
+  {
+    "desc": "waxing gibbous moon",
+    "tags": [
+      "gibbous",
+      "moon",
+      "space",
+      "waxing",
+      "weather"
+    ],
+    "code": "1f314",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f314.svg"
+  },
+  {
+    "desc": "full moon",
+    "tags": [
+      "full",
+      "moon",
+      "space",
+      "weather"
+    ],
+    "code": "1f315",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f315.svg"
+  },
+  {
+    "desc": "waning gibbous moon",
+    "tags": [
+      "gibbous",
+      "moon",
+      "space",
+      "waning",
+      "weather"
+    ],
+    "code": "1f316",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f316.svg"
+  },
+  {
+    "desc": "last quarter moon",
+    "tags": [
+      "moon",
+      "quarter",
+      "space",
+      "weather"
+    ],
+    "code": "1f317",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f317.svg"
+  },
+  {
+    "desc": "waning crescent moon",
+    "tags": [
+      "crescent",
+      "moon",
+      "space",
+      "waning",
+      "weather"
+    ],
+    "code": "1f318",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f318.svg"
+  },
+  {
+    "desc": "crescent moon",
+    "tags": [
+      "crescent",
+      "moon",
+      "space",
+      "weather"
+    ],
+    "code": "1f319",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f319.svg"
+  },
+  {
+    "desc": "new moon face",
+    "tags": [
+      "face",
+      "moon",
+      "space",
+      "weather"
+    ],
+    "code": "1f31a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f31a.svg"
+  },
+  {
+    "desc": "first quarter moon with face",
+    "tags": [
+      "face",
+      "moon",
+      "quarter",
+      "space",
+      "weather"
+    ],
+    "code": "1f31b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f31b.svg"
+  },
+  {
+    "desc": "last quarter moon with face",
+    "tags": [
+      "face",
+      "moon",
+      "quarter",
+      "space",
+      "weather"
+    ],
+    "code": "1f31c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f31c.svg"
+  },
+  {
+    "desc": "thermometer",
+    "tags": [
+      "weather"
+    ],
+    "code": "1f321",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f321.svg"
+  },
+  {
+    "desc": "sun",
+    "tags": [
+      "bright",
+      "rays",
+      "space",
+      "sunny",
+      "weather"
+    ],
+    "code": "2600",
+    "url": "https://twemoji.maxcdn.com/2/svg/2600.svg"
+  },
+  {
+    "desc": "full moon with face",
+    "tags": [
+      "bright",
+      "face",
+      "full",
+      "moon",
+      "space",
+      "weather"
+    ],
+    "code": "1f31d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f31d.svg"
+  },
+  {
+    "desc": "sun with face",
+    "tags": [
+      "bright",
+      "face",
+      "space",
+      "sun",
+      "weather"
+    ],
+    "code": "1f31e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f31e.svg"
+  },
+  {
+    "desc": "white medium star",
+    "tags": [
+      "star"
+    ],
+    "code": "2b50",
+    "url": "https://twemoji.maxcdn.com/2/svg/2b50.svg"
+  },
+  {
+    "desc": "glowing star",
+    "tags": [
+      "glittery",
+      "glow",
+      "shining",
+      "sparkle",
+      "star"
+    ],
+    "code": "1f31f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f31f.svg"
+  },
+  {
+    "desc": "shooting star",
+    "tags": [
+      "falling",
+      "shooting",
+      "space",
+      "star"
+    ],
+    "code": "1f320",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f320.svg"
+  },
+  {
+    "desc": "cloud",
+    "tags": [
+      "weather"
+    ],
+    "code": "2601",
+    "url": "https://twemoji.maxcdn.com/2/svg/2601.svg"
+  },
+  {
+    "desc": "sun behind cloud",
+    "tags": [
+      "cloud",
+      "sun",
+      "weather"
+    ],
+    "code": "26c5",
+    "url": "https://twemoji.maxcdn.com/2/svg/26c5.svg"
+  },
+  {
+    "desc": "cloud with lightning and rain",
+    "tags": [
+      "cloud",
+      "rain",
+      "thunder",
+      "weather"
+    ],
+    "code": "26c8",
+    "url": "https://twemoji.maxcdn.com/2/svg/26c8.svg"
+  },
+  {
+    "desc": "sun behind small cloud",
+    "tags": [
+      "cloud",
+      "sun",
+      "weather"
+    ],
+    "code": "1f324",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f324.svg"
+  },
+  {
+    "desc": "sun behind large cloud",
+    "tags": [
+      "cloud",
+      "sun",
+      "weather"
+    ],
+    "code": "1f325",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f325.svg"
+  },
+  {
+    "desc": "sun behind cloud with rain",
+    "tags": [
+      "cloud",
+      "rain",
+      "sun",
+      "weather"
+    ],
+    "code": "1f326",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f326.svg"
+  },
+  {
+    "desc": "cloud with rain",
+    "tags": [
+      "cloud",
+      "rain",
+      "weather"
+    ],
+    "code": "1f327",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f327.svg"
+  },
+  {
+    "desc": "cloud with snow",
+    "tags": [
+      "cloud",
+      "cold",
+      "snow",
+      "weather"
+    ],
+    "code": "1f328",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f328.svg"
+  },
+  {
+    "desc": "cloud with lightning",
+    "tags": [
+      "cloud",
+      "lightning",
+      "weather"
+    ],
+    "code": "1f329",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f329.svg"
+  },
+  {
+    "desc": "tornado",
+    "tags": [
+      "cloud",
+      "weather",
+      "whirlwind"
+    ],
+    "code": "1f32a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f32a.svg"
+  },
+  {
+    "desc": "fog",
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "code": "1f32b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f32b.svg"
+  },
+  {
+    "desc": "wind face",
+    "tags": [
+      "blow",
+      "cloud",
+      "face",
+      "weather",
+      "wind"
+    ],
+    "code": "1f32c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f32c.svg"
+  },
+  {
+    "desc": "cyclone",
+    "tags": [
+      "dizzy",
+      "twister",
+      "typhoon",
+      "weather"
+    ],
+    "code": "1f300",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f300.svg"
+  },
+  {
+    "desc": "rainbow",
+    "tags": [
+      "rain",
+      "weather"
+    ],
+    "code": "1f308",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f308.svg"
+  },
+  {
+    "desc": "closed umbrella",
+    "tags": [
+      "clothing",
+      "rain",
+      "umbrella",
+      "weather"
+    ],
+    "code": "1f302",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f302.svg"
+  },
+  {
+    "desc": "umbrella",
+    "tags": [
+      "clothing",
+      "rain",
+      "weather"
+    ],
+    "code": "2602",
+    "url": "https://twemoji.maxcdn.com/2/svg/2602.svg"
+  },
+  {
+    "desc": "umbrella with rain drops",
+    "tags": [
+      "clothing",
+      "drop",
+      "rain",
+      "umbrella",
+      "weather"
+    ],
+    "code": "2614",
+    "url": "https://twemoji.maxcdn.com/2/svg/2614.svg"
+  },
+  {
+    "desc": "umbrella on ground",
+    "tags": [
+      "rain",
+      "sun",
+      "umbrella",
+      "weather"
+    ],
+    "code": "26f1",
+    "url": "https://twemoji.maxcdn.com/2/svg/26f1.svg"
+  },
+  {
+    "desc": "high voltage",
+    "tags": [
+      "danger",
+      "electric",
+      "electricity",
+      "lightning",
+      "voltage",
+      "zap"
+    ],
+    "code": "26a1",
+    "url": "https://twemoji.maxcdn.com/2/svg/26a1.svg"
+  },
+  {
+    "desc": "snowflake",
+    "tags": [
+      "cold",
+      "snow",
+      "weather"
+    ],
+    "code": "2744",
+    "url": "https://twemoji.maxcdn.com/2/svg/2744.svg"
+  },
+  {
+    "desc": "snowman",
+    "tags": [
+      "cold",
+      "snow",
+      "weather"
+    ],
+    "code": "2603",
+    "url": "https://twemoji.maxcdn.com/2/svg/2603.svg"
+  },
+  {
+    "desc": "snowman without snow",
+    "tags": [
+      "cold",
+      "snow",
+      "snowman",
+      "weather"
+    ],
+    "code": "26c4",
+    "url": "https://twemoji.maxcdn.com/2/svg/26c4.svg"
+  },
+  {
+    "desc": "comet",
+    "tags": [
+      "space"
+    ],
+    "code": "2604",
+    "url": "https://twemoji.maxcdn.com/2/svg/2604.svg"
+  },
+  {
+    "desc": "fire",
+    "tags": [
+      "flame",
+      "tool"
+    ],
+    "code": "1f525",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f525.svg"
+  },
+  {
+    "desc": "droplet",
+    "tags": [
+      "cold",
+      "comic",
+      "drop",
+      "sweat",
+      "weather"
+    ],
+    "code": "1f4a7",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4a7.svg"
+  },
+  {
+    "desc": "water wave",
+    "tags": [
+      "ocean",
+      "water",
+      "wave",
+      "weather"
+    ],
+    "code": "1f30a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f30a.svg"
+  },
+  {
+    "desc": "jack-o-lantern",
+    "tags": [
+      "celebration",
+      "halloween",
+      "jack",
+      "lantern"
+    ],
+    "code": "1f383",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f383.svg"
+  },
+  {
+    "desc": "christmas tree",
+    "tags": [
+      "celebration",
+      "christmas",
+      "tree"
+    ],
+    "code": "1f384",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f384.svg"
+  },
+  {
+    "desc": "fireworks",
+    "tags": [
+      "celebration"
+    ],
+    "code": "1f386",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f386.svg"
+  },
+  {
+    "desc": "sparkler",
+    "tags": [
+      "celebration",
+      "fireworks",
+      "sparkle"
+    ],
+    "code": "1f387",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f387.svg"
+  },
+  {
+    "desc": "sparkles",
+    "tags": [
+      "sparkle",
+      "star"
+    ],
+    "code": "2728",
+    "url": "https://twemoji.maxcdn.com/2/svg/2728.svg"
+  },
+  {
+    "desc": "balloon",
+    "tags": [
+      "celebration"
+    ],
+    "code": "1f388",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f388.svg"
+  },
+  {
+    "desc": "party popper",
+    "tags": [
+      "celebration",
+      "party",
+      "popper",
+      "tada"
+    ],
+    "code": "1f389",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f389.svg"
+  },
+  {
+    "desc": "confetti ball",
+    "tags": [
+      "ball",
+      "celebration",
+      "confetti"
+    ],
+    "code": "1f38a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f38a.svg"
+  },
+  {
+    "desc": "tanabata tree",
+    "tags": [
+      "banner",
+      "celebration",
+      "japanese",
+      "tree"
+    ],
+    "code": "1f38b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f38b.svg"
+  },
+  {
+    "desc": "crossed flags",
+    "tags": [
+      "celebration",
+      "cross",
+      "crossed",
+      "japanese"
+    ],
+    "code": "1f38c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f38c.svg"
+  },
+  {
+    "desc": "pine decoration",
+    "tags": [
+      "bamboo",
+      "celebration",
+      "japanese",
+      "pine",
+      "plant"
+    ],
+    "code": "1f38d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f38d.svg"
+  },
+  {
+    "desc": "japanese dolls",
+    "tags": [
+      "celebration",
+      "doll",
+      "festival",
+      "japanese"
+    ],
+    "code": "1f38e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f38e.svg"
+  },
+  {
+    "desc": "carp streamer",
+    "tags": [
+      "carp",
+      "celebration",
+      "streamer"
+    ],
+    "code": "1f38f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f38f.svg"
+  },
+  {
+    "desc": "wind chime",
+    "tags": [
+      "bell",
+      "celebration",
+      "chime",
+      "wind"
+    ],
+    "code": "1f390",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f390.svg"
+  },
+  {
+    "desc": "moon ceremony",
+    "tags": [
+      "celebration",
+      "ceremony",
+      "moon"
+    ],
+    "code": "1f391",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f391.svg"
+  },
+  {
+    "desc": "ribbon",
+    "tags": [
+      "celebration"
+    ],
+    "code": "1f380",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f380.svg"
+  },
+  {
+    "desc": "wrapped present",
+    "tags": [
+      "box",
+      "celebration",
+      "gift",
+      "present",
+      "wrapped"
+    ],
+    "code": "1f381",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f381.svg"
+  },
+  {
+    "desc": "military medal",
+    "tags": [
+      "celebration",
+      "medal",
+      "military"
+    ],
+    "code": "1f396",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f396.svg"
+  },
+  {
+    "desc": "reminder ribbon",
+    "tags": [
+      "celebration",
+      "reminder",
+      "ribbon"
+    ],
+    "code": "1f397",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f397.svg"
+  },
+  {
+    "desc": "film frames",
+    "tags": [
+      "cinema",
+      "film",
+      "frames",
+      "movie"
+    ],
+    "code": "1f39e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f39e.svg"
+  },
+  {
+    "desc": "admission tickets",
+    "tags": [
+      "admission",
+      "ticket"
+    ],
+    "code": "1f39f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f39f.svg"
+  },
+  {
+    "desc": "ticket",
+    "tags": [
+      "admission"
+    ],
+    "code": "1f3ab",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3ab.svg"
+  },
+  {
+    "desc": "label",
+    "tags": [
+      "label"
+    ],
+    "code": "1f3f7",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3f7.svg"
+  },
+  {
+    "desc": "soccer ball",
+    "tags": [
+      "ball",
+      "soccer"
+    ],
+    "code": "26bd",
+    "url": "https://twemoji.maxcdn.com/2/svg/26bd.svg"
+  },
+  {
+    "desc": "baseball",
+    "tags": [
+      "ball"
+    ],
+    "code": "26be",
+    "url": "https://twemoji.maxcdn.com/2/svg/26be.svg"
+  },
+  {
+    "desc": "basketball",
+    "tags": [
+      "ball",
+      "hoop"
+    ],
+    "code": "1f3c0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3c0.svg"
+  },
+  {
+    "desc": "american football",
+    "tags": [
+      "american",
+      "ball",
+      "football"
+    ],
+    "code": "1f3c8",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3c8.svg"
+  },
+  {
+    "desc": "rugby football",
+    "tags": [
+      "ball",
+      "football",
+      "rugby"
+    ],
+    "code": "1f3c9",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3c9.svg"
+  },
+  {
+    "desc": "tennis",
+    "tags": [
+      "ball",
+      "racquet"
+    ],
+    "code": "1f3be",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3be.svg"
+  },
+  {
+    "desc": "billiards",
+    "tags": [
+      "8",
+      "8 ball",
+      "ball",
+      "billiard",
+      "eight",
+      "game"
+    ],
+    "code": "1f3b1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3b1.svg"
+  },
+  {
+    "desc": "bowling",
+    "tags": [
+      "ball",
+      "game"
+    ],
+    "code": "1f3b3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3b3.svg"
+  },
+  {
+    "desc": "flag in hole",
+    "tags": [
+      "golf",
+      "hole"
+    ],
+    "code": "26f3",
+    "url": "https://twemoji.maxcdn.com/2/svg/26f3.svg"
+  },
+  {
+    "desc": "golfer",
+    "tags": [
+      "ball",
+      "golf"
+    ],
+    "code": "1f3cc",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3cc.svg"
+  },
+  {
+    "desc": "ice skate",
+    "tags": [
+      "ice",
+      "skate"
+    ],
+    "code": "26f8",
+    "url": "https://twemoji.maxcdn.com/2/svg/26f8.svg"
+  },
+  {
+    "desc": "fishing pole",
+    "tags": [
+      "fish",
+      "pole"
+    ],
+    "code": "1f3a3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3a3.svg"
+  },
+  {
+    "desc": "running shirt",
+    "tags": [
+      "running",
+      "sash",
+      "shirt"
+    ],
+    "code": "1f3bd",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3bd.svg"
+  },
+  {
+    "desc": "skis",
+    "tags": [
+      "ski",
+      "snow"
+    ],
+    "code": "1f3bf",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3bf.svg"
+  },
+  {
+    "desc": "skier",
+    "tags": [
+      "ski",
+      "snow"
+    ],
+    "code": "26f7",
+    "url": "https://twemoji.maxcdn.com/2/svg/26f7.svg"
+  },
+  {
+    "desc": "snowboarder",
+    "tags": [
+      "ski",
+      "snow",
+      "snowboard"
+    ],
+    "code": "1f3c2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3c2.svg"
+  },
+  {
+    "desc": "surfer",
+    "tags": [
+      "surfing"
+    ],
+    "code": "1f3c4",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3c4.svg"
+  },
+  {
+    "desc": "horse racing",
+    "tags": [
+      "horse",
+      "jockey",
+      "racehorse",
+      "racing"
+    ],
+    "code": "1f3c7",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3c7.svg"
+  },
+  {
+    "desc": "swimmer",
+    "tags": [
+      "swim"
+    ],
+    "code": "1f3ca",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3ca.svg"
+  },
+  {
+    "desc": "person with ball",
+    "tags": [
+      "ball"
+    ],
+    "code": "26f9",
+    "url": "https://twemoji.maxcdn.com/2/svg/26f9.svg"
+  },
+  {
+    "desc": "weight lifter",
+    "tags": [
+      "lifter",
+      "weight"
+    ],
+    "code": "1f3cb",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3cb.svg"
+  },
+  {
+    "desc": "bicyclist",
+    "tags": [
+      "bicycle",
+      "bike",
+      "cyclist"
+    ],
+    "code": "1f6b4",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6b4.svg"
+  },
+  {
+    "desc": "mountain biker",
+    "tags": [
+      "bicycle",
+      "bicyclist",
+      "bike",
+      "cyclist",
+      "mountain"
+    ],
+    "code": "1f6b5",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6b5.svg"
+  },
+  {
+    "desc": "racing car",
+    "tags": [
+      "car",
+      "racing"
+    ],
+    "code": "1f3ce",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3ce.svg"
+  },
+  {
+    "desc": "motorcycle",
+    "tags": [
+      "racing"
+    ],
+    "code": "1f3cd",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3cd.svg"
+  },
+  {
+    "desc": "sports medal",
+    "tags": [
+      "medal"
+    ],
+    "code": "1f3c5",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3c5.svg"
+  },
+  {
+    "desc": "trophy",
+    "tags": [
+      "prize"
+    ],
+    "code": "1f3c6",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3c6.svg"
+  },
+  {
+    "desc": "cricket",
+    "tags": [
+      "ball",
+      "bat",
+      "game"
+    ],
+    "code": "1f3cf",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3cf.svg"
+  },
+  {
+    "desc": "volleyball",
+    "tags": [
+      "ball",
+      "game"
+    ],
+    "code": "1f3d0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3d0.svg"
+  },
+  {
+    "desc": "field hockey",
+    "tags": [
+      "ball",
+      "field",
+      "game",
+      "hockey",
+      "stick"
+    ],
+    "code": "1f3d1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3d1.svg"
+  },
+  {
+    "desc": "ice hockey stick and puck",
+    "tags": [
+      "game",
+      "hockey",
+      "ice",
+      "puck",
+      "stick"
+    ],
+    "code": "1f3d2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3d2.svg"
+  },
+  {
+    "desc": "ping pong",
+    "tags": [
+      "ball",
+      "bat",
+      "game",
+      "paddle",
+      "table tennis"
+    ],
+    "code": "1f3d3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3d3.svg"
+  },
+  {
+    "desc": "badminton",
+    "tags": [
+      "birdie",
+      "game",
+      "racquet",
+      "shuttlecock"
+    ],
+    "code": "1f3f8",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3f8.svg"
+  },
+  {
+    "desc": "direct hit",
+    "tags": [
+      "bull",
+      "bullseye",
+      "dart",
+      "eye",
+      "game",
+      "hit",
+      "target"
+    ],
+    "code": "1f3af",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3af.svg"
+  },
+  {
+    "desc": "video game",
+    "tags": [
+      "controller",
+      "game"
+    ],
+    "code": "1f3ae",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3ae.svg"
+  },
+  {
+    "desc": "joystick",
+    "tags": [
+      "game",
+      "video game"
+    ],
+    "code": "1f579",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f579.svg"
+  },
+  {
+    "desc": "game die",
+    "tags": [
+      "dice",
+      "die",
+      "game"
+    ],
+    "code": "1f3b2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3b2.svg"
+  },
+  {
+    "desc": "spade suit",
+    "tags": [
+      "card",
+      "game",
+      "spade",
+      "suit"
+    ],
+    "code": "2660",
+    "url": "https://twemoji.maxcdn.com/2/svg/2660.svg"
+  },
+  {
+    "desc": "heart suit",
+    "tags": [
+      "card",
+      "game",
+      "heart",
+      "hearts",
+      "suit"
+    ],
+    "code": "2665",
+    "url": "https://twemoji.maxcdn.com/2/svg/2665.svg"
+  },
+  {
+    "desc": "diamond suit",
+    "tags": [
+      "card",
+      "diamond",
+      "diamonds",
+      "game",
+      "suit"
+    ],
+    "code": "2666",
+    "url": "https://twemoji.maxcdn.com/2/svg/2666.svg"
+  },
+  {
+    "desc": "club suit",
+    "tags": [
+      "card",
+      "club",
+      "clubs",
+      "game",
+      "suit"
+    ],
+    "code": "2663",
+    "url": "https://twemoji.maxcdn.com/2/svg/2663.svg"
+  },
+  {
+    "desc": "joker",
+    "tags": [
+      "card",
+      "game",
+      "playing"
+    ],
+    "code": "1f0cf",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f0cf.svg"
+  },
+  {
+    "desc": "mahjong red dragon",
+    "tags": [
+      "game",
+      "mahjong",
+      "red"
+    ],
+    "code": "1f004",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f004.svg"
+  },
+  {
+    "desc": "flower playing cards",
+    "tags": [
+      "card",
+      "flower",
+      "game",
+      "japanese",
+      "playing"
+    ],
+    "code": "1f3b4",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3b4.svg"
+  },
+  {
+    "desc": "speaker off",
+    "tags": [
+      "mute",
+      "quiet",
+      "silent",
+      "speaker",
+      "volume"
+    ],
+    "code": "1f507",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f507.svg"
+  },
+  {
+    "desc": "speaker",
+    "tags": [
+      "volume"
+    ],
+    "code": "1f508",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f508.svg"
+  },
+  {
+    "desc": "speaker on",
+    "tags": [
+      "low",
+      "speaker",
+      "volume",
+      "wave"
+    ],
+    "code": "1f509",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f509.svg"
+  },
+  {
+    "desc": "speaker loud",
+    "tags": [
+      "3",
+      "high",
+      "loud",
+      "speaker",
+      "three",
+      "volume"
+    ],
+    "code": "1f50a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f50a.svg"
+  },
+  {
+    "desc": "loudspeaker",
+    "tags": [
+      "loud",
+      "public address"
+    ],
+    "code": "1f4e2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4e2.svg"
+  },
+  {
+    "desc": "megaphone",
+    "tags": [
+      "cheering"
+    ],
+    "code": "1f4e3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4e3.svg"
+  },
+  {
+    "desc": "postal horn",
+    "tags": [
+      "horn",
+      "post",
+      "postal"
+    ],
+    "code": "1f4ef",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4ef.svg"
+  },
+  {
+    "desc": "bell",
+    "tags": [
+      "bell"
+    ],
+    "code": "1f514",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f514.svg"
+  },
+  {
+    "desc": "bell with slash",
+    "tags": [
+      "bell",
+      "forbidden",
+      "mute",
+      "no",
+      "not",
+      "prohibited",
+      "quiet",
+      "silent"
+    ],
+    "code": "1f515",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f515.svg"
+  },
+  {
+    "desc": "musical score",
+    "tags": [
+      "music",
+      "score"
+    ],
+    "code": "1f3bc",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3bc.svg"
+  },
+  {
+    "desc": "musical note",
+    "tags": [
+      "music",
+      "note"
+    ],
+    "code": "1f3b5",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3b5.svg"
+  },
+  {
+    "desc": "musical notes",
+    "tags": [
+      "music",
+      "note",
+      "notes"
+    ],
+    "code": "1f3b6",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3b6.svg"
+  },
+  {
+    "desc": "studio microphone",
+    "tags": [
+      "mic",
+      "microphone",
+      "music",
+      "studio"
+    ],
+    "code": "1f399",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f399.svg"
+  },
+  {
+    "desc": "level slider",
+    "tags": [
+      "level",
+      "music",
+      "slider"
+    ],
+    "code": "1f39a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f39a.svg"
+  },
+  {
+    "desc": "control knobs",
+    "tags": [
+      "control",
+      "knobs",
+      "music"
+    ],
+    "code": "1f39b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f39b.svg"
+  },
+  {
+    "desc": "microphone",
+    "tags": [
+      "karaoke",
+      "mic"
+    ],
+    "code": "1f3a4",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3a4.svg"
+  },
+  {
+    "desc": "headphone",
+    "tags": [
+      "earbud"
+    ],
+    "code": "1f3a7",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3a7.svg"
+  },
+  {
+    "desc": "saxophone",
+    "tags": [
+      "instrument",
+      "music",
+      "sax"
+    ],
+    "code": "1f3b7",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3b7.svg"
+  },
+  {
+    "desc": "guitar",
+    "tags": [
+      "instrument",
+      "music"
+    ],
+    "code": "1f3b8",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3b8.svg"
+  },
+  {
+    "desc": "musical keyboard",
+    "tags": [
+      "instrument",
+      "keyboard",
+      "music",
+      "piano"
+    ],
+    "code": "1f3b9",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3b9.svg"
+  },
+  {
+    "desc": "trumpet",
+    "tags": [
+      "instrument",
+      "music"
+    ],
+    "code": "1f3ba",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3ba.svg"
+  },
+  {
+    "desc": "violin",
+    "tags": [
+      "instrument",
+      "music"
+    ],
+    "code": "1f3bb",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3bb.svg"
+  },
+  {
+    "desc": "radio",
+    "tags": [
+      "video"
+    ],
+    "code": "1f4fb",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4fb.svg"
+  },
+  {
+    "desc": "mobile phone",
+    "tags": [
+      "cell",
+      "mobile",
+      "phone",
+      "telephone"
+    ],
+    "code": "1f4f1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4f1.svg"
+  },
+  {
+    "desc": "mobile phone with arrow",
+    "tags": [
+      "arrow",
+      "call",
+      "cell",
+      "mobile",
+      "phone",
+      "receive",
+      "telephone"
+    ],
+    "code": "1f4f2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4f2.svg"
+  },
+  {
+    "desc": "telephone",
+    "tags": [
+      "phone"
+    ],
+    "code": "260e",
+    "url": "https://twemoji.maxcdn.com/2/svg/260e.svg"
+  },
+  {
+    "desc": "telephone receiver",
+    "tags": [
+      "phone",
+      "receiver",
+      "telephone"
+    ],
+    "code": "1f4de",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4de.svg"
+  },
+  {
+    "desc": "pager",
+    "tags": [
+      "pager"
+    ],
+    "code": "1f4df",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4df.svg"
+  },
+  {
+    "desc": "fax machine",
+    "tags": [
+      "fax"
+    ],
+    "code": "1f4e0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4e0.svg"
+  },
+  {
+    "desc": "battery",
+    "tags": [
+      "battery"
+    ],
+    "code": "1f50b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f50b.svg"
+  },
+  {
+    "desc": "electric plug",
+    "tags": [
+      "electric",
+      "electricity",
+      "plug"
+    ],
+    "code": "1f50c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f50c.svg"
+  },
+  {
+    "desc": "laptop computer",
+    "tags": [
+      "computer",
+      "pc",
+      "personal"
+    ],
+    "code": "1f4bb",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4bb.svg"
+  },
+  {
+    "desc": "desktop computer",
+    "tags": [
+      "computer",
+      "desktop"
+    ],
+    "code": "1f5a5",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5a5.svg"
+  },
+  {
+    "desc": "printer",
+    "tags": [
+      "computer"
+    ],
+    "code": "1f5a8",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5a8.svg"
+  },
+  {
+    "desc": "keyboard",
+    "tags": [
+      "computer"
+    ],
+    "code": "2328",
+    "url": "https://twemoji.maxcdn.com/2/svg/2328.svg"
+  },
+  {
+    "desc": "computer mouse",
+    "tags": [
+      "3",
+      "button",
+      "computer",
+      "mouse",
+      "three"
+    ],
+    "code": "1f5b1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5b1.svg"
+  },
+  {
+    "desc": "trackball",
+    "tags": [
+      "computer"
+    ],
+    "code": "1f5b2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5b2.svg"
+  },
+  {
+    "desc": "minidisc",
+    "tags": [
+      "computer",
+      "disk",
+      "minidisk",
+      "optical"
+    ],
+    "code": "1f4bd",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4bd.svg"
+  },
+  {
+    "desc": "floppy disk",
+    "tags": [
+      "computer",
+      "disk",
+      "floppy"
+    ],
+    "code": "1f4be",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4be.svg"
+  },
+  {
+    "desc": "optical disc",
+    "tags": [
+      "dvd",
+      "blu-ray",
+      "cd",
+      "computer",
+      "disk",
+      "optical"
+    ],
+    "code": "1f4bf",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4bf.svg"
+  },
+  {
+    "desc": "dvd",
+    "tags": [
+      "blu-ray",
+      "cd",
+      "computer",
+      "disk",
+      "optical"
+    ],
+    "code": "1f4c0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4c0.svg"
+  },
+  {
+    "desc": "movie camera",
+    "tags": [
+      "camera",
+      "cinema",
+      "movie"
+    ],
+    "code": "1f3a5",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3a5.svg"
+  },
+  {
+    "desc": "clapper board",
+    "tags": [
+      "clapper",
+      "movie"
+    ],
+    "code": "1f3ac",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3ac.svg"
+  },
+  {
+    "desc": "film projector",
+    "tags": [
+      "cinema",
+      "film",
+      "movie",
+      "projector",
+      "video"
+    ],
+    "code": "1f4fd",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4fd.svg"
+  },
+  {
+    "desc": "television",
+    "tags": [
+      "tv",
+      "video"
+    ],
+    "code": "1f4fa",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4fa.svg"
+  },
+  {
+    "desc": "camera",
+    "tags": [
+      "video"
+    ],
+    "code": "1f4f7",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4f7.svg"
+  },
+  {
+    "desc": "camera with flash",
+    "tags": [
+      "camera",
+      "flash",
+      "video"
+    ],
+    "code": "1f4f8",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4f8.svg"
+  },
+  {
+    "desc": "video camera",
+    "tags": [
+      "camera",
+      "video"
+    ],
+    "code": "1f4f9",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4f9.svg"
+  },
+  {
+    "desc": "videocassette",
+    "tags": [
+      "tape",
+      "vhs",
+      "video"
+    ],
+    "code": "1f4fc",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4fc.svg"
+  },
+  {
+    "desc": "left-pointing magnifying glass",
+    "tags": [
+      "glass",
+      "magnifying",
+      "search",
+      "tool"
+    ],
+    "code": "1f50d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f50d.svg"
+  },
+  {
+    "desc": "right-pointing magnifying glass",
+    "tags": [
+      "glass",
+      "magnifying",
+      "search",
+      "tool"
+    ],
+    "code": "1f50e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f50e.svg"
+  },
+  {
+    "desc": "microscope",
+    "tags": [
+      "tool"
+    ],
+    "code": "1f52c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f52c.svg"
+  },
+  {
+    "desc": "telescope",
+    "tags": [
+      "tool"
+    ],
+    "code": "1f52d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f52d.svg"
+  },
+  {
+    "desc": "satellite antenna",
+    "tags": [
+      "antenna",
+      "dish",
+      "satellite"
+    ],
+    "code": "1f4e1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4e1.svg"
+  },
+  {
+    "desc": "candle",
+    "tags": [
+      "light"
+    ],
+    "code": "1f56f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f56f.svg"
+  },
+  {
+    "desc": "light bulb",
+    "tags": [
+      "bulb",
+      "comic",
+      "electric",
+      "idea",
+      "light"
+    ],
+    "code": "1f4a1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4a1.svg"
+  },
+  {
+    "desc": "flashlight",
+    "tags": [
+      "electric",
+      "light",
+      "tool",
+      "torch"
+    ],
+    "code": "1f526",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f526.svg"
+  },
+  {
+    "desc": "red paper lantern",
+    "tags": [
+      "bar",
+      "japanese",
+      "lantern",
+      "light",
+      "red"
+    ],
+    "code": "1f3ee",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3ee.svg"
+  },
+  {
+    "desc": "notebook with decorative cover",
+    "tags": [
+      "book",
+      "cover",
+      "decorated",
+      "notebook"
+    ],
+    "code": "1f4d4",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4d4.svg"
+  },
+  {
+    "desc": "closed book",
+    "tags": [
+      "book",
+      "closed"
+    ],
+    "code": "1f4d5",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4d5.svg"
+  },
+  {
+    "desc": "open book",
+    "tags": [
+      "book",
+      "open"
+    ],
+    "code": "1f4d6",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4d6.svg"
+  },
+  {
+    "desc": "green book",
+    "tags": [
+      "book",
+      "green"
+    ],
+    "code": "1f4d7",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4d7.svg"
+  },
+  {
+    "desc": "blue book",
+    "tags": [
+      "blue",
+      "book"
+    ],
+    "code": "1f4d8",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4d8.svg"
+  },
+  {
+    "desc": "orange book",
+    "tags": [
+      "book",
+      "orange"
+    ],
+    "code": "1f4d9",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4d9.svg"
+  },
+  {
+    "desc": "books",
+    "tags": [
+      "book"
+    ],
+    "code": "1f4da",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4da.svg"
+  },
+  {
+    "desc": "notebook",
+    "tags": [
+      "notebook"
+    ],
+    "code": "1f4d3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4d3.svg"
+  },
+  {
+    "desc": "ledger",
+    "tags": [
+      "notebook"
+    ],
+    "code": "1f4d2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4d2.svg"
+  },
+  {
+    "desc": "page with curl",
+    "tags": [
+      "curl",
+      "document",
+      "page"
+    ],
+    "code": "1f4c3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4c3.svg"
+  },
+  {
+    "desc": "scroll",
+    "tags": [
+      "paper"
+    ],
+    "code": "1f4dc",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4dc.svg"
+  },
+  {
+    "desc": "page facing up",
+    "tags": [
+      "document",
+      "page"
+    ],
+    "code": "1f4c4",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4c4.svg"
+  },
+  {
+    "desc": "newspaper",
+    "tags": [
+      "news",
+      "paper"
+    ],
+    "code": "1f4f0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4f0.svg"
+  },
+  {
+    "desc": "rolled-up newspaper",
+    "tags": [
+      "news",
+      "newspaper",
+      "paper",
+      "rolled"
+    ],
+    "code": "1f5de",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5de.svg"
+  },
+  {
+    "desc": "bookmark tabs",
+    "tags": [
+      "bookmark",
+      "mark",
+      "marker",
+      "tabs"
+    ],
+    "code": "1f4d1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4d1.svg"
+  },
+  {
+    "desc": "bookmark",
+    "tags": [
+      "mark"
+    ],
+    "code": "1f516",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f516.svg"
+  },
+  {
+    "desc": "money bag",
+    "tags": [
+      "bag",
+      "dollar",
+      "money",
+      "moneybag"
+    ],
+    "code": "1f4b0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4b0.svg"
+  },
+  {
+    "desc": "yen banknote",
+    "tags": [
+      "bank",
+      "banknote",
+      "bill",
+      "currency",
+      "money",
+      "note",
+      "yen"
+    ],
+    "code": "1f4b4",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4b4.svg"
+  },
+  {
+    "desc": "dollar banknote",
+    "tags": [
+      "bank",
+      "banknote",
+      "bill",
+      "currency",
+      "dollar",
+      "money",
+      "note"
+    ],
+    "code": "1f4b5",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4b5.svg"
+  },
+  {
+    "desc": "euro banknote",
+    "tags": [
+      "bank",
+      "banknote",
+      "bill",
+      "currency",
+      "euro",
+      "money",
+      "note"
+    ],
+    "code": "1f4b6",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4b6.svg"
+  },
+  {
+    "desc": "pound banknote",
+    "tags": [
+      "bank",
+      "banknote",
+      "bill",
+      "currency",
+      "money",
+      "note",
+      "pound"
+    ],
+    "code": "1f4b7",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4b7.svg"
+  },
+  {
+    "desc": "money with wings",
+    "tags": [
+      "bank",
+      "banknote",
+      "bill",
+      "dollar",
+      "fly",
+      "money",
+      "note",
+      "wings"
+    ],
+    "code": "1f4b8",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4b8.svg"
+  },
+  {
+    "desc": "credit card",
+    "tags": [
+      "bank",
+      "card",
+      "credit",
+      "money"
+    ],
+    "code": "1f4b3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4b3.svg"
+  },
+  {
+    "desc": "chart increasing with yen",
+    "tags": [
+      "bank",
+      "chart",
+      "currency",
+      "graph",
+      "growth",
+      "market",
+      "money",
+      "rise",
+      "trend",
+      "upward",
+      "yen"
+    ],
+    "code": "1f4b9",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4b9.svg"
+  },
+  {
+    "desc": "envelope",
+    "tags": [
+      "e-mail",
+      "email"
+    ],
+    "code": "2709",
+    "url": "https://twemoji.maxcdn.com/2/svg/2709.svg"
+  },
+  {
+    "desc": "e-mail",
+    "tags": [
+      "email",
+      "letter",
+      "mail"
+    ],
+    "code": "1f4e7",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4e7.svg"
+  },
+  {
+    "desc": "incoming envelope",
+    "tags": [
+      "e-mail",
+      "email",
+      "envelope",
+      "incoming",
+      "letter",
+      "mail",
+      "receive"
+    ],
+    "code": "1f4e8",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4e8.svg"
+  },
+  {
+    "desc": "envelope with arrow",
+    "tags": [
+      "arrow",
+      "down",
+      "e-mail",
+      "email",
+      "envelope",
+      "letter",
+      "mail",
+      "outgoing",
+      "sent"
+    ],
+    "code": "1f4e9",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4e9.svg"
+  },
+  {
+    "desc": "outbox tray",
+    "tags": [
+      "box",
+      "letter",
+      "mail",
+      "outbox",
+      "sent",
+      "tray"
+    ],
+    "code": "1f4e4",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4e4.svg"
+  },
+  {
+    "desc": "inbox tray",
+    "tags": [
+      "box",
+      "inbox",
+      "letter",
+      "mail",
+      "receive",
+      "tray"
+    ],
+    "code": "1f4e5",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4e5.svg"
+  },
+  {
+    "desc": "package",
+    "tags": [
+      "box",
+      "parcel"
+    ],
+    "code": "1f4e6",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4e6.svg"
+  },
+  {
+    "desc": "closed mailbox with raised flag",
+    "tags": [
+      "closed",
+      "mail",
+      "mailbox",
+      "postbox"
+    ],
+    "code": "1f4eb",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4eb.svg"
+  },
+  {
+    "desc": "closed mailbox with lowered flag",
+    "tags": [
+      "closed",
+      "lowered",
+      "mail",
+      "mailbox",
+      "postbox"
+    ],
+    "code": "1f4ea",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4ea.svg"
+  },
+  {
+    "desc": "open mailbox with raised flag",
+    "tags": [
+      "mail",
+      "mailbox",
+      "open",
+      "postbox"
+    ],
+    "code": "1f4ec",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4ec.svg"
+  },
+  {
+    "desc": "open mailbox with lowered flag",
+    "tags": [
+      "lowered",
+      "mail",
+      "mailbox",
+      "open",
+      "postbox"
+    ],
+    "code": "1f4ed",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4ed.svg"
+  },
+  {
+    "desc": "postbox",
+    "tags": [
+      "mail",
+      "mailbox"
+    ],
+    "code": "1f4ee",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4ee.svg"
+  },
+  {
+    "desc": "ballot box with ballot",
+    "tags": [
+      "ballot",
+      "box"
+    ],
+    "code": "1f5f3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5f3.svg"
+  },
+  {
+    "desc": "pencil",
+    "tags": [
+      "pencil"
+    ],
+    "code": "270f",
+    "url": "https://twemoji.maxcdn.com/2/svg/270f.svg"
+  },
+  {
+    "desc": "black nib",
+    "tags": [
+      "nib",
+      "pen"
+    ],
+    "code": "2712",
+    "url": "https://twemoji.maxcdn.com/2/svg/2712.svg"
+  },
+  {
+    "desc": "fountain pen",
+    "tags": [
+      "fountain",
+      "pen"
+    ],
+    "code": "1f58b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f58b.svg"
+  },
+  {
+    "desc": "pen",
+    "tags": [
+      "ballpoint"
+    ],
+    "code": "1f58a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f58a.svg"
+  },
+  {
+    "desc": "paintbrush",
+    "tags": [
+      "painting"
+    ],
+    "code": "1f58c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f58c.svg"
+  },
+  {
+    "desc": "crayon",
+    "tags": [
+      "crayon"
+    ],
+    "code": "1f58d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f58d.svg"
+  },
+  {
+    "desc": "memo",
+    "tags": [
+      "pencil"
+    ],
+    "code": "1f4dd",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4dd.svg"
+  },
+  {
+    "desc": "briefcase",
+    "tags": [
+      "briefcase"
+    ],
+    "code": "1f4bc",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4bc.svg"
+  },
+  {
+    "desc": "file folder",
+    "tags": [
+      "file",
+      "folder"
+    ],
+    "code": "1f4c1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4c1.svg"
+  },
+  {
+    "desc": "open file folder",
+    "tags": [
+      "file",
+      "folder",
+      "open"
+    ],
+    "code": "1f4c2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4c2.svg"
+  },
+  {
+    "desc": "card index dividers",
+    "tags": [
+      "card",
+      "dividers",
+      "index"
+    ],
+    "code": "1f5c2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5c2.svg"
+  },
+  {
+    "desc": "calendar",
+    "tags": [
+      "date"
+    ],
+    "code": "1f4c5",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4c5.svg"
+  },
+  {
+    "desc": "tear-off calendar",
+    "tags": [
+      "calendar"
+    ],
+    "code": "1f4c6",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4c6.svg"
+  },
+  {
+    "desc": "spiral notepad",
+    "tags": [
+      "note",
+      "pad",
+      "spiral"
+    ],
+    "code": "1f5d2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5d2.svg"
+  },
+  {
+    "desc": "spiral calendar",
+    "tags": [
+      "calendar",
+      "pad",
+      "spiral"
+    ],
+    "code": "1f5d3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5d3.svg"
+  },
+  {
+    "desc": "card index",
+    "tags": [
+      "card",
+      "index",
+      "rolodex"
+    ],
+    "code": "1f4c7",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4c7.svg"
+  },
+  {
+    "desc": "chart increasing",
+    "tags": [
+      "chart",
+      "graph",
+      "growth",
+      "trend",
+      "upward"
+    ],
+    "code": "1f4c8",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4c8.svg"
+  },
+  {
+    "desc": "chart decreasing",
+    "tags": [
+      "chart",
+      "down",
+      "graph",
+      "trend"
+    ],
+    "code": "1f4c9",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4c9.svg"
+  },
+  {
+    "desc": "bar chart",
+    "tags": [
+      "bar",
+      "chart",
+      "graph"
+    ],
+    "code": "1f4ca",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4ca.svg"
+  },
+  {
+    "desc": "clipboard",
+    "tags": [
+      "clipboard"
+    ],
+    "code": "1f4cb",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4cb.svg"
+  },
+  {
+    "desc": "pushpin",
+    "tags": [
+      "pin"
+    ],
+    "code": "1f4cc",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4cc.svg"
+  },
+  {
+    "desc": "round pushpin",
+    "tags": [
+      "pin",
+      "pushpin"
+    ],
+    "code": "1f4cd",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4cd.svg"
+  },
+  {
+    "desc": "paperclip",
+    "tags": [
+      "paperclip"
+    ],
+    "code": "1f4ce",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4ce.svg"
+  },
+  {
+    "desc": "linked paperclips",
+    "tags": [
+      "link",
+      "paperclip"
+    ],
+    "code": "1f587",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f587.svg"
+  },
+  {
+    "desc": "straight ruler",
+    "tags": [
+      "ruler",
+      "straight edge"
+    ],
+    "code": "1f4cf",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4cf.svg"
+  },
+  {
+    "desc": "triangular ruler",
+    "tags": [
+      "ruler",
+      "set",
+      "triangle"
+    ],
+    "code": "1f4d0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4d0.svg"
+  },
+  {
+    "desc": "scissors",
+    "tags": [
+      "tool"
+    ],
+    "code": "2702",
+    "url": "https://twemoji.maxcdn.com/2/svg/2702.svg"
+  },
+  {
+    "desc": "card file box",
+    "tags": [
+      "box",
+      "card",
+      "file"
+    ],
+    "code": "1f5c3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5c3.svg"
+  },
+  {
+    "desc": "file cabinet",
+    "tags": [
+      "cabinet",
+      "file"
+    ],
+    "code": "1f5c4",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5c4.svg"
+  },
+  {
+    "desc": "wastebasket",
+    "tags": [
+      "wastebasket"
+    ],
+    "code": "1f5d1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5d1.svg"
+  },
+  {
+    "desc": "lock",
+    "tags": [
+      "closed"
+    ],
+    "code": "1f512",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f512.svg"
+  },
+  {
+    "desc": "open lock",
+    "tags": [
+      "lock",
+      "open",
+      "unlock"
+    ],
+    "code": "1f513",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f513.svg"
+  },
+  {
+    "desc": "lock with pen",
+    "tags": [
+      "ink",
+      "lock",
+      "nib",
+      "pen",
+      "privacy"
+    ],
+    "code": "1f50f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f50f.svg"
+  },
+  {
+    "desc": "closed lock with key",
+    "tags": [
+      "closed",
+      "key",
+      "lock",
+      "secure"
+    ],
+    "code": "1f510",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f510.svg"
+  },
+  {
+    "desc": "key",
+    "tags": [
+      "lock",
+      "password"
+    ],
+    "code": "1f511",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f511.svg"
+  },
+  {
+    "desc": "old key",
+    "tags": [
+      "clue",
+      "key",
+      "lock",
+      "old"
+    ],
+    "code": "1f5dd",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5dd.svg"
+  },
+  {
+    "desc": "hammer",
+    "tags": [
+      "tool"
+    ],
+    "code": "1f528",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f528.svg"
+  },
+  {
+    "desc": "pick",
+    "tags": [
+      "mining",
+      "tool"
+    ],
+    "code": "26cf",
+    "url": "https://twemoji.maxcdn.com/2/svg/26cf.svg"
+  },
+  {
+    "desc": "hammer and pick",
+    "tags": [
+      "hammer",
+      "pick",
+      "tool"
+    ],
+    "code": "2692",
+    "url": "https://twemoji.maxcdn.com/2/svg/2692.svg"
+  },
+  {
+    "desc": "hammer and wrench",
+    "tags": [
+      "hammer",
+      "tool",
+      "wrench"
+    ],
+    "code": "1f6e0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6e0.svg"
+  },
+  {
+    "desc": "wrench",
+    "tags": [
+      "tool"
+    ],
+    "code": "1f527",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f527.svg"
+  },
+  {
+    "desc": "nut and bolt",
+    "tags": [
+      "bolt",
+      "nut",
+      "tool"
+    ],
+    "code": "1f529",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f529.svg"
+  },
+  {
+    "desc": "gear",
+    "tags": [
+      "tool"
+    ],
+    "code": "2699",
+    "url": "https://twemoji.maxcdn.com/2/svg/2699.svg"
+  },
+  {
+    "desc": "compression",
+    "tags": [
+      "tool",
+      "vice"
+    ],
+    "code": "1f5dc",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5dc.svg"
+  },
+  {
+    "desc": "alembic",
+    "tags": [
+      "chemistry",
+      "tool"
+    ],
+    "code": "2697",
+    "url": "https://twemoji.maxcdn.com/2/svg/2697.svg"
+  },
+  {
+    "desc": "balance scale",
+    "tags": [
+      "balance",
+      "justice",
+      "libra",
+      "scales",
+      "tool",
+      "weight",
+      "zodiac"
+    ],
+    "code": "2696",
+    "url": "https://twemoji.maxcdn.com/2/svg/2696.svg"
+  },
+  {
+    "desc": "link",
+    "tags": [
+      "link"
+    ],
+    "code": "1f517",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f517.svg"
+  },
+  {
+    "desc": "chains",
+    "tags": [
+      "chain"
+    ],
+    "code": "26d3",
+    "url": "https://twemoji.maxcdn.com/2/svg/26d3.svg"
+  },
+  {
+    "desc": "syringe",
+    "tags": [
+      "doctor",
+      "medicine",
+      "needle",
+      "shot",
+      "sick",
+      "tool"
+    ],
+    "code": "1f489",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f489.svg"
+  },
+  {
+    "desc": "pill",
+    "tags": [
+      "doctor",
+      "medicine",
+      "sick"
+    ],
+    "code": "1f48a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f48a.svg"
+  },
+  {
+    "desc": "dagger",
+    "tags": [
+      "knife",
+      "weapon"
+    ],
+    "code": "1f5e1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5e1.svg"
+  },
+  {
+    "desc": "kitchen knife",
+    "tags": [
+      "cooking",
+      "hocho",
+      "knife",
+      "tool",
+      "weapon"
+    ],
+    "code": "1f52a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f52a.svg"
+  },
+  {
+    "desc": "crossed swords",
+    "tags": [
+      "crossed",
+      "swords",
+      "weapon"
+    ],
+    "code": "2694",
+    "url": "https://twemoji.maxcdn.com/2/svg/2694.svg"
+  },
+  {
+    "desc": "pistol",
+    "tags": [
+      "gun",
+      "handgun",
+      "revolver",
+      "tool",
+      "weapon"
+    ],
+    "code": "1f52b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f52b.svg"
+  },
+  {
+    "desc": "shield",
+    "tags": [
+      "weapon"
+    ],
+    "code": "1f6e1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6e1.svg"
+  },
+  {
+    "desc": "bow and arrow",
+    "tags": [
+      "archer",
+      "arrow",
+      "bow",
+      "sagittarius",
+      "tool",
+      "weapon",
+      "zodiac"
+    ],
+    "code": "1f3f9",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3f9.svg"
+  },
+  {
+    "desc": "chequered flag",
+    "tags": [
+      "checkered",
+      "chequered",
+      "racing"
+    ],
+    "code": "1f3c1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3c1.svg"
+  },
+  {
+    "desc": "waving white flag",
+    "tags": [
+      "waving"
+    ],
+    "code": "1f3f3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3f3.svg"
+  },
+  {
+    "desc": "waving black flag",
+    "tags": [
+      "waving"
+    ],
+    "code": "1f3f4",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3f4.svg"
+  },
+  {
+    "desc": "triangular flag",
+    "tags": [
+      "post"
+    ],
+    "code": "1f6a9",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6a9.svg"
+  },
+  {
+    "desc": "smoking",
+    "tags": [
+      "smoking"
+    ],
+    "code": "1f6ac",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6ac.svg"
+  },
+  {
+    "desc": "coffin",
+    "tags": [
+      "death"
+    ],
+    "code": "26b0",
+    "url": "https://twemoji.maxcdn.com/2/svg/26b0.svg"
+  },
+  {
+    "desc": "funeral urn",
+    "tags": [
+      "death",
+      "funeral",
+      "urn"
+    ],
+    "code": "26b1",
+    "url": "https://twemoji.maxcdn.com/2/svg/26b1.svg"
+  },
+  {
+    "desc": "moai",
+    "tags": [
+      "face",
+      "moyai",
+      "statue"
+    ],
+    "code": "1f5ff",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f5ff.svg"
+  },
+  {
+    "desc": "oil drum",
+    "tags": [
+      "drum",
+      "oil"
+    ],
+    "code": "1f6e2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6e2.svg"
+  },
+  {
+    "desc": "crystal ball",
+    "tags": [
+      "ball",
+      "crystal",
+      "fairy tale",
+      "fantasy",
+      "fortune",
+      "tool"
+    ],
+    "code": "1f52e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f52e.svg"
+  },
+  {
+    "desc": "ATM sign",
+    "tags": [
+      "atm",
+      "automated",
+      "bank",
+      "teller"
+    ],
+    "code": "1f3e7",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3e7.svg"
+  },
+  {
+    "desc": "litter in bin sign",
+    "tags": [
+      "litter",
+      "litterbox"
+    ],
+    "code": "1f6ae",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6ae.svg"
+  },
+  {
+    "desc": "potable water",
+    "tags": [
+      "drink",
+      "potable",
+      "water"
+    ],
+    "code": "1f6b0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6b0.svg"
+  },
+  {
+    "desc": "wheelchair",
+    "tags": [
+      "access"
+    ],
+    "code": "267f",
+    "url": "https://twemoji.maxcdn.com/2/svg/267f.svg"
+  },
+  {
+    "desc": "men’s room",
+    "tags": [
+      "lavatory",
+      "man",
+      "restroom",
+      "wc"
+    ],
+    "code": "1f6b9",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6b9.svg"
+  },
+  {
+    "desc": "women’s room",
+    "tags": [
+      "lavatory",
+      "restroom",
+      "wc",
+      "woman"
+    ],
+    "code": "1f6ba",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6ba.svg"
+  },
+  {
+    "desc": "restroom",
+    "tags": [
+      "lavatory",
+      "wc"
+    ],
+    "code": "1f6bb",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6bb.svg"
+  },
+  {
+    "desc": "baby symbol",
+    "tags": [
+      "baby",
+      "changing"
+    ],
+    "code": "1f6bc",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6bc.svg"
+  },
+  {
+    "desc": "water closet",
+    "tags": [
+      "closet",
+      "lavatory",
+      "restroom",
+      "water",
+      "wc"
+    ],
+    "code": "1f6be",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6be.svg"
+  },
+  {
+    "desc": "passport control",
+    "tags": [
+      "control",
+      "passport"
+    ],
+    "code": "1f6c2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6c2.svg"
+  },
+  {
+    "desc": "customs",
+    "tags": [
+      "customs"
+    ],
+    "code": "1f6c3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6c3.svg"
+  },
+  {
+    "desc": "baggage claim",
+    "tags": [
+      "baggage",
+      "claim"
+    ],
+    "code": "1f6c4",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6c4.svg"
+  },
+  {
+    "desc": "left luggage",
+    "tags": [
+      "baggage",
+      "locker",
+      "luggage"
+    ],
+    "code": "1f6c5",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6c5.svg"
+  },
+  {
+    "desc": "warning",
+    "tags": [
+      "warning"
+    ],
+    "code": "26a0",
+    "url": "https://twemoji.maxcdn.com/2/svg/26a0.svg"
+  },
+  {
+    "desc": "children crossing",
+    "tags": [
+      "child",
+      "crossing",
+      "pedestrian",
+      "traffic"
+    ],
+    "code": "1f6b8",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6b8.svg"
+  },
+  {
+    "desc": "no entry",
+    "tags": [
+      "entry",
+      "forbidden",
+      "no",
+      "not",
+      "prohibited",
+      "traffic"
+    ],
+    "code": "26d4",
+    "url": "https://twemoji.maxcdn.com/2/svg/26d4.svg"
+  },
+  {
+    "desc": "prohibited",
+    "tags": [
+      "entry",
+      "forbidden",
+      "no",
+      "not"
+    ],
+    "code": "1f6ab",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6ab.svg"
+  },
+  {
+    "desc": "no bicycles",
+    "tags": [
+      "bicycle",
+      "bike",
+      "forbidden",
+      "no",
+      "not",
+      "prohibited",
+      "vehicle"
+    ],
+    "code": "1f6b3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6b3.svg"
+  },
+  {
+    "desc": "no smoking",
+    "tags": [
+      "forbidden",
+      "no",
+      "not",
+      "prohibited",
+      "smoking"
+    ],
+    "code": "1f6ad",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6ad.svg"
+  },
+  {
+    "desc": "no littering",
+    "tags": [
+      "forbidden",
+      "litter",
+      "no",
+      "not",
+      "prohibited"
+    ],
+    "code": "1f6af",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6af.svg"
+  },
+  {
+    "desc": "non-potable water",
+    "tags": [
+      "drink",
+      "forbidden",
+      "no",
+      "not",
+      "potable",
+      "prohibited",
+      "water"
+    ],
+    "code": "1f6b1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6b1.svg"
+  },
+  {
+    "desc": "no pedestrians",
+    "tags": [
+      "forbidden",
+      "no",
+      "not",
+      "pedestrian",
+      "prohibited"
+    ],
+    "code": "1f6b7",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6b7.svg"
+  },
+  {
+    "desc": "radioactive",
+    "tags": [
+      "radioactive"
+    ],
+    "code": "2622",
+    "url": "https://twemoji.maxcdn.com/2/svg/2622.svg"
+  },
+  {
+    "desc": "biohazard",
+    "tags": [
+      "biohazard"
+    ],
+    "code": "2623",
+    "url": "https://twemoji.maxcdn.com/2/svg/2623.svg"
+  },
+  {
+    "desc": "up arrow",
+    "tags": [
+      "arrow",
+      "cardinal",
+      "direction",
+      "north"
+    ],
+    "code": "2b06",
+    "url": "https://twemoji.maxcdn.com/2/svg/2b06.svg"
+  },
+  {
+    "desc": "up-right arrow",
+    "tags": [
+      "arrow",
+      "direction",
+      "intercardinal",
+      "northeast"
+    ],
+    "code": "2197",
+    "url": "https://twemoji.maxcdn.com/2/svg/2197.svg"
+  },
+  {
+    "desc": "right arrow",
+    "tags": [
+      "arrow",
+      "cardinal",
+      "direction",
+      "east"
+    ],
+    "code": "27a1",
+    "url": "https://twemoji.maxcdn.com/2/svg/27a1.svg"
+  },
+  {
+    "desc": "down-right arrow",
+    "tags": [
+      "arrow",
+      "direction",
+      "intercardinal",
+      "southeast"
+    ],
+    "code": "2198",
+    "url": "https://twemoji.maxcdn.com/2/svg/2198.svg"
+  },
+  {
+    "desc": "down arrow",
+    "tags": [
+      "arrow",
+      "cardinal",
+      "direction",
+      "down",
+      "south"
+    ],
+    "code": "2b07",
+    "url": "https://twemoji.maxcdn.com/2/svg/2b07.svg"
+  },
+  {
+    "desc": "down-left arrow",
+    "tags": [
+      "arrow",
+      "direction",
+      "intercardinal",
+      "southwest"
+    ],
+    "code": "2199",
+    "url": "https://twemoji.maxcdn.com/2/svg/2199.svg"
+  },
+  {
+    "desc": "left arrow",
+    "tags": [
+      "arrow",
+      "cardinal",
+      "direction",
+      "west"
+    ],
+    "code": "2b05",
+    "url": "https://twemoji.maxcdn.com/2/svg/2b05.svg"
+  },
+  {
+    "desc": "up-left arrow",
+    "tags": [
+      "arrow",
+      "direction",
+      "intercardinal",
+      "northwest"
+    ],
+    "code": "2196",
+    "url": "https://twemoji.maxcdn.com/2/svg/2196.svg"
+  },
+  {
+    "desc": "up-down arrow",
+    "tags": [
+      "arrow"
+    ],
+    "code": "2195",
+    "url": "https://twemoji.maxcdn.com/2/svg/2195.svg"
+  },
+  {
+    "desc": "left-right arrow",
+    "tags": [
+      "arrow"
+    ],
+    "code": "2194",
+    "url": "https://twemoji.maxcdn.com/2/svg/2194.svg"
+  },
+  {
+    "desc": "right arrow curving left",
+    "tags": [
+      "arrow"
+    ],
+    "code": "21a9",
+    "url": "https://twemoji.maxcdn.com/2/svg/21a9.svg"
+  },
+  {
+    "desc": "left arrow curving right",
+    "tags": [
+      "arrow"
+    ],
+    "code": "21aa",
+    "url": "https://twemoji.maxcdn.com/2/svg/21aa.svg"
+  },
+  {
+    "desc": "right arrow curving up",
+    "tags": [
+      "arrow"
+    ],
+    "code": "2934",
+    "url": "https://twemoji.maxcdn.com/2/svg/2934.svg"
+  },
+  {
+    "desc": "right arrow curving down",
+    "tags": [
+      "arrow",
+      "down"
+    ],
+    "code": "2935",
+    "url": "https://twemoji.maxcdn.com/2/svg/2935.svg"
+  },
+  {
+    "desc": "clockwise vertical arrows",
+    "tags": [
+      "arrow",
+      "clockwise",
+      "reload"
+    ],
+    "code": "1f503",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f503.svg"
+  },
+  {
+    "desc": "anticlockwise arrows button",
+    "tags": [
+      "anticlockwise",
+      "arrow",
+      "counterclockwise",
+      "withershins"
+    ],
+    "code": "1f504",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f504.svg"
+  },
+  {
+    "desc": "back arrow",
+    "tags": [
+      "arrow",
+      "back"
+    ],
+    "code": "1f519",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f519.svg"
+  },
+  {
+    "desc": "end arrow",
+    "tags": [
+      "arrow",
+      "end"
+    ],
+    "code": "1f51a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f51a.svg"
+  },
+  {
+    "desc": "on! arrow",
+    "tags": [
+      "arrow",
+      "mark",
+      "on"
+    ],
+    "code": "1f51b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f51b.svg"
+  },
+  {
+    "desc": "soon arrow",
+    "tags": [
+      "arrow",
+      "soon"
+    ],
+    "code": "1f51c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f51c.svg"
+  },
+  {
+    "desc": "top arrow",
+    "tags": [
+      "arrow",
+      "top",
+      "up"
+    ],
+    "code": "1f51d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f51d.svg"
+  },
+  {
+    "desc": "place of worship",
+    "tags": [
+      "religion",
+      "worship"
+    ],
+    "code": "1f6d0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f6d0.svg"
+  },
+  {
+    "desc": "atom symbol",
+    "tags": [
+      "atheist",
+      "atom"
+    ],
+    "code": "269b",
+    "url": "https://twemoji.maxcdn.com/2/svg/269b.svg"
+  },
+  {
+    "desc": "om",
+    "tags": [
+      "hindu",
+      "religion"
+    ],
+    "code": "1f549",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f549.svg"
+  },
+  {
+    "desc": "star of david",
+    "tags": [
+      "david",
+      "jew",
+      "jewish",
+      "religion",
+      "star"
+    ],
+    "code": "2721",
+    "url": "https://twemoji.maxcdn.com/2/svg/2721.svg"
+  },
+  {
+    "desc": "wheel of dharma",
+    "tags": [
+      "buddhist",
+      "dharma",
+      "religion",
+      "wheel"
+    ],
+    "code": "2638",
+    "url": "https://twemoji.maxcdn.com/2/svg/2638.svg"
+  },
+  {
+    "desc": "yin yang",
+    "tags": [
+      "religion",
+      "tao",
+      "taoist",
+      "yang",
+      "yin"
+    ],
+    "code": "262f",
+    "url": "https://twemoji.maxcdn.com/2/svg/262f.svg"
+  },
+  {
+    "desc": "latin cross",
+    "tags": [
+      "christian",
+      "cross",
+      "religion"
+    ],
+    "code": "271d",
+    "url": "https://twemoji.maxcdn.com/2/svg/271d.svg"
+  },
+  {
+    "desc": "orthodox cross",
+    "tags": [
+      "christian",
+      "cross",
+      "religion"
+    ],
+    "code": "2626",
+    "url": "https://twemoji.maxcdn.com/2/svg/2626.svg"
+  },
+  {
+    "desc": "star and crescent",
+    "tags": [
+      "islam",
+      "muslim",
+      "religion"
+    ],
+    "code": "262a",
+    "url": "https://twemoji.maxcdn.com/2/svg/262a.svg"
+  },
+  {
+    "desc": "peace symbol",
+    "tags": [
+      "peace"
+    ],
+    "code": "262e",
+    "url": "https://twemoji.maxcdn.com/2/svg/262e.svg"
+  },
+  {
+    "desc": "menorah",
+    "tags": [
+      "candelabrum",
+      "candlestick",
+      "religion"
+    ],
+    "code": "1f54e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f54e.svg"
+  },
+  {
+    "desc": "dotted six-pointed star",
+    "tags": [
+      "fortune",
+      "star"
+    ],
+    "code": "1f52f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f52f.svg"
+  },
+  {
+    "desc": "recycling symbol",
+    "tags": [
+      "recycle"
+    ],
+    "code": "267b",
+    "url": "https://twemoji.maxcdn.com/2/svg/267b.svg"
+  },
+  {
+    "desc": "name badge",
+    "tags": [
+      "badge",
+      "name"
+    ],
+    "code": "1f4db",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4db.svg"
+  },
+  {
+    "desc": "fleur-de-lis",
+    "tags": [
+      "fleur-de-lis"
+    ],
+    "code": "269c",
+    "url": "https://twemoji.maxcdn.com/2/svg/269c.svg"
+  },
+  {
+    "desc": "japanese symbol for beginner",
+    "tags": [
+      "beginner",
+      "chevron",
+      "green",
+      "japanese",
+      "leaf",
+      "tool",
+      "yellow"
+    ],
+    "code": "1f530",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f530.svg"
+  },
+  {
+    "desc": "trident emblem",
+    "tags": [
+      "anchor",
+      "emblem",
+      "ship",
+      "tool",
+      "trident"
+    ],
+    "code": "1f531",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f531.svg"
+  },
+  {
+    "desc": "heavy large circle",
+    "tags": [
+      "circle",
+      "o"
+    ],
+    "code": "2b55",
+    "url": "https://twemoji.maxcdn.com/2/svg/2b55.svg"
+  },
+  {
+    "desc": "white heavy check mark",
+    "tags": [
+      "check",
+      "mark"
+    ],
+    "code": "2705",
+    "url": "https://twemoji.maxcdn.com/2/svg/2705.svg"
+  },
+  {
+    "desc": "ballot box with check",
+    "tags": [
+      "ballot",
+      "box",
+      "check"
+    ],
+    "code": "2611",
+    "url": "https://twemoji.maxcdn.com/2/svg/2611.svg"
+  },
+  {
+    "desc": "heavy check mark",
+    "tags": [
+      "check",
+      "mark"
+    ],
+    "code": "2714",
+    "url": "https://twemoji.maxcdn.com/2/svg/2714.svg"
+  },
+  {
+    "desc": "heavy multiplication x",
+    "tags": [
+      "cancel",
+      "multiplication",
+      "multiply",
+      "x"
+    ],
+    "code": "2716",
+    "url": "https://twemoji.maxcdn.com/2/svg/2716.svg"
+  },
+  {
+    "desc": "cross mark",
+    "tags": [
+      "cancel",
+      "mark",
+      "multiplication",
+      "multiply",
+      "x"
+    ],
+    "code": "274c",
+    "url": "https://twemoji.maxcdn.com/2/svg/274c.svg"
+  },
+  {
+    "desc": "cross mark button",
+    "tags": [
+      "mark",
+      "square"
+    ],
+    "code": "274e",
+    "url": "https://twemoji.maxcdn.com/2/svg/274e.svg"
+  },
+  {
+    "desc": "heavy plus sign",
+    "tags": [
+      "math",
+      "plus"
+    ],
+    "code": "2795",
+    "url": "https://twemoji.maxcdn.com/2/svg/2795.svg"
+  },
+  {
+    "desc": "heavy minus sign",
+    "tags": [
+      "math",
+      "minus"
+    ],
+    "code": "2796",
+    "url": "https://twemoji.maxcdn.com/2/svg/2796.svg"
+  },
+  {
+    "desc": "heavy division sign",
+    "tags": [
+      "division",
+      "math"
+    ],
+    "code": "2797",
+    "url": "https://twemoji.maxcdn.com/2/svg/2797.svg"
+  },
+  {
+    "desc": "curly loop",
+    "tags": [
+      "curl",
+      "loop"
+    ],
+    "code": "27b0",
+    "url": "https://twemoji.maxcdn.com/2/svg/27b0.svg"
+  },
+  {
+    "desc": "double curly loop",
+    "tags": [
+      "curl",
+      "double",
+      "loop"
+    ],
+    "code": "27bf",
+    "url": "https://twemoji.maxcdn.com/2/svg/27bf.svg"
+  },
+  {
+    "desc": "part alternation mark",
+    "tags": [
+      "mark",
+      "part"
+    ],
+    "code": "303d",
+    "url": "https://twemoji.maxcdn.com/2/svg/303d.svg"
+  },
+  {
+    "desc": "eight-spoked asterisk",
+    "tags": [
+      "asterisk"
+    ],
+    "code": "2733",
+    "url": "https://twemoji.maxcdn.com/2/svg/2733.svg"
+  },
+  {
+    "desc": "eight-pointed star",
+    "tags": [
+      "star"
+    ],
+    "code": "2734",
+    "url": "https://twemoji.maxcdn.com/2/svg/2734.svg"
+  },
+  {
+    "desc": "sparkle",
+    "tags": [
+      "sparkle"
+    ],
+    "code": "2747",
+    "url": "https://twemoji.maxcdn.com/2/svg/2747.svg"
+  },
+  {
+    "desc": "currency exchange",
+    "tags": [
+      "bank",
+      "currency",
+      "exchange",
+      "money"
+    ],
+    "code": "1f4b1",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4b1.svg"
+  },
+  {
+    "desc": "heavy dollar sign",
+    "tags": [
+      "currency",
+      "dollar",
+      "money"
+    ],
+    "code": "1f4b2",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4b2.svg"
+  },
+  {
+    "desc": "double exclamation mark",
+    "tags": [
+      "bangbang",
+      "exclamation",
+      "mark",
+      "punctuation"
+    ],
+    "code": "203c",
+    "url": "https://twemoji.maxcdn.com/2/svg/203c.svg"
+  },
+  {
+    "desc": "exclamation question mark",
+    "tags": [
+      "exclamation",
+      "interrobang",
+      "mark",
+      "punctuation",
+      "question"
+    ],
+    "code": "2049",
+    "url": "https://twemoji.maxcdn.com/2/svg/2049.svg"
+  },
+  {
+    "desc": "question mark",
+    "tags": [
+      "mark",
+      "punctuation",
+      "question"
+    ],
+    "code": "2753",
+    "url": "https://twemoji.maxcdn.com/2/svg/2753.svg"
+  },
+  {
+    "desc": "white question mark",
+    "tags": [
+      "mark",
+      "outlined",
+      "punctuation",
+      "question"
+    ],
+    "code": "2754",
+    "url": "https://twemoji.maxcdn.com/2/svg/2754.svg"
+  },
+  {
+    "desc": "white exclamation mark",
+    "tags": [
+      "exclamation",
+      "mark",
+      "outlined",
+      "punctuation"
+    ],
+    "code": "2755",
+    "url": "https://twemoji.maxcdn.com/2/svg/2755.svg"
+  },
+  {
+    "desc": "exclamation mark",
+    "tags": [
+      "exclamation",
+      "mark",
+      "punctuation"
+    ],
+    "code": "2757",
+    "url": "https://twemoji.maxcdn.com/2/svg/2757.svg"
+  },
+  {
+    "desc": "wavy dash",
+    "tags": [
+      "dash",
+      "punctuation",
+      "wavy"
+    ],
+    "code": "3030",
+    "url": "https://twemoji.maxcdn.com/2/svg/3030.svg"
+  },
+  {
+    "desc": "copyright",
+    "tags": [
+      "copyright"
+    ],
+    "code": "a9",
+    "url": "https://twemoji.maxcdn.com/2/svg/a9.svg"
+  },
+  {
+    "desc": "registered",
+    "tags": [
+      "registered"
+    ],
+    "code": "ae",
+    "url": "https://twemoji.maxcdn.com/2/svg/ae.svg"
+  },
+  {
+    "desc": "trade mark",
+    "tags": [
+      "mark",
+      "tm",
+      "trademark"
+    ],
+    "code": "2122",
+    "url": "https://twemoji.maxcdn.com/2/svg/2122.svg"
+  },
+  {
+    "desc": "aries",
+    "tags": [
+      "ram",
+      "zodiac"
+    ],
+    "code": "2648",
+    "url": "https://twemoji.maxcdn.com/2/svg/2648.svg"
+  },
+  {
+    "desc": "taurus",
+    "tags": [
+      "bull",
+      "ox",
+      "zodiac"
+    ],
+    "code": "2649",
+    "url": "https://twemoji.maxcdn.com/2/svg/2649.svg"
+  },
+  {
+    "desc": "gemini",
+    "tags": [
+      "twins",
+      "zodiac"
+    ],
+    "code": "264a",
+    "url": "https://twemoji.maxcdn.com/2/svg/264a.svg"
+  },
+  {
+    "desc": "cancer",
+    "tags": [
+      "crab",
+      "zodiac"
+    ],
+    "code": "264b",
+    "url": "https://twemoji.maxcdn.com/2/svg/264b.svg"
+  },
+  {
+    "desc": "leo",
+    "tags": [
+      "lion",
+      "zodiac"
+    ],
+    "code": "264c",
+    "url": "https://twemoji.maxcdn.com/2/svg/264c.svg"
+  },
+  {
+    "desc": "virgo",
+    "tags": [
+      "maiden",
+      "virgin",
+      "zodiac"
+    ],
+    "code": "264d",
+    "url": "https://twemoji.maxcdn.com/2/svg/264d.svg"
+  },
+  {
+    "desc": "libra",
+    "tags": [
+      "balance",
+      "justice",
+      "scales",
+      "zodiac"
+    ],
+    "code": "264e",
+    "url": "https://twemoji.maxcdn.com/2/svg/264e.svg"
+  },
+  {
+    "desc": "scorpius",
+    "tags": [
+      "scorpio",
+      "scorpion",
+      "zodiac"
+    ],
+    "code": "264f",
+    "url": "https://twemoji.maxcdn.com/2/svg/264f.svg"
+  },
+  {
+    "desc": "sagittarius",
+    "tags": [
+      "archer",
+      "zodiac"
+    ],
+    "code": "2650",
+    "url": "https://twemoji.maxcdn.com/2/svg/2650.svg"
+  },
+  {
+    "desc": "capricorn",
+    "tags": [
+      "goat",
+      "zodiac"
+    ],
+    "code": "2651",
+    "url": "https://twemoji.maxcdn.com/2/svg/2651.svg"
+  },
+  {
+    "desc": "aquarius",
+    "tags": [
+      "bearer",
+      "water",
+      "zodiac"
+    ],
+    "code": "2652",
+    "url": "https://twemoji.maxcdn.com/2/svg/2652.svg"
+  },
+  {
+    "desc": "pisces",
+    "tags": [
+      "fish",
+      "zodiac"
+    ],
+    "code": "2653",
+    "url": "https://twemoji.maxcdn.com/2/svg/2653.svg"
+  },
+  {
+    "desc": "ophiuchus",
+    "tags": [
+      "bearer",
+      "serpent",
+      "snake",
+      "zodiac"
+    ],
+    "code": "26ce",
+    "url": "https://twemoji.maxcdn.com/2/svg/26ce.svg"
+  },
+  {
+    "desc": "shuffle tracks button",
+    "tags": [
+      "arrow",
+      "crossed"
+    ],
+    "code": "1f500",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f500.svg"
+  },
+  {
+    "desc": "repeat button",
+    "tags": [
+      "arrow",
+      "clockwise",
+      "repeat"
+    ],
+    "code": "1f501",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f501.svg"
+  },
+  {
+    "desc": "repeat single button",
+    "tags": [
+      "arrow",
+      "clockwise",
+      "once"
+    ],
+    "code": "1f502",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f502.svg"
+  },
+  {
+    "desc": "play button",
+    "tags": [
+      "arrow",
+      "play",
+      "right",
+      "triangle"
+    ],
+    "code": "25b6",
+    "url": "https://twemoji.maxcdn.com/2/svg/25b6.svg"
+  },
+  {
+    "desc": "fast-forword button",
+    "tags": [
+      "arrow",
+      "double",
+      "fast",
+      "forward"
+    ],
+    "code": "23e9",
+    "url": "https://twemoji.maxcdn.com/2/svg/23e9.svg"
+  },
+  {
+    "desc": "next track button",
+    "tags": [
+      "arrow",
+      "next scene",
+      "next track",
+      "triangle"
+    ],
+    "code": "23ed",
+    "url": "https://twemoji.maxcdn.com/2/svg/23ed.svg"
+  },
+  {
+    "desc": "play or pause button",
+    "tags": [
+      "arrow",
+      "pause",
+      "play",
+      "right",
+      "triangle"
+    ],
+    "code": "23ef",
+    "url": "https://twemoji.maxcdn.com/2/svg/23ef.svg"
+  },
+  {
+    "desc": "reverse button",
+    "tags": [
+      "arrow",
+      "left",
+      "reverse",
+      "triangle"
+    ],
+    "code": "25c0",
+    "url": "https://twemoji.maxcdn.com/2/svg/25c0.svg"
+  },
+  {
+    "desc": "fast reverse button",
+    "tags": [
+      "arrow",
+      "double",
+      "rewind"
+    ],
+    "code": "23ea",
+    "url": "https://twemoji.maxcdn.com/2/svg/23ea.svg"
+  },
+  {
+    "desc": "last track button",
+    "tags": [
+      "arrow",
+      "previous scene",
+      "previous track",
+      "triangle"
+    ],
+    "code": "23ee",
+    "url": "https://twemoji.maxcdn.com/2/svg/23ee.svg"
+  },
+  {
+    "desc": "up button",
+    "tags": [
+      "arrow",
+      "button",
+      "red"
+    ],
+    "code": "1f53c",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f53c.svg"
+  },
+  {
+    "desc": "fast up button",
+    "tags": [
+      "arrow",
+      "double"
+    ],
+    "code": "23eb",
+    "url": "https://twemoji.maxcdn.com/2/svg/23eb.svg"
+  },
+  {
+    "desc": "down button",
+    "tags": [
+      "arrow",
+      "button",
+      "down",
+      "red"
+    ],
+    "code": "1f53d",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f53d.svg"
+  },
+  {
+    "desc": "fast down button",
+    "tags": [
+      "arrow",
+      "double",
+      "down"
+    ],
+    "code": "23ec",
+    "url": "https://twemoji.maxcdn.com/2/svg/23ec.svg"
+  },
+  {
+    "desc": "pause button",
+    "tags": [
+      "bar",
+      "double",
+      "pause",
+      "vertical"
+    ],
+    "code": "23f8",
+    "url": "https://twemoji.maxcdn.com/2/svg/23f8.svg"
+  },
+  {
+    "desc": "stop button",
+    "tags": [
+      "square",
+      "stop"
+    ],
+    "code": "23f9",
+    "url": "https://twemoji.maxcdn.com/2/svg/23f9.svg"
+  },
+  {
+    "desc": "record button",
+    "tags": [
+      "circle",
+      "record"
+    ],
+    "code": "23fa",
+    "url": "https://twemoji.maxcdn.com/2/svg/23fa.svg"
+  },
+  {
+    "desc": "eject button",
+    "tags": [
+      "eject"
+    ],
+    "code": "23cf",
+    "url": "https://twemoji.maxcdn.com/2/svg/23cf.svg"
+  },
+  {
+    "desc": "cinema",
+    "tags": [
+      "camera",
+      "film",
+      "movie"
+    ],
+    "code": "1f3a6",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f3a6.svg"
+  },
+  {
+    "desc": "dim button",
+    "tags": [
+      "brightness",
+      "dim",
+      "low"
+    ],
+    "code": "1f505",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f505.svg"
+  },
+  {
+    "desc": "bright button",
+    "tags": [
+      "bright",
+      "brightness"
+    ],
+    "code": "1f506",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f506.svg"
+  },
+  {
+    "desc": "antenna bars",
+    "tags": [
+      "antenna",
+      "bar",
+      "cell",
+      "mobile",
+      "phone",
+      "signal",
+      "telephone"
+    ],
+    "code": "1f4f6",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4f6.svg"
+  },
+  {
+    "desc": "no mobile phones",
+    "tags": [
+      "cell",
+      "forbidden",
+      "mobile",
+      "no",
+      "not",
+      "phone",
+      "prohibited",
+      "telephone"
+    ],
+    "code": "1f4f5",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4f5.svg"
+  },
+  {
+    "desc": "vibration mode",
+    "tags": [
+      "cell",
+      "mobile",
+      "mode",
+      "phone",
+      "telephone",
+      "vibration"
+    ],
+    "code": "1f4f3",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4f3.svg"
+  },
+  {
+    "desc": "mobile phone off",
+    "tags": [
+      "cell",
+      "mobile",
+      "off",
+      "phone",
+      "telephone"
+    ],
+    "code": "1f4f4",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4f4.svg"
+  },
+  {
+    "desc": "keycap number",
+    "tags": [
+      "hash",
+      "keycap",
+      "pound"
+    ],
+    "code": "7b",
+    "url": "https://twemoji.maxcdn.com/2/svg/7b.svg"
+  },
+  {
+    "desc": "keycap asterisk",
+    "tags": [
+      "asterisk",
+      "keycap",
+      "star"
+    ],
+    "code": "7b",
+    "url": "https://twemoji.maxcdn.com/2/svg/7b.svg"
+  },
+  {
+    "desc": "keycap digit zero",
+    "tags": [
+      "0",
+      "keycap",
+      "zero"
+    ],
+    "code": "7b",
+    "url": "https://twemoji.maxcdn.com/2/svg/7b.svg"
+  },
+  {
+    "desc": "keycap digit one",
+    "tags": [
+      "1",
+      "keycap",
+      "one"
+    ],
+    "code": "7b",
+    "url": "https://twemoji.maxcdn.com/2/svg/7b.svg"
+  },
+  {
+    "desc": "keycap digit two",
+    "tags": [
+      "2",
+      "keycap",
+      "two"
+    ],
+    "code": "7b",
+    "url": "https://twemoji.maxcdn.com/2/svg/7b.svg"
+  },
+  {
+    "desc": "keycap digit three",
+    "tags": [
+      "3",
+      "keycap",
+      "three"
+    ],
+    "code": "7b",
+    "url": "https://twemoji.maxcdn.com/2/svg/7b.svg"
+  },
+  {
+    "desc": "keycap digit four",
+    "tags": [
+      "4",
+      "four",
+      "keycap"
+    ],
+    "code": "7b",
+    "url": "https://twemoji.maxcdn.com/2/svg/7b.svg"
+  },
+  {
+    "desc": "keycap digit five",
+    "tags": [
+      "5",
+      "five",
+      "keycap"
+    ],
+    "code": "7b",
+    "url": "https://twemoji.maxcdn.com/2/svg/7b.svg"
+  },
+  {
+    "desc": "keycap digit six",
+    "tags": [
+      "6",
+      "keycap",
+      "six"
+    ],
+    "code": "7b",
+    "url": "https://twemoji.maxcdn.com/2/svg/7b.svg"
+  },
+  {
+    "desc": "keycap digit seven",
+    "tags": [
+      "7",
+      "keycap",
+      "seven"
+    ],
+    "code": "7b",
+    "url": "https://twemoji.maxcdn.com/2/svg/7b.svg"
+  },
+  {
+    "desc": "keycap digit eight",
+    "tags": [
+      "8",
+      "eight",
+      "keycap"
+    ],
+    "code": "7b",
+    "url": "https://twemoji.maxcdn.com/2/svg/7b.svg"
+  },
+  {
+    "desc": "keycap digit nine",
+    "tags": [
+      "9",
+      "keycap",
+      "nine"
+    ],
+    "code": "7b",
+    "url": "https://twemoji.maxcdn.com/2/svg/7b.svg"
+  },
+  {
+    "desc": "keycap ten",
+    "tags": [
+      "10",
+      "keycap",
+      "ten"
+    ],
+    "code": "1f51f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f51f.svg"
+  },
+  {
+    "desc": "hundred points",
+    "tags": [
+      "100",
+      "full",
+      "hundred",
+      "score"
+    ],
+    "code": "1f4af",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4af.svg"
+  },
+  {
+    "desc": "no one under eighteen",
+    "tags": [
+      "18",
+      "age restriction",
+      "eighteen",
+      "forbidden",
+      "no",
+      "not",
+      "prohibited",
+      "underage"
+    ],
+    "code": "1f51e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f51e.svg"
+  },
+  {
+    "desc": "input latin uppercase",
+    "tags": [
+      "input",
+      "latin",
+      "letters",
+      "uppercase"
+    ],
+    "code": "1f520",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f520.svg"
+  },
+  {
+    "desc": "input latin lowercase",
+    "tags": [
+      "abcd",
+      "input",
+      "latin",
+      "letters",
+      "lowercase"
+    ],
+    "code": "1f521",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f521.svg"
+  },
+  {
+    "desc": "input numbers",
+    "tags": [
+      "1234",
+      "input",
+      "numbers"
+    ],
+    "code": "1f522",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f522.svg"
+  },
+  {
+    "desc": "input symbols",
+    "tags": [
+      "input"
+    ],
+    "code": "1f523",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f523.svg"
+  },
+  {
+    "desc": "input latin letters",
+    "tags": [
+      "abc",
+      "alphabet",
+      "input",
+      "latin",
+      "letters"
+    ],
+    "code": "1f524",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f524.svg"
+  },
+  {
+    "desc": "a button",
+    "tags": [
+      "a",
+      "blood"
+    ],
+    "code": "1f170",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f170.svg"
+  },
+  {
+    "desc": "ab button",
+    "tags": [
+      "ab",
+      "blood"
+    ],
+    "code": "1f18e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f18e.svg"
+  },
+  {
+    "desc": "b button",
+    "tags": [
+      "b",
+      "blood"
+    ],
+    "code": "1f171",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f171.svg"
+  },
+  {
+    "desc": "squared cl",
+    "tags": [
+      "cl"
+    ],
+    "code": "1f191",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f191.svg"
+  },
+  {
+    "desc": "squared cool",
+    "tags": [
+      "cool"
+    ],
+    "code": "1f192",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f192.svg"
+  },
+  {
+    "desc": "squared free",
+    "tags": [
+      "free"
+    ],
+    "code": "1f193",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f193.svg"
+  },
+  {
+    "desc": "information source",
+    "tags": [
+      "i",
+      "information"
+    ],
+    "code": "2139",
+    "url": "https://twemoji.maxcdn.com/2/svg/2139.svg"
+  },
+  {
+    "desc": "squared id",
+    "tags": [
+      "id",
+      "identity"
+    ],
+    "code": "1f194",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f194.svg"
+  },
+  {
+    "desc": "circled letter m",
+    "tags": [
+      "circle",
+      "m"
+    ],
+    "code": "24c2",
+    "url": "https://twemoji.maxcdn.com/2/svg/24c2.svg"
+  },
+  {
+    "desc": "squared new",
+    "tags": [
+      "new"
+    ],
+    "code": "1f195",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f195.svg"
+  },
+  {
+    "desc": "squared ng",
+    "tags": [
+      "ng"
+    ],
+    "code": "1f196",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f196.svg"
+  },
+  {
+    "desc": "o button",
+    "tags": [
+      "blood",
+      "o"
+    ],
+    "code": "1f17e",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f17e.svg"
+  },
+  {
+    "desc": "squared ok",
+    "tags": [
+      "ok"
+    ],
+    "code": "1f197",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f197.svg"
+  },
+  {
+    "desc": "p button",
+    "tags": [
+      "parking"
+    ],
+    "code": "1f17f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f17f.svg"
+  },
+  {
+    "desc": "squared sos",
+    "tags": [
+      "help",
+      "sos"
+    ],
+    "code": "1f198",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f198.svg"
+  },
+  {
+    "desc": "up! button",
+    "tags": [
+      "mark",
+      "up"
+    ],
+    "code": "1f199",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f199.svg"
+  },
+  {
+    "desc": "squared vs",
+    "tags": [
+      "versus",
+      "vs"
+    ],
+    "code": "1f19a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f19a.svg"
+  },
+  {
+    "desc": "squared katakana koko",
+    "tags": [
+      "japanese"
+    ],
+    "code": "1f201",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f201.svg"
+  },
+  {
+    "desc": "squared katakana sa",
+    "tags": [
+      "japanese"
+    ],
+    "code": "1f202",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f202.svg"
+  },
+  {
+    "desc": "squared moon ideograph",
+    "tags": [
+      "japanese"
+    ],
+    "code": "1f237",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f237.svg"
+  },
+  {
+    "desc": "squared exist ideograph",
+    "tags": [
+      "japanese"
+    ],
+    "code": "1f236",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f236.svg"
+  },
+  {
+    "desc": "squared finger ideograph",
+    "tags": [
+      "japanese"
+    ],
+    "code": "1f22f",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f22f.svg"
+  },
+  {
+    "desc": "circled advantage ideograph",
+    "tags": [
+      "japanese"
+    ],
+    "code": "1f250",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f250.svg"
+  },
+  {
+    "desc": "squared divide ideograph",
+    "tags": [
+      "japanese"
+    ],
+    "code": "1f239",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f239.svg"
+  },
+  {
+    "desc": "squared negation ideograph",
+    "tags": [
+      "japanese"
+    ],
+    "code": "1f21a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f21a.svg"
+  },
+  {
+    "desc": "squared prohibit ideograph",
+    "tags": [
+      "japanese"
+    ],
+    "code": "1f232",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f232.svg"
+  },
+  {
+    "desc": "circled accept ideograph",
+    "tags": [
+      "chinese"
+    ],
+    "code": "1f251",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f251.svg"
+  },
+  {
+    "desc": "squared apply ideograph",
+    "tags": [
+      "chinese"
+    ],
+    "code": "1f238",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f238.svg"
+  },
+  {
+    "desc": "squared together ideograph",
+    "tags": [
+      "chinese"
+    ],
+    "code": "1f234",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f234.svg"
+  },
+  {
+    "desc": "squared empty ideograph",
+    "tags": [
+      "chinese"
+    ],
+    "code": "1f233",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f233.svg"
+  },
+  {
+    "desc": "circled congratulate ideograph",
+    "tags": [
+      "chinese",
+      "congratulation",
+      "congratulations",
+      "ideograph"
+    ],
+    "code": "3297",
+    "url": "https://twemoji.maxcdn.com/2/svg/3297.svg"
+  },
+  {
+    "desc": "circled secret ideograph",
+    "tags": [
+      "chinese",
+      "ideograph",
+      "secret"
+    ],
+    "code": "3299",
+    "url": "https://twemoji.maxcdn.com/2/svg/3299.svg"
+  },
+  {
+    "desc": "squared operating ideograph",
+    "tags": [
+      "chinese"
+    ],
+    "code": "1f23a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f23a.svg"
+  },
+  {
+    "desc": "squared fullness ideograph",
+    "tags": [
+      "chinese"
+    ],
+    "code": "1f235",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f235.svg"
+  },
+  {
+    "desc": "black small square",
+    "tags": [
+      "geometric",
+      "square"
+    ],
+    "code": "25aa",
+    "url": "https://twemoji.maxcdn.com/2/svg/25aa.svg"
+  },
+  {
+    "desc": "white small square",
+    "tags": [
+      "geometric",
+      "square"
+    ],
+    "code": "25ab",
+    "url": "https://twemoji.maxcdn.com/2/svg/25ab.svg"
+  },
+  {
+    "desc": "white medium square",
+    "tags": [
+      "geometric",
+      "square"
+    ],
+    "code": "25fb",
+    "url": "https://twemoji.maxcdn.com/2/svg/25fb.svg"
+  },
+  {
+    "desc": "black medium square",
+    "tags": [
+      "geometric",
+      "square"
+    ],
+    "code": "25fc",
+    "url": "https://twemoji.maxcdn.com/2/svg/25fc.svg"
+  },
+  {
+    "desc": "white medium-small square",
+    "tags": [
+      "geometric",
+      "square"
+    ],
+    "code": "25fd",
+    "url": "https://twemoji.maxcdn.com/2/svg/25fd.svg"
+  },
+  {
+    "desc": "black medium-small square",
+    "tags": [
+      "geometric",
+      "square"
+    ],
+    "code": "25fe",
+    "url": "https://twemoji.maxcdn.com/2/svg/25fe.svg"
+  },
+  {
+    "desc": "black large square",
+    "tags": [
+      "geometric",
+      "square"
+    ],
+    "code": "2b1b",
+    "url": "https://twemoji.maxcdn.com/2/svg/2b1b.svg"
+  },
+  {
+    "desc": "white large square",
+    "tags": [
+      "geometric",
+      "square"
+    ],
+    "code": "2b1c",
+    "url": "https://twemoji.maxcdn.com/2/svg/2b1c.svg"
+  },
+  {
+    "desc": "large orange diamond",
+    "tags": [
+      "diamond",
+      "geometric",
+      "orange"
+    ],
+    "code": "1f536",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f536.svg"
+  },
+  {
+    "desc": "large blue diamond",
+    "tags": [
+      "blue",
+      "diamond",
+      "geometric"
+    ],
+    "code": "1f537",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f537.svg"
+  },
+  {
+    "desc": "small orange diamond",
+    "tags": [
+      "diamond",
+      "geometric",
+      "orange"
+    ],
+    "code": "1f538",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f538.svg"
+  },
+  {
+    "desc": "small blue diamond",
+    "tags": [
+      "blue",
+      "diamond",
+      "geometric"
+    ],
+    "code": "1f539",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f539.svg"
+  },
+  {
+    "desc": "red triangle pointed up",
+    "tags": [
+      "geometric",
+      "red"
+    ],
+    "code": "1f53a",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f53a.svg"
+  },
+  {
+    "desc": "red triangle pointed down",
+    "tags": [
+      "down",
+      "geometric",
+      "red"
+    ],
+    "code": "1f53b",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f53b.svg"
+  },
+  {
+    "desc": "diamond with a dot",
+    "tags": [
+      "comic",
+      "diamond",
+      "geometric",
+      "inside"
+    ],
+    "code": "1f4a0",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f4a0.svg"
+  },
+  {
+    "desc": "radio button",
+    "tags": [
+      "button",
+      "geometric",
+      "radio"
+    ],
+    "code": "1f518",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f518.svg"
+  },
+  {
+    "desc": "black square button",
+    "tags": [
+      "button",
+      "geometric",
+      "square"
+    ],
+    "code": "1f532",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f532.svg"
+  },
+  {
+    "desc": "white square button",
+    "tags": [
+      "button",
+      "geometric",
+      "outlined",
+      "square"
+    ],
+    "code": "1f533",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f533.svg"
+  },
+  {
+    "desc": "white circle",
+    "tags": [
+      "circle",
+      "geometric"
+    ],
+    "code": "26aa",
+    "url": "https://twemoji.maxcdn.com/2/svg/26aa.svg"
+  },
+  {
+    "desc": "black circle",
+    "tags": [
+      "circle",
+      "geometric"
+    ],
+    "code": "26ab",
+    "url": "https://twemoji.maxcdn.com/2/svg/26ab.svg"
+  },
+  {
+    "desc": "red circle",
+    "tags": [
+      "circle",
+      "geometric",
+      "red"
+    ],
+    "code": "1f534",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f534.svg"
+  },
+  {
+    "desc": "blue circle",
+    "tags": [
+      "blue",
+      "circle",
+      "geometric"
+    ],
+    "code": "1f535",
+    "url": "https://twemoji.maxcdn.com/2/svg/1f535.svg"
+  }
+]

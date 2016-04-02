@@ -1,0 +1,86 @@
+<link rel="import" href="../bower_components/app-layout/app-layout.html">
+<link rel="import" href="../bower_components/paper-menu/paper-menu.html">
+<link rel="import" href="../bower_components/paper-item/paper-item.html">
+<link rel="import" href="x-login.html">
+
+<dom-module id="x-app">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+
+      app-toolbar {
+        background: var(--paper-amber-300);
+      }
+
+      app-drawer #content {
+        color: white;
+        background: var(--paper-blue-500);
+        height: 100%;
+      }
+
+      app-drawer app-toolbar {
+        background: var(--paper-blue-600);
+      }
+
+      paper-menu {
+        color: white;
+        background: transparent;
+        margin: 0;
+      }
+
+      paper-item {
+        font-family: 'Varela Round', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      }
+
+      --paper-item-focused {
+        background: var(--paper-blue-700);
+      }
+
+      app-drawer paper-button {
+        background: var(--paper-blue-700);
+        display: block;
+        padding: 8px;
+        margin: 8px 16px;
+      }
+     </style>
+
+    <app-drawer-layout>
+      <app-drawer>
+        <div id="content">
+          <app-toolbar>
+            <div title>Your Teams</div>
+          </app-toolbar>
+
+          <section>
+            <paper-menu>
+              <paper-item>Google</paper-item>
+              <paper-item>Firebase Services</paper-item>
+            </paper-menu>
+
+            <paper-button raised on-tap="logout">Sign Out</paper-button>
+          </section>
+        </div>
+      </app-drawer>
+      <app-header-layout>
+        <app-header>
+          <app-toolbar>
+            <div title><img src="https://twemoji.maxcdn.com/2/svg/1f43a.svg" width="36" height="36"></div>
+          </app-toolbar>
+        </app-header>
+      </app-header-layout>
+    </app-drawer-layout>
+
+    <x-login id="login"></x-login>
+  </template>
+  <script>
+    Polymer({
+      is: 'x-app',
+      logout: function() {
+        // firebase.auth().signOut();
+        this.$.login.user = null;
+      }
+    });
+  </script>
+</dom-module>
