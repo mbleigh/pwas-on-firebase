@@ -1,0 +1,81 @@
+<link rel="import" href="../bower_components/app-layout/app-layout.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../bower_components/iron-icons/iron-icons.html">
+
+<dom-module id="x-emoji-picker">
+  <template>
+    <style>
+      :host {
+        display: block;
+        background: white;
+        overflow: auto;
+        text-align: center;
+        @apply(--layout-fit);
+      }
+
+      app-header-layout {
+        @apply(--layout-fit);
+      }
+
+      app-header {
+        width: 100%;
+        background: var(--paper-grey-100);
+        text-align: left;
+      }
+
+      #selections {
+        margin: 64px auto 0;
+        padding: 16px 8px;
+      }
+
+      #selections img {
+        margin: 4px;
+      }
+    </style>
+
+    <iron-ajax
+      auto
+      url="/data/emoji.json"
+      handle-as="json"
+      last-response="{{emoji}}"></iron-ajax>
+
+    <app-header-layout>
+      <app-header fixed>
+        <app-toolbar>
+          <div title>Select an Emoji</div>
+          <paper-icon-button icon="close" on-tap="close"></paper-icon-button>
+        </app-toolbar>
+      </app-header>
+      <div id="selections">
+        <template is="dom-repeat" items="[[emoji]]">
+          <img width="36" height="36" src="[[item.urls.s72]]"
+            alt="[[item.desc]]"
+            title="[[item.desc]]"
+            item="[[item]]"
+            on-tap="select">
+        </template>
+      </div>
+    </app-header-layout>
+  </template>
+  <script>
+    Polymer({
+      is: 'x-emoji-picker',
+      properties: {
+        emoji: {
+          type: Array
+        },
+        value: {
+          type: String
+        }
+      },
+      close: function() {
+        app.openPicker = false;
+      },
+      select: function(e) {
+        this.value = e.currentTarget.item.urls.svg;
+        this.close();
+      }
+    });
+  </script>
+</dom-module>

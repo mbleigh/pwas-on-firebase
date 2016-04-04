@@ -50,7 +50,12 @@ parseString(fs.readFileSync(__dirname + '/data/emoji_annotations.xml', 'utf8'), 
       desc: annotation.$.tts,
       tags: annotation._.split('; '),
       code: code,
-      url: 'https://twemoji.maxcdn.com/2/svg/' + code + '.svg'
+      urls: {
+        svg: 'https://twemoji.maxcdn.com/2/svg/' + code + '.svg',
+        s16: 'https://twemoji.maxcdn.com/2/16x16/' + code + '.png',
+        s36: 'https://twemoji.maxcdn.com/2/36x36/' + code + '.png',
+        s72: 'https://twemoji.maxcdn.com/2/72x72/' + code + '.png'
+      }
     };
   });
 

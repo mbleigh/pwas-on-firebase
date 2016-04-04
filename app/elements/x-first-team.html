@@ -1,0 +1,137 @@
+<link rel="import" href="../bower_components/neon-animation/neon-animation-runner-behavior.html">
+<link rel="import" href="../bower_components/neon-animation/animations/slide-from-bottom-animation.html">
+<link rel="import" href="../bower_components/neon-animation/animations/slide-down-animation.html">
+<link rel="import" href="../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+
+<dom-module id="x-first-team">
+  <template>
+    <style>
+      :host {
+        display: block;
+        @apply(--layout-fit);
+        @apply(--layout-vertical);
+        @apply(--layout-center);
+        @apply(--layout-center-justified);
+        background: var(--paper-green-500);
+        color: white;
+        text-align: center;
+      }
+
+      h3 {
+        margin: 24px 0 0;
+      }
+
+      h2 {
+        color: white;
+        font-size: 24px;
+        text-align: center;
+        font-weight: 300;
+        margin: 8px 0 48px;
+      }
+
+      img {
+        vertical-align: top;
+      }
+
+      #bigimg {
+        display: block;
+        margin: 0 auto 16px;
+        width: 260px;
+        height: 260px;
+      }
+
+      paper-button {
+        background: var(--paper-blue-700);
+        color: white;
+        padding: 8px 16px;
+        margin-top: 16px;
+      }
+
+      a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      h3 {
+        color: rgba(255,255,255,0.87);
+      }
+
+      h3 b {
+        color: white;
+      }
+
+      paper-input {
+        display: block;
+        width: 280px;
+        text-align: left;
+        color: white;
+        font-family: var(--app-font);
+        --paper-input-container-color: rgba(255,255,255,0.87);
+        --paper-input-container-focus-color: white;
+        --paper-input-container-input-color: white;
+        --paper-input-container {
+          font-size: 22px;
+
+        }
+      }
+    </style>
+
+    <img id="bigimg" src="https://twemoji.maxcdn.com/2/svg/1f914.svg">
+    <h3>No teams found for <b>[[domain]]</b>.<br></h3>
+    <h2>Time to make one!</h2>
+
+    <paper-input type="text" label="Team Name" value="{{teamName}}"></paper-input>
+    <paper-button on-tap="createTeam" raised>Create Team</paper-button>
+
+    <div id="space"></div>
+    <p>powered by <a href="https://firebase.google.com/" target="_blank">Firebase</a>
+  </template>
+  <script>
+    Polymer({
+      is: 'x-first-team',
+      behaviors: Polymer.NeonAnimationRunnerBehavior,
+      properties: {
+        domain: {
+          type: String,
+          observer: '_domainChanged'
+        },
+        teams: {
+          type: Object,
+          observer: '_teamsChanged'
+        },
+        entryAnimation: {
+          type: String,
+          value: 'slide-from-bottom-animation'
+        },
+        exitAnimation: {
+          type: String,
+          value: 'slide-down-animation'
+        }
+      },
+      ready: function() {
+
+      },
+      createTeam: function() {
+        var id = this.teamName.toLowerCase().replace(/[^a-z0-9-]/g, '');
+        firebase.database().ref('/domains')
+          .child(this.domain.replace(/\./g,','))
+          .child('teams')
+          .child(id).set({
+            id: id,
+            name: this.teamName,
+            createdAt: {'.sv': 'timestamp'}
+          });
+      },
+      _domainChanged: function() {
+        var name = this.domain.split('.')[0];
+        this.teamName = name.charAt(0).toUpperCase() + name.slice(1);
+      },
+      _teamsChanged: function() {
+        console.log(this.teams);
+        this.teams ? this._hide() : this._show();
+      }
+    });
+  </script>
+</dom-module>

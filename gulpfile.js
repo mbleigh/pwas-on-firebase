@@ -187,18 +187,15 @@ gulp.task('generate-service-worker', function(callback) {
     navigateFallback: '/',
     runtimeCaching: [{
       urlPattern: /^https:\/\/twemoji.maxcdn.com\/.*/,
-      handler: 'fastest',
-      options: {debug: true}
+      handler: 'fastest'
     },
     {
       urlPattern: /^https:\/\/fonts.googleapis.com\/.*/,
-      handler: 'cacheFirst',
-      options: {debug: true}
+      handler: 'cacheFirst'
     },
     {
       urlPattern: /^https:\/\/www.gstatic.com\/.*/,
-      handler: 'networkFirst',
-      options: {debug: true}
+      handler: 'networkFirst'
     }]
   }, callback);
 });

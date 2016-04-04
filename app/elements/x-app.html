@@ -1,17 +1,17 @@
 <link rel="import" href="../bower_components/app-layout/app-layout.html">
 <link rel="import" href="../bower_components/paper-menu/paper-menu.html">
 <link rel="import" href="../bower_components/paper-item/paper-item.html">
+<link rel="import" href="x-shade.html">
 <link rel="import" href="x-login.html">
+<link rel="import" href="x-first-team.html">
+<link rel="import" href="x-team-page.html">
+<link rel="import" href="x-emoji-picker.html">
 
 <dom-module id="x-app">
   <template>
     <style>
       :host {
         display: block;
-      }
-
-      app-toolbar {
-        background: var(--paper-amber-300);
       }
 
       app-drawer #content {
@@ -55,28 +55,77 @@
 
           <section>
             <paper-menu>
-              <paper-item>Google</paper-item>
-              <paper-item>Firebase Services</paper-item>
+              <template is="dom-repeat" items="[[_asArray(teams)]]">
+                <paper-item on-tap="changeTeam" team="[[item]]">[[item.name]]</paper-item>
+              </template>
             </paper-menu>
 
             <paper-button raised on-tap="logout">Sign Out</paper-button>
           </section>
         </div>
       </app-drawer>
-      <app-header-layout>
-        <app-header>
-          <app-toolbar>
-            <div title><img src="https://twemoji.maxcdn.com/2/svg/1f43a.svg" width="36" height="36"></div>
-          </app-toolbar>
-        </app-header>
-      </app-header-layout>
+      <x-team-page team="[[activeTeam]]"></x-team-page>
     </app-drawer-layout>
 
-    <x-login id="login"></x-login>
+    <x-shade active="[[!teams]]">
+      <x-first-team id="firstTeam" domain="[[domain]]"></x-first-team>
+    </x-shade>
+    <x-shade active="[[!user]]">
+      <x-login id="login" user="{{user}}"></x-login>
+    </x-shade>
+    <x-shade active="{{openPicker}}">
+      <x-emoji-picker id="emoji"></x-emoji-picker>
+    </x-shade>
   </template>
   <script>
     Polymer({
       is: 'x-app',
+      properties: {
+        user: {
+          type: Object,
+          observer: '_userChanged'
+        },
+        teams: {
+          type: Object
+        },
+        activeTeam: {
+          type: Object
+        },
+        domain: {
+          type: String,
+          readOnly: true,
+          observer: '_domainChanged'
+        },
+        openPicker: {
+          type: Boolean,
+          value: false
+        }
+      },
+      _userChanged: function() {
+        console.log('_userChanged', this.user);
+        this._setDomain(this.user.email.split('@')[1]);
+      },
+      _domainChanged: function() {
+        this._domainId = this.domain.replace(/\./g,',');
+        firebase.database().ref('/domains')
+          .child(this._domainId)
+          .child('teams')
+          .on('value', function(snap) {
+            this.teams = snap.val();
+          }.bind(this));
+      },
+      _asArray: function(obj) {
+        var out = [];
+        for (var key in obj) {
+          out.push(obj[key]);
+        }
+        return out;
+      },
+      changeTeam: function(e) {
+        var team = e.currentTarget.team;
+        this.activeTeam = team;
+        console.log(this.activeTeam);
+      },
       logout: function() {
         // firebase.auth().signOut();
         this.$.login.user = null;

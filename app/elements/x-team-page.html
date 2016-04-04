@@ -1,0 +1,38 @@
+<link rel="import" href="../bower_components/app-layout/app-layout.html">
+
+<dom-module id="x-team-page">
+  <template>
+    <style>
+      :host {
+        @apply(--layout-fit);
+      }
+
+      app-toolbar {
+        background: var(--paper-amber-300);
+        color: rgba(0,0,0,0.87);
+      }
+
+      app-toolbar img {
+        vertical-align: middle;
+      }
+    </style>
+
+    <app-header-layout>
+      <app-header>
+        <app-toolbar>
+          <div title><img src="https://twemoji.maxcdn.com/2/svg/1f43a.svg" width="36" height="36"> [[team.name]]</div>
+        </app-toolbar>
+      </app-header>
+    </app-header-layout>
+  </template>
+  <script>
+    Polymer({
+      is: 'x-team-page',
+      properties: {
+        team: {
+          type: Object
+        }
+      }
+    });
+  </script>
+</dom-module>

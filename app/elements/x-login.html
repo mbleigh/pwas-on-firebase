@@ -1,6 +1,3 @@
-<link rel="import" href="../bower_components/neon-animation/neon-animation-runner-behavior.html">
-<link rel="import" href="../bower_components/neon-animation/animations/slide-from-bottom-animation.html">
-<link rel="import" href="../bower_components/neon-animation/animations/slide-down-animation.html">
 <link rel="import" href="../bower_components/paper-button/paper-button.html">
 
 <dom-module id="x-login">
@@ -67,12 +64,10 @@
   <script>
     Polymer({
       is: 'x-login',
-      behaviors: Polymer.NeonAnimationRunnerBehavior,
       properties: {
         user: {
           type: Object,
-          observer: '_authStateChanged',
-          value: function() { return {email: 'bleigh@google.com'}; }
+          notify: true
         },
         entryAnimation: {
           type: String,
@@ -83,41 +78,15 @@
           value: 'slide-down-animation'
         }
       },
-      listeners: {
-        'neon-animation-finish': '_animationFinished'
-      },
       ready: function() {
-        this._t0 = Date.now();
         var auth = firebase.auth();
-        var self = this;
         firebase.auth().addAuthStateListener(function(state) {
-          self.user = state.currentUser;
-        });
+          this.user = state.currentUser;
+        }.bind(this));
       },
       login: function() {
         // firebase.auth().signInWithPopup(new firebase.GoogleAuthProvider());
         this.user = {email: 'bleigh@google.com'};
-      },
-      _hide: function() {
-        if (Date.now() - 1000 > this._t0) {
-          this['playAnimation']('exit');
-        } else {
-          this.style.display = 'none';
-        }
-      },
-      _show: function() {
-        this.style.display = 'flex';
-        if (Date.now() - 1000 > this._t0) {
-          this['playAnimation']('entry');
-        }
-      },
-      _authStateChanged: function() {
-        this.user ? this._hide() : this._show();
-      },
-      _animationFinished: function() {
-        if (this.user) {
-          this.style.display = 'none';
-        }
       }
     });
   </script>
