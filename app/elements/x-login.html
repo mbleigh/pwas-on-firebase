@@ -50,6 +50,19 @@
         font-weight: bold;
         text-decoration: none;
       }
+
+      p {
+        margin: 8px 0;
+      }
+
+      p.small {
+        font-size: 12px;
+        color: rgba(255,255,255,0.7);
+      }
+      p.small a {
+        font-weight: normal;
+        color: rgba(255,255,255,0.7);
+      }
     </style>
 
     <img id="bigimg" src="https://twemoji.maxcdn.com/2/svg/1f60d.svg">
@@ -60,6 +73,7 @@
 
     <div id="space"></div>
     <p>powered by <a href="https://firebase.google.com/" target="_blank">Firebase</a>
+    <p class="small"><a href="http://twemoji.maxcdn.com/" target="_blank">Twemoji</a> used under <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">CC-BY</a></p>
   </template>
   <script>
     Polymer({
@@ -85,8 +99,7 @@
         }.bind(this));
       },
       login: function() {
-        // firebase.auth().signInWithPopup(new firebase.GoogleAuthProvider());
-        this.user = {email: 'bleigh@google.com'};
+        firebase.auth().signInWithPopup(new firebase.GoogleAuthProvider());
       }
     });
   </script>

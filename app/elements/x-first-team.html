@@ -79,14 +79,11 @@
     </style>
 
     <img id="bigimg" src="https://twemoji.maxcdn.com/2/svg/1f914.svg">
-    <h3>No teams found for <b>[[domain]]</b>.<br></h3>
-    <h2>Time to make one!</h2>
+    <h3>Feeling a little lonely on <b>[[domain]]</b>?<br></h3>
+    <h2>Let's make a new team!</h2>
 
     <paper-input type="text" label="Team Name" value="{{teamName}}"></paper-input>
     <paper-button on-tap="createTeam" raised>Create Team</paper-button>
-
-    <div id="space"></div>
-    <p>powered by <a href="https://firebase.google.com/" target="_blank">Firebase</a>
   </template>
   <script>
     Polymer({
@@ -122,6 +119,8 @@
             id: id,
             name: this.teamName,
             createdAt: {'.sv': 'timestamp'}
+          }).then(function() {
+            app.joinRoom(id);
           });
       },
       _domainChanged: function() {

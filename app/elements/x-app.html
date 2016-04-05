@@ -11,7 +11,8 @@
   <template>
     <style>
       :host {
-        display: block;
+        @apply(--layout-fit);
+        overflow: hidden;
       }
 
       app-drawer #content {
@@ -47,7 +48,7 @@
      </style>
 
     <app-drawer-layout>
-      <app-drawer>
+      <app-drawer swipe-open>
         <div id="content">
           <app-toolbar>
             <div title>Your Teams</div>
@@ -60,6 +61,7 @@
               </template>
             </paper-menu>
 
+            <paper-button raised on-tap="createTeam">Create Team</paper-button>
             <paper-button raised on-tap="logout">Sign Out</paper-button>
           </section>
         </div>
@@ -67,14 +69,14 @@
       <x-team-page team="[[activeTeam]]"></x-team-page>
     </app-drawer-layout>
 
-    <x-shade active="[[!teams]]">
+    <x-shade active="[[openTeamShade]]">
       <x-first-team id="firstTeam" domain="[[domain]]"></x-first-team>
-    </x-shade>
-    <x-shade active="[[!user]]">
-      <x-login id="login" user="{{user}}"></x-login>
     </x-shade>
     <x-shade active="{{openPicker}}">
       <x-emoji-picker id="emoji"></x-emoji-picker>
+    </x-shade>
+    <x-shade active="[[!user]]">
+      <x-login id="login" user="{{user}}"></x-login>
     </x-shade>
   </template>
   <script>
@@ -99,11 +101,18 @@
         openPicker: {
           type: Boolean,
           value: false
+        },
+        openTeamShade: {
+          type: Boolean,
+          value: false
         }
       },
       _userChanged: function() {
-        console.log('_userChanged', this.user);
-        this._setDomain(this.user.email.split('@')[1]);
+        if (this.user && this.user.emailVerified) {
+          this.prefsRef = firebase.database()
+          this._setDomain(this.user.email.split('@')[1]);
+        }
+
       },
       _domainChanged: function() {
         this._domainId = this.domain.replace(/\./g,',');
@@ -126,9 +135,16 @@
         this.activeTeam = team;
         console.log(this.activeTeam);
       },
+      createTeam: function() {
+        this.openTeamShade = true;
+      },
+      joinRoom: function(id) {
+        if (this.user) {
+          firebase.database().ref('/prefs').child(this.user.uid).update({room: id});
+        }
+      },
       logout: function() {
-        // firebase.auth().signOut();
-        this.$.login.user = null;
+        firebase.auth().signOut();
       }
     });
   </script>
