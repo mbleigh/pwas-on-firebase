@@ -4,35 +4,41 @@
       :host {
         display: block;
         position: relative;
-        width: 176px;
-        height: 176px;
+        width: 160px;
+        height: 160px;
+        margin: 16px;
         text-align: center;
       }
 
-      #meta {
+      #when {
         color: rgba(0,0,0,0.64);
+        background: var(--paper-amber-200);
+        padding: 4px 6px;
+        border-radius: 6px;
+        font-size: 12px;
         position: absolute;
         bottom: 0;
         right: 0;
-        padding: 4px;
-        border-radius: 20px;
-        font-size: 12px;
       }
       #pic {
         border-radius: 16px;
         vertical-align: middle;
+        position: absolute;
+        top: 0;
+        left: 0;
+        @apply(--shadow-elevation-2dp);
       }
       #emoji {
         position: absolute;
-        top: 24px;
-        right: 24px;
+        top: 16px;
+        right: 16px;
       }
     </style>
 
     <img id="emoji" src="[[update.emoji]]" width="128" height="128">
     <div id="meta">
       <img id="pic" src="[[update.pic]]" width="32" height="32">
-      <time is="time-ago" datetime$="[[asDateString(update.updated)]]" format="micro"></time>
+      <time id="when" is="time-ago" datetime$="[[asDateString(update.updated)]]" format="micro"></time>
     </div>
   </template>
   <script>

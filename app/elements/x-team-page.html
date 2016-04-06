@@ -30,6 +30,7 @@
         padding-bottom: 96px;
         @apply(--layout-horizontal);
         @apply(--layout-wrap);
+        @apply(--layout-center-justified);
       }
     </style>
 
@@ -46,7 +47,7 @@
       </div>
     </app-header-layout>
 
-    <paper-fab icon="add" on-tap="startUpdate"></paper-fab>
+    <paper-fab elevation="2" icon="add" on-tap="startUpdate"></paper-fab>
   </template>
   <script>
     Polymer({
@@ -64,11 +65,12 @@
           }
         }
         out.sort(function(a, b) {
-          return a - b;
+          return b.updated - a.updated;
         });
         return out;
       },
       startUpdate: function() {
+        console.log('startUpdate');
         app.openShade('emojiShade');
       }
     });

@@ -125,6 +125,7 @@ gulp.task('images', function() {
 gulp.task('copy', function() {
   var app = gulp.src([
     'app/*',
+    'app/data/emoji.json',
     '!app/test',
     '!app/elements',
     '!app/bower_components',
@@ -133,13 +134,15 @@ gulp.task('copy', function() {
     dot: true
   }).pipe(gulp.dest(dist()));
 
+  var data = gulp.src('app/data/emoji.json').pipe(gulp.dest(dist('data')));
+
   // Copy over only the bower_components we need
   // These are things which cannot be vulcanized
   var bower = gulp.src([
     'app/bower_components/{webcomponentsjs,promise-polyfill}/**/*'
   ]).pipe(gulp.dest(dist('bower_components')));
 
-  return merge(app, bower)
+  return merge(app, bower, data)
     .pipe($.size({
       title: 'copy'
     }));
