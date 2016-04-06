@@ -10,7 +10,8 @@
     "polymer": "Polymer/polymer#^1.2.0",
     "app-layout": "PolymerLabs/app-layout#^0.0.14",
     "neon-animation": "PolymerElements/neon-animation#^1.2.0",
-    "iron-selector": "PolymerElements/iron-selector#master"
+    "iron-selector": "PolymerElements/iron-selector#master",
+    "time-elements": "~0.4.0"
   },
   "devDependencies": {},
   "ignore": [],

@@ -70,10 +70,10 @@
         }
       },
       close: function() {
-        app.openPicker = false;
+        app.closeShade('emojiShade');
       },
       select: function(e) {
-        this.value = e.currentTarget.item.urls.svg;
+        app.updateStatus(e.currentTarget.item.urls.svg);
         this.close();
       }
     });

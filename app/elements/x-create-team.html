@@ -4,7 +4,7 @@
 <link rel="import" href="../bower_components/paper-input/paper-input.html">
 <link rel="import" href="../bower_components/paper-button/paper-button.html">
 
-<dom-module id="x-first-team">
+<dom-module id="x-create-team">
   <template>
     <style>
       :host {
@@ -87,7 +87,7 @@
   </template>
   <script>
     Polymer({
-      is: 'x-first-team',
+      is: 'x-create-team',
       behaviors: Polymer.NeonAnimationRunnerBehavior,
       properties: {
         domain: {
@@ -111,17 +111,8 @@
 
       },
       createTeam: function() {
-        var id = this.teamName.toLowerCase().replace(/[^a-z0-9-]/g, '');
-        firebase.database().ref('/domains')
-          .child(this.domain.replace(/\./g,','))
-          .child('teams')
-          .child(id).set({
-            id: id,
-            name: this.teamName,
-            createdAt: {'.sv': 'timestamp'}
-          }).then(function() {
-            app.joinRoom(id);
-          });
+        app.createTeam(this.teamName.toLowerCase().replace(/[^a-z0-9-]/g, ''), this.teamName);
+        app.closeShade('teamShade');
       },
       _domainChanged: function() {
         var name = this.domain.split('.')[0];

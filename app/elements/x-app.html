@@ -3,7 +3,7 @@
 <link rel="import" href="../bower_components/paper-item/paper-item.html">
 <link rel="import" href="x-shade.html">
 <link rel="import" href="x-login.html">
-<link rel="import" href="x-first-team.html">
+<link rel="import" href="x-create-team.html">
 <link rel="import" href="x-team-page.html">
 <link rel="import" href="x-emoji-picker.html">
 
@@ -13,6 +13,10 @@
       :host {
         @apply(--layout-fit);
         overflow: hidden;
+      }
+
+      app-drawer-layout {
+        height: 100%;
       }
 
       app-drawer #content {
@@ -35,8 +39,8 @@
         font-family: 'Varela Round', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       }
 
-      --paper-item-focused {
-        background: var(--paper-blue-700);
+      paper-item.iron-selected {
+        background: var(--paper-blue-600);
       }
 
       app-drawer paper-button {
@@ -55,27 +59,27 @@
           </app-toolbar>
 
           <section>
-            <paper-menu>
+            <paper-menu attr-for-selected="team-id" selected="{{activeTeamId}}">
               <template is="dom-repeat" items="[[_asArray(teams)]]">
-                <paper-item on-tap="changeTeam" team="[[item]]">[[item.name]]</paper-item>
+                <paper-item on-tap="teamSelected" team-id$="[[item.id]]" team="[[item]]">[[item.name]]</paper-item>
               </template>
             </paper-menu>
 
-            <paper-button raised on-tap="createTeam">Create Team</paper-button>
+            <paper-button raised on-tap="openShade" shade="teamShade">Create Team</paper-button>
             <paper-button raised on-tap="logout">Sign Out</paper-button>
           </section>
         </div>
       </app-drawer>
-      <x-team-page team="[[activeTeam]]"></x-team-page>
+      <x-team-page team="[[activeTeam]]" updates="[[activeTeamUpdates]]"></x-team-page>
     </app-drawer-layout>
 
-    <x-shade active="[[openTeamShade]]">
-      <x-first-team id="firstTeam" domain="[[domain]]"></x-first-team>
+    <x-shade id="teamShade" active="[[openTeamShade]]">
+      <x-create-team id="firstTeam" domain="[[domain]]"></x-create-team>
     </x-shade>
-    <x-shade active="{{openPicker}}">
+    <x-shade id="emojiShade" active="{{openEmojiShade}}">
       <x-emoji-picker id="emoji"></x-emoji-picker>
     </x-shade>
-    <x-shade active="[[!user]]">
+    <x-shade id="loginShade" active="[[!user]]">
       <x-login id="login" user="{{user}}"></x-login>
     </x-shade>
   </template>
@@ -87,10 +91,18 @@
           type: Object,
           observer: '_userChanged'
         },
-        teams: {
+        prefs: {
           type: Object
         },
+        teams: {
+          type: Object,
+          observer: '_teamsChanged'
+        },
         activeTeam: {
+          type: Object,
+          observer: '_activeTeamChanged'
+        },
+        activeTeamUpdates: {
           type: Object
         },
         domain: {
@@ -98,7 +110,7 @@
           readOnly: true,
           observer: '_domainChanged'
         },
-        openPicker: {
+        openEmojiShade: {
           type: Boolean,
           value: false
         },
@@ -107,21 +119,47 @@
           value: false
         }
       },
+      observers: [
+        'setTeam(prefs.activeTeam)'
+      ],
       _userChanged: function() {
         if (this.user && this.user.emailVerified) {
-          this.prefsRef = firebase.database()
+          this.prefsRef = firebase.database().ref('/prefs').child(this.user.uid);
+          this.prefsRef.on('value', function(snap) {
+            this.prefs = snap.val();
+          }.bind(this));
           this._setDomain(this.user.email.split('@')[1]);
+        } else if (!this.user) {
+          if (this.prefsRef) {
+            this.prefsRef.off();
+            this.prefsRef = null;
+          }
         }
-
+      },
+      _activeTeamChanged: function() {
+        if (this.activeTeam) {
+          this.updatesRef = this.domainRef.child('updates').child(this.activeTeam.id);
+          this.updatesRef.on('value', function(snap) {
+            console.log(snap.val());
+            this.activeTeamUpdates = snap.val();
+          }.bind(this));
+        }
       },
       _domainChanged: function() {
-        this._domainId = this.domain.replace(/\./g,',');
-        firebase.database().ref('/domains')
-          .child(this._domainId)
-          .child('teams')
-          .on('value', function(snap) {
+        if (this.domain) {
+          this._domainId = this.domain.replace(/\./g,',');
+          this.domainRef = firebase.database().ref('/domains').child(this._domainId);
+
+          this.domainRef.child('teams').on('value', function(snap) {
             this.teams = snap.val();
           }.bind(this));
+        }
+      },
+      _teamsChanged: function() {
+        if (this.teams && this._pendingTeamId) {
+          this.setTeam(this._pendingTeamId);
+          this._pendingTeamId = null;
+        }
       },
       _asArray: function(obj) {
         var out = [];
@@ -130,17 +168,50 @@
         }
         return out;
       },
-      changeTeam: function(e) {
-        var team = e.currentTarget.team;
-        this.activeTeam = team;
-        console.log(this.activeTeam);
+      openShade: function(e) {
+        var shade;
+        if (typeof e === 'string') {
+          shade = e;
+        } else {
+          shade = e.currentTarget.getAttribute('shade');
+        }
+        this.$[shade].active = true;
       },
-      createTeam: function() {
-        this.openTeamShade = true;
+      closeShade: function(name) {
+        this.$[name].active = false;
       },
-      joinRoom: function(id) {
-        if (this.user) {
-          firebase.database().ref('/prefs').child(this.user.uid).update({room: id});
+      teamSelected: function(e) {
+        this.setTeam(e.currentTarget.team.id);
+      },
+      createTeam: function(id, name) {
+        firebase.database().ref('/domains')
+          .child(this.domain.replace(/\./g,','))
+          .child('teams')
+          .child(id).set({
+            id: id,
+            name: name,
+            createdAt: {'.sv': 'timestamp'}
+          }).then(function() {
+            app.setTeam(id);
+          });
+      },
+      updateStatus: function(emoji) {
+        if (this.updatesRef) {
+          this.updatesRef.child(this.user.uid).update({
+            emoji: emoji,
+            updated: {'.sv': 'timestamp'},
+            pic: this.user.photoUrl,
+            name: this.user.displayName
+          });
+        }
+      },
+      setTeam: function(id) {
+        if (this.user && this.teams) {
+          firebase.database().ref('/prefs').child(this.user.uid).update({activeTeam: id});
+          this.activeTeam = this.teams[id];
+          this.activeTeamId = id;
+        } else {
+          this._pendingTeamId = id;
         }
       },
       logout: function() {
