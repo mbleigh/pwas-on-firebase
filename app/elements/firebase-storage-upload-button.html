@@ -1,0 +1,58 @@
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+
+<dom-module id="firebase-storage-upload-button">
+  <template>
+    <style>
+      :host {
+        display: inline-block;
+      }
+
+      #input {
+        display: none;
+      }
+    </style>
+
+    <input id="input" type="file" on-change="filesPicked">
+    <paper-button id="btn" raised on-tap="pickFiles">Upload File</paper-button>
+  </template>
+  <script>
+    Polymer({
+      is: 'firebase-storage-upload-button',
+      properties: {
+        path: {
+          type: String
+        },
+        url: {
+          type: String,
+          notify: true
+        },
+        metadata: {
+          type: Object,
+          notify: true
+        }
+      },
+      pickFiles: function() {
+        this.$.input.click();
+      },
+      filesPicked: function() {
+        var file = this.$.input.files[0];
+        var el = this;
+
+        console.log(this.path, file.name);
+        this.task = firebase.storage().ref()
+          .child(this.path)
+          .child(file.name)
+          .put(file);
+
+        this.task.on('state_changed', null, function(error) {
+          console.error(error);
+        }, function() {
+          console.log(this.snapshot.metadata);
+          el.fire('upload-complete', this.snapshot.metadata);
+          el.url = this.snapshot.metadata.downloadURLs[0];
+          el.metadata = this.snapshot.metadata;
+        }.bind(this.task));
+      }
+    });
+  </script>
+</dom-module>

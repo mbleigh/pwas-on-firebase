@@ -77,13 +77,15 @@
       <x-create-team id="firstTeam" domain="[[domain]]"></x-create-team>
     </x-shade>
     <x-shade id="emojiShade" active="{{openEmojiShade}}">
-      <x-emoji-picker id="emoji"></x-emoji-picker>
+      <x-emoji-picker id="emoji" domain="[[domain]]" team="[[activeTeamId]]"></x-emoji-picker>
     </x-shade>
     <x-shade id="loginShade" active="[[!user]]">
       <x-login id="login" user="{{user}}"></x-login>
     </x-shade>
   </template>
   <script>
+    var ONE_DAY = 1000 * 60 * 60 * 24;
+
     Polymer({
       is: 'x-app',
       properties: {
@@ -138,9 +140,12 @@
       },
       _activeTeamChanged: function() {
         if (this.activeTeam) {
-          this.updatesRef = this.domainRef.child('updates').child(this.activeTeam.id);
+          this.updatesRef = this.domainRef.child('updates')
+            .child(this.activeTeam.id)
+            .orderByChild('updated')
+            .startAt(Date.now() - ONE_DAY);
+
           this.updatesRef.on('value', function(snap) {
-            console.log(snap.val());
             this.activeTeamUpdates = snap.val();
           }.bind(this));
         }
@@ -196,13 +201,21 @@
           });
       },
       updateStatus: function(emoji) {
-        if (this.updatesRef) {
-          this.updatesRef.child(this.user.uid).update({
+        if (this.domainRef && this.activeTeamId) {
+          var update = {};
+          update['updates/' + this.activeTeamId + '/' + this.user.uid] = {
             emoji: emoji,
-            updated: {'.sv': 'timestamp'},
-            pic: this.user.photoUrl,
+            updated: firebase.database.ServerValue.TIMESTAMP,
+            pic: this.user.photoURL,
             name: this.user.displayName
-          });
+          };
+
+          update['history/' + this.activeTeamId + '/' + this.user.uid + '/' + this.domainRef.push().key] = {
+            emoji: emoji,
+            updated: firebase.database.ServerValue.TIMESTAMP
+          };
+
+          this.domainRef.update(update);
         }
       },
       setTeam: function(id) {

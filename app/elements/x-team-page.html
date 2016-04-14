@@ -1,5 +1,9 @@
 <link rel="import" href="../bower_components/app-layout/app-layout.html">
 <link rel="import" href="../bower_components/paper-fab/paper-fab.html">
+<link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../bower_components/paper-menu-button/paper-menu-button.html">
+<link rel="import" href="../bower_components/paper-item/paper-item.html">
+<link rel="import" href="../bower_components/paper-menu/paper-menu.html">
 
 <link rel="import" href="x-emoji-update.html">
 
@@ -38,6 +42,12 @@
       <app-header>
         <app-toolbar>
           <div title><img src="https://twemoji.maxcdn.com/2/svg/1f43a.svg" width="36" height="36"> [[team.name]]</div>
+          <paper-menu-button horizontal-align="right">
+            <paper-icon-button icon="more-vert" class="dropdown-trigger"></paper-icon-button>
+            <paper-menu class="dropdown-content" selectable="nothing">
+              <paper-item>Upload Emoji</paper-item>
+            </paper-menu>
+          </paper-menu-button>
         </app-toolbar>
       </app-header>
       <div id="content">

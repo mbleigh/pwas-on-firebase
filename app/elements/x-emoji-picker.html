@@ -3,6 +3,8 @@
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../bower_components/iron-icons/iron-icons.html">
 
+<link rel="import" href="firebase-storage-upload-button.html">
+
 <dom-module id="x-emoji-picker">
   <template>
     <style>
@@ -24,13 +26,17 @@
         text-align: left;
       }
 
-      #selections {
+      #content {
         margin: 64px auto 0;
         padding: 16px 8px;
       }
 
       #selections img {
         margin: 4px;
+      }
+
+      #uploadButton[active] {
+        color: var(--paper-blue-600);
       }
     </style>
 
@@ -44,17 +50,27 @@
       <app-header fixed>
         <app-toolbar>
           <div title>Select an Emoji</div>
+          <paper-icon-button id="uploadButton" icon="cloud-upload" active="{{showUploadForm}}" toggles></paper-icon-button>
           <paper-icon-button icon="close" on-tap="close"></paper-icon-button>
         </app-toolbar>
       </app-header>
-      <div id="selections">
-        <template is="dom-repeat" items="[[emoji]]">
-          <img width="36" height="36" src="[[item.urls.s72]]"
-            alt="[[item.desc]]"
-            title="[[item.desc]]"
-            item="[[item]]"
-            on-tap="select">
-        </template>
+      <div id="content">
+        <div id="uploader" hidden$="[[!showUploadForm]]">
+          <input type="file" id="emojiUploadFile"></input>
+          <span>[[domain]]</span> <span>[[team]]</span>
+          <img src="[[uploadedUrl]]" width="72" height="72">
+          <firebase-storage-upload-button path="/domains/[[domain]]/teams/[[team]]" url="{{uploadedUrl}}">
+            </firebase-storagte-upload-button>
+        </div>
+        <div id="selections">
+          <template is="dom-repeat" items="[[emoji]]">
+            <img width="36" height="36" src="[[item.urls.s72]]"
+              alt="[[item.desc]]"
+              title="[[item.desc]]"
+              item="[[item]]"
+              on-tap="select">
+          </template>
+        </div>
       </div>
     </app-header-layout>
   </template>
@@ -67,7 +83,13 @@
         },
         value: {
           type: String
-        }
+        },
+        showUploadForm: {
+          type: Boolean,
+          value: false
+        },
+        domain: String,
+        team: String
       },
       close: function() {
         app.closeShade('emojiShade');

@@ -62,13 +62,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <body unresolved>
   <span id="browser-sync-binding"></span>
-  <script src="https://www.gstatic.com/firebasejs/staging/3.0.0-eap.3/firebase.js" charset="utf-8"></script>
+  <script src="https://www.gstatic.com/firebasejs/staging/3.0.0-eap.4/firebase.js" charset="utf-8"></script>
   <script>
     firebase.initializeApp({
       projectId: 'teamoji-app',
       apiKey: 'AIzaSyCGZ270rKbE1GVbkvijkOCAhvTBUC1T6GU',
       databaseURL: 'https://teamoji-app.firebaseio.com',
-      authDomain: 'teamoji-app.firebaseapp.com'
+      authDomain: 'teamoji-app.firebaseapp.com',
+      storageBucket: 'teamoji-app.storage.firebase.com'
     });
   </script>
   <x-app id="app"></x-app>

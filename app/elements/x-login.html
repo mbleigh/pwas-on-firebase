@@ -94,8 +94,8 @@
       },
       ready: function() {
         var auth = firebase.auth();
-        firebase.auth().addAuthStateListener(function(state) {
-          this.user = state.currentUser;
+        firebase.auth().onAuthStateChanged(function(user) {
+          this.user = user;
         }.bind(this));
       },
       login: function() {
