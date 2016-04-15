@@ -46,17 +46,21 @@ if (Object.defineProperty) {
 parseString(fs.readFileSync(__dirname + '/data/emoji_annotations.xml', 'utf8'), function(err, data) {
   var data = data.ldml.annotations[0].annotation.map(function(annotation) {
     var code = annotation.$.cp.codePointAt(1).toString(16);
-    return {
-      desc: annotation.$.tts,
-      tags: annotation._.split('; '),
-      code: code,
-      urls: {
-        svg: 'https://twemoji.maxcdn.com/2/svg/' + code + '.svg',
-        s16: 'https://twemoji.maxcdn.com/2/16x16/' + code + '.png',
-        s36: 'https://twemoji.maxcdn.com/2/36x36/' + code + '.png',
-        s72: 'https://twemoji.maxcdn.com/2/72x72/' + code + '.png'
-      }
-    };
+    try {
+      fs.statSync(process.env.HOME + '/Downloads/noto-emoji/svg/emoji_u' + code + '.svg')
+      return {
+        desc: annotation.$.tts,
+        tags: annotation._.split('; '),
+        code: code,
+        urls: {
+          svg: 'https://storage.googleapis.com/teamoji-app.appspot.com/emoji/svg/emoji_u' + code + '.svg'
+        }
+      };
+    } catch (e) {
+      process.stderr.write('- missing "' + annotation.$.tts + '"\n');
+    }
+  }).filter(function(entry) {
+    return !!entry;
   });
 
   console.log(JSON.stringify(data, null, 2));
