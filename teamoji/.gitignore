@@ -3,3 +3,4 @@ dist
 bower_components
 .tmp
 .publish/
+scripts/data/emoji_annotations.xml
