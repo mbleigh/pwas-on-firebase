@@ -16,6 +16,7 @@ limitations under the License.
 <link rel="import" href="../bower_components/app-layout/app-layout.html">
 <link rel="import" href="../bower_components/paper-menu/paper-menu.html">
 <link rel="import" href="../bower_components/paper-item/paper-item.html">
+<link rel="import" href="../bower_components/polymerfire/polymerfire.html">
 <link rel="import" href="x-shade.html">
 <link rel="import" href="x-login.html">
 <link rel="import" href="x-create-team.html">
@@ -64,7 +65,31 @@ limitations under the License.
         padding: 8px;
         margin: 8px 16px;
       }
-     </style>
+    </style>
+
+    <firebase-app
+      api-key="AIzaSyCGZ270rKbE1GVbkvijkOCAhvTBUC1T6GU"
+      database-url="https://teamoji-app.firebaseio.com"
+      auth-domain="teamoji-app.firebaseapp.com"
+      storage-bucket="teamoji-app.appspot.com">
+    </firebase-app>
+
+    <firebase-document id="prefs"
+      data="{{prefs}}"
+      path="/prefs/[[user.uid]]">
+    </firebase-document>
+
+    <firebase-query id="updates"
+      data="{{activeTeamUpdates}}"
+      path="/domains/[[_domainId]]/updates/[[activeTeam.id]]"
+      order-by-child="updated"
+      start-at="[[yesterday]]">
+    </firebase-query>
+
+    <firebase-query id="teams"
+      data="{{teams}}"
+      path="/domains/[[_domainId]]/teams">
+    </firebase-query>
 
     <app-drawer-layout>
       <app-drawer swipe-open>
@@ -75,7 +100,7 @@ limitations under the License.
 
           <section>
             <paper-menu attr-for-selected="team-id" selected="{{activeTeamId}}">
-              <template is="dom-repeat" items="[[_asArray(teams)]]">
+              <template is="dom-repeat" items="[[teams]]">
                 <paper-item on-tap="teamSelected" team-id$="[[item.id]]" team="[[item]]">[[item.name]]</paper-item>
               </template>
             </paper-menu>
@@ -112,12 +137,11 @@ limitations under the License.
           type: Object
         },
         teams: {
-          type: Object,
+          type: Array,
           observer: '_teamsChanged'
         },
         activeTeam: {
-          type: Object,
-          observer: '_activeTeamChanged'
+          type: Object
         },
         activeTeamUpdates: {
           type: Object
@@ -137,42 +161,20 @@ limitations under the License.
         }
       },
       observers: [
-        'setTeam(prefs.activeTeam)'
+        'setTeam(prefs.activeTeam, teams.length)'
       ],
+      ready: function() {
+        this.yesterday = Date.now() - ONE_DAY;
+      },
       _userChanged: function() {
         if (this.user && this.user.emailVerified) {
-          this.prefsRef = firebase.database().ref('/prefs').child(this.user.uid);
-          this.prefsRef.on('value', function(snap) {
-            this.prefs = snap.val();
-          }.bind(this));
           this._setDomain(this.user.email.split('@')[1]);
-        } else if (!this.user) {
-          if (this.prefsRef) {
-            this.prefsRef.off();
-            this.prefsRef = null;
-          }
-        }
-      },
-      _activeTeamChanged: function() {
-        if (this.activeTeam) {
-          this.updatesRef = this.domainRef.child('updates')
-            .child(this.activeTeam.id)
-            .orderByChild('updated')
-            .startAt(Date.now() - ONE_DAY);
-
-          this.updatesRef.on('value', function(snap) {
-            this.activeTeamUpdates = snap.val();
-          }.bind(this));
         }
       },
       _domainChanged: function() {
         if (this.domain) {
           this._domainId = this.domain.replace(/\./g,',');
           this.domainRef = firebase.database().ref('/domains').child(this._domainId);
-
-          this.domainRef.child('teams').on('value', function(snap) {
-            this.teams = snap.val();
-          }.bind(this));
         }
       },
       _teamsChanged: function() {
@@ -181,12 +183,8 @@ limitations under the License.
           this._pendingTeamId = null;
         }
       },
-      _asArray: function(obj) {
-        var out = [];
-        for (var key in obj) {
-          out.push(obj[key]);
-        }
-        return out;
+      _pushId: function() {
+        return firebase.database().ref().push().key;
       },
       openShade: function(e) {
         var shade;
@@ -204,8 +202,7 @@ limitations under the License.
         this.setTeam(e.currentTarget.team.id);
       },
       createTeam: function(id, name) {
-        firebase.database().ref('/domains')
-          .child(this.domain.replace(/\./g,','))
+        this.domainRef
           .child('teams')
           .child(id).set({
             id: id,
@@ -216,16 +213,16 @@ limitations under the License.
           });
       },
       updateStatus: function(emoji) {
-        if (this.domainRef && this.activeTeamId) {
+        if (this.activeTeam) {
           var update = {};
-          update['updates/' + this.activeTeamId + '/' + this.user.uid] = {
+          update['updates/' + this.activeTeam.id + '/' + this.user.uid] = {
             emoji: emoji,
             updated: firebase.database.ServerValue.TIMESTAMP,
             pic: this.user.photoURL,
             name: this.user.displayName
           };
 
-          update['history/' + this.activeTeamId + '/' + this.user.uid + '/' + this.domainRef.push().key] = {
+          update['history/' + this.activeTeam.id + '/' + this.user.uid + '/' + this._pushId()] = {
             emoji: emoji,
             updated: firebase.database.ServerValue.TIMESTAMP
           };
@@ -236,7 +233,7 @@ limitations under the License.
       setTeam: function(id) {
         if (this.user && this.teams) {
           firebase.database().ref('/prefs').child(this.user.uid).update({activeTeam: id});
-          this.activeTeam = this.teams[id];
+          this.activeTeam = this.$.teams.child(id);
           this.activeTeamId = id;
         } else {
           this._pendingTeamId = id;

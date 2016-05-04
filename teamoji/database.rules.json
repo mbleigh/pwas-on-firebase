@@ -1,4 +1,13 @@
 {
   ".read": true,
-  ".write": true
+  ".write": true,
+  "domains": {
+    "$domain": {
+      "updates": {
+        "$team": {
+          ".indexOn": ["updated"]
+        }
+      }
+    }
+  }
 }

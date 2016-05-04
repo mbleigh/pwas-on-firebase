@@ -183,6 +183,30 @@ gulp.task('vulcanize', function() {
     .pipe($.size({title: 'vulcanize'}));
 });
 
+gulp.task('generate-dev-service-worker', function(callback) {
+  var dir = 'app';
+  var swPrecache = require('sw-precache');
+
+  swPrecache.write(path.join('.tmp', 'service-worker.js'), {
+    handleFetch: false,
+    cacheId: packageJson.name,
+    staticFileGlobs: [
+      dir + '/**/*.{js,html,css,png,svg,jpg,gif,json}'
+    ],
+    stripPrefix: dir,
+    logger: $.util.log,
+    navigateFallback: '/index.html',
+    runtimeCaching: [{
+      urlPattern: /^https:\/\/fonts.googleapis.com\/.*/,
+      handler: 'cacheFirst'
+    },
+    {
+      urlPattern: /^https:\/\/www.gstatic.com\/.*/,
+      handler: 'networkFirst'
+    }]
+  }, callback);
+});
+
 gulp.task('generate-service-worker', function(callback) {
   var dir = dist();
   var swPrecache = require('sw-precache');
@@ -190,18 +214,22 @@ gulp.task('generate-service-worker', function(callback) {
   swPrecache.write(path.join(dir, 'service-worker.js'), {
     cacheId: packageJson.name,
     staticFileGlobs: [
-      dir + '/**/*.{js,html,css,png,jpg,gif,json}'
+      dir + '/**/*.{js,html,css,png,svg,jpg,gif,json}'
     ],
     stripPrefix: dir,
     logger: $.util.log,
-    navigateFallback: '/',
+    navigateFallback: '/index.html',
     runtimeCaching: [{
-      urlPattern: /^https:\/\/twemoji.maxcdn.com\/.*/,
-      handler: 'fastest'
-    },
-    {
       urlPattern: /^https:\/\/fonts.googleapis.com\/.*/,
       handler: 'cacheFirst'
+    },
+    {
+      urlPattern: /^https:\/\/lh3.googleusercontent.com\/.*/,
+      handler: 'networkFirst'
+    },
+    {
+      urlPattern: /^https:\/\/storage.googleapis.com\/teamoji-app.appspot.com\/.*/,
+      handler: 'networkFirst'
     },
     {
       urlPattern: /^https:\/\/www.gstatic.com\/.*/,
@@ -216,7 +244,7 @@ gulp.task('clean', function() {
 });
 
 // Watch files for changes & reload
-gulp.task('serve', ['styles', 'elements'], function() {
+gulp.task('serve', ['styles', 'elements', 'generate-dev-service-worker'], function() {
   browserSync({
     port: 5000,
     notify: false,
@@ -239,10 +267,10 @@ gulp.task('serve', ['styles', 'elements'], function() {
     }
   });
 
-  gulp.watch(['app/**/*.html'], reload);
-  gulp.watch(['app/styles/**/*.css'], ['styles', reload]);
-  gulp.watch(['app/elements/**/*.css'], ['elements', reload]);
-  gulp.watch(['app/images/**/*'], reload);
+  gulp.watch(['app/**/*.html'], ['generate-dev-service-worker', reload]);
+  gulp.watch(['app/styles/**/*.css'], ['styles', 'generate-dev-service-worker', reload]);
+  gulp.watch(['app/elements/**/*.css'], ['elements', 'generate-dev-service-worker', reload]);
+  gulp.watch(['app/images/**/*'], ['generate-dev-service-worker', reload]);
 });
 
 // Build and serve the output from the dist build
