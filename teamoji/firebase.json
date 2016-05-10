@@ -6,7 +6,7 @@
     "public": "dist",
     "rewrites": [
       {
-        "source": "!{/bower_components,/elements,/images}/**",
+        "source": "!{/__,/bower_components,/elements,/images,/scripts,/styles}/**",
         "destination": "/index.html"
       }
     ]

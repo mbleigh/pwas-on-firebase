@@ -17,6 +17,7 @@ limitations under the License.
 <link rel="import" href="../bower_components/paper-menu/paper-menu.html">
 <link rel="import" href="../bower_components/paper-item/paper-item.html">
 <link rel="import" href="../bower_components/polymerfire/polymerfire.html">
+<link rel="import" href="../bower_components/carbon-storage/carbon-indexeddb-mirror/carbon-indexeddb-mirror.html">
 <link rel="import" href="x-shade.html">
 <link rel="import" href="x-login.html">
 <link rel="import" href="x-create-team.html">
@@ -75,21 +76,39 @@ limitations under the License.
     </firebase-app>
 
     <firebase-document id="prefs"
-      data="{{prefs}}"
+      data="{{_fbPrefs}}"
       path="/prefs/[[user.uid]]">
     </firebase-document>
+    <carbon-indexeddb-mirror
+      store="/prefs/[[user.uid]]"
+      data="[[_fbPrefs]]"
+      persisted-data="{{prefs}}"
+      online="[[online]]">
+    </carbon-indexeddb-mirror>
 
     <firebase-query id="updates"
-      data="{{activeTeamUpdates}}"
+      data="{{_fbTeamUpdates}}"
       path="/domains/[[_domainId]]/updates/[[activeTeam.id]]"
       order-by-child="updated"
       start-at="[[yesterday]]">
     </firebase-query>
+    <carbon-indexeddb-mirror
+      store="/domains/[[_domainId]]/updates/[[activeTeam.id]]"
+      data="[[_fbTeamUpdates]]"
+      persisted-data="{{activeTeamUpdates}}"
+      online="[[online]]">
+    </carbon-indexeddb-mirror>
 
     <firebase-query id="teams"
-      data="{{teams}}"
+      data="{{_fbTeams}}"
       path="/domains/[[_domainId]]/teams">
     </firebase-query>
+    <carbon-indexeddb-mirror
+      store="/domains/[[_domainId]]/teams"
+      data="[[_fbTeams]]"
+      persisted-data="{{teams}}"
+      online="[[online]]">
+    </carbon-indexeddb-mirror>
 
     <app-drawer-layout>
       <app-drawer swipe-open>

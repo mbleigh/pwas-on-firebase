@@ -27,7 +27,8 @@ var merge = require('merge-stream');
 var path = require('path');
 var fs = require('fs');
 var glob = require('glob-all');
-var historyApiFallback = require('connect-history-api-fallback');
+var superstatic = require('superstatic');
+var fbConfig = require('./firebase.json');
 var packageJson = require('./package.json');
 var crypto = require('crypto');
 var ensureFiles = require('./tasks/ensure-files.js');
@@ -218,8 +219,10 @@ gulp.task('generate-service-worker', function(callback) {
     ],
     stripPrefix: dir,
     logger: $.util.log,
-    navigateFallback: '/index.html',
     runtimeCaching: [{
+      urlPattern: /^\/__\/.*$/,
+      handler: 'networkFirst'
+    },{
       urlPattern: /^https:\/\/fonts.googleapis.com\/.*/,
       handler: 'cacheFirst'
     },
@@ -229,10 +232,6 @@ gulp.task('generate-service-worker', function(callback) {
     },
     {
       urlPattern: /^https:\/\/storage.googleapis.com\/teamoji-app.appspot.com\/.*/,
-      handler: 'networkFirst'
-    },
-    {
-      urlPattern: /^https:\/\/www.gstatic.com\/.*/,
       handler: 'networkFirst'
     }]
   }, callback);
@@ -262,11 +261,14 @@ gulp.task('serve', ['styles', 'elements', 'generate-dev-service-worker'], functi
     //       will present a certificate warning in the browser.
     // https: true,
     server: {
-      baseDir: ['.tmp', 'app'],
-      middleware: [historyApiFallback()]
+      baseDir: ['app'],
+      middleware: [superstatic({
+        config: Object.assign({}, fbConfig.hosting, {public: ['.tmp', 'app']})
+      })]
     }
   });
 
+  console.log(Object.assign({}, fbConfig.hosting, {public: ['.tmp', 'app']}));
   gulp.watch(['app/**/*.html'], ['generate-dev-service-worker', reload]);
   gulp.watch(['app/styles/**/*.css'], ['styles', 'generate-dev-service-worker', reload]);
   gulp.watch(['app/elements/**/*.css'], ['elements', 'generate-dev-service-worker', reload]);
@@ -292,7 +294,7 @@ gulp.task('serve:dist', ['default'], function() {
     //       will present a certificate warning in the browser.
     // https: true,
     server: dist(),
-    middleware: [historyApiFallback()]
+    middleware: [superstatic({config: Object.assign({}, fbConfig.hosting, {public: 'dist'})})]
   });
 });
 
