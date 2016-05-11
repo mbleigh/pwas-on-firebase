@@ -80,7 +80,7 @@ limitations under the License.
       path="/prefs/[[user.uid]]">
     </firebase-document>
     <carbon-indexeddb-mirror
-      store="/prefs/[[user.uid]]"
+      key="/prefs/[[user.uid]]"
       data="[[_fbPrefs]]"
       persisted-data="{{prefs}}"
       online="[[online]]">
@@ -93,7 +93,7 @@ limitations under the License.
       start-at="[[yesterday]]">
     </firebase-query>
     <carbon-indexeddb-mirror
-      store="/domains/[[_domainId]]/updates/[[activeTeam.id]]"
+      key="/domains/[[_domainId]]/updates/[[activeTeam.id]]"
       data="[[_fbTeamUpdates]]"
       persisted-data="{{activeTeamUpdates}}"
       online="[[online]]">
@@ -104,7 +104,7 @@ limitations under the License.
       path="/domains/[[_domainId]]/teams">
     </firebase-query>
     <carbon-indexeddb-mirror
-      store="/domains/[[_domainId]]/teams"
+      key="/domains/[[_domainId]]/teams"
       data="[[_fbTeams]]"
       persisted-data="{{teams}}"
       online="[[online]]">
