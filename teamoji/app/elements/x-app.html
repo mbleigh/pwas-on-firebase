@@ -111,7 +111,7 @@ limitations under the License.
     </carbon-indexeddb-mirror>
 
     <app-drawer-layout>
-      <app-drawer swipe-open>
+      <app-drawer id="drawer" swipe-open>
         <div id="content">
           <app-toolbar>
             <div title>Your Teams</div>
@@ -129,7 +129,7 @@ limitations under the License.
           </section>
         </div>
       </app-drawer>
-      <x-team-page team="[[activeTeam]]" updates="[[activeTeamUpdates]]"></x-team-page>
+      <x-team-page team="[[activeTeam]]" updates="[[activeTeamUpdates]]" offline="[[offline]]"></x-team-page>
     </app-drawer-layout>
 
     <x-shade id="teamShade" active="[[openTeamShade]]">
@@ -148,6 +148,11 @@ limitations under the License.
     Polymer({
       is: 'x-app',
       properties: {
+        offline: {
+          type: Boolean,
+          value: false,
+          reflectToAttribute: true
+        },
         user: {
           type: Object,
           observer: '_userChanged'
@@ -184,6 +189,13 @@ limitations under the License.
       ],
       ready: function() {
         this.yesterday = Date.now() - ONE_DAY;
+        this.offline = navigator.onLine === false;
+        window.addEventListener('online', function() {
+          this.offline = false;
+        }.bind(this));
+        window.addEventListener('offline', function() {
+          this.offline = true;
+        }.bind(this));
       },
       _userChanged: function() {
         if (this.user && this.user.emailVerified) {

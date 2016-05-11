@@ -32,10 +32,17 @@ limitations under the License.
       app-toolbar {
         background: var(--paper-amber-300);
         color: rgba(0,0,0,0.87);
+        transition: all 0.5s;
       }
 
-      app-toolbar img {
+      :host([offline]) app-toolbar {
+        background: var(--paper-grey-600);
+        color: white;
+      }
+
+      app-toolbar paper-icon-button {
         vertical-align: middle;
+        margin-right: 8px;
       }
 
       paper-fab {
@@ -51,18 +58,20 @@ limitations under the License.
         @apply(--layout-wrap);
         @apply(--layout-center-justified);
       }
+
+      #offline {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: rgba(255,255,255,0.7);
+      }
     </style>
 
     <app-header-layout>
       <app-header>
         <app-toolbar>
-          <div title><img src="https://twemoji.maxcdn.com/2/svg/1f43a.svg" width="36" height="36"> [[team.name]]</div>
-          <paper-menu-button horizontal-align="right">
-            <paper-icon-button icon="more-vert" class="dropdown-trigger"></paper-icon-button>
-            <paper-menu class="dropdown-content" selectable="nothing">
-              <paper-item>Upload Emoji</paper-item>
-            </paper-menu>
-          </paper-menu-button>
+          <paper-icon-button drawer-toggle icon="menu" on-tap="openMenu"></paper-icon-button>
+          <div title>[[team.name]]</div>
+          <span hidden$="[[!offline]]" id="offline">Offline</span>
         </app-toolbar>
       </app-header>
       <div id="content">
@@ -72,12 +81,17 @@ limitations under the License.
       </div>
     </app-header-layout>
 
-    <paper-fab elevation="2" icon="add" on-tap="startUpdate"></paper-fab>
+    <paper-fab hidden$="[[offline]]" elevation="2" icon="add" on-tap="startUpdate"></paper-fab>
   </template>
   <script>
     Polymer({
       is: 'x-team-page',
       properties: {
+        offline: {
+          type: Boolean,
+          value: false,
+          reflectToAttribute: true
+        },
         team: {
           type: Object
         }
@@ -96,6 +110,9 @@ limitations under the License.
       },
       startUpdate: function() {
         app.openShade('emojiShade');
+      },
+      openMenu: function() {
+        app.$.drawer.open();
       }
     });
   </script>
