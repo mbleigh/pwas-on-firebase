@@ -75,7 +75,7 @@ limitations under the License.
         </app-toolbar>
       </app-header>
       <div id="content">
-        <template is="dom-repeat" items="[[updates]]">
+        <template is="dom-repeat" items="[[updates]]" sort="reverseSort" observe="updated">
           <x-emoji-update update="[[item]]"></x-emoji-update>
         </template>
       </div>
@@ -94,6 +94,10 @@ limitations under the License.
         },
         team: {
           type: Object
+        },
+        updates: {
+          type: Array,
+          notify: true
         }
       },
       startUpdate: function() {
@@ -101,6 +105,9 @@ limitations under the License.
       },
       openMenu: function() {
         app.$.drawer.open();
+      },
+      reverseSort: function(a, b) {
+        return a.updated > b.updated ? -1 : 1;
       }
     });
   </script>
