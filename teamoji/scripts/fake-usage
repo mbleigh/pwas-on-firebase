@@ -2,7 +2,16 @@
 
 var firebase = require('firebase');
 var WHITELIST = '1f638 1f642 1f989 1f984 1f451 1f426 1f355 1f363 1f369 1f60e 1f44d 1f32e 1f6eb 1f4f4 1f3a5 1f6b4 1f6cc 1f6cd 1f42c 1f302 1f487 1f635 1f634 2603 270f 1f680 1f697 1f687 1f575 1f64c'.split(' ');
-var TEAMS = ['firebase', 'googleio'];
+var TEAMS = ['firebase'];
+var USERS = [
+  {id: 'sheep', name: 'Baa Ramu', pic: '/images/avatars/sheep.jpg'},
+  {id: 'dragon', name: 'Drogon Targaryan', pic: '/images/avatars/dragon.jpg'},
+  {id: 'tiger', name: 'Rory Felis', pic: '/images/avatars/tiger.jpg'},
+  {id: 'monkey', name: 'Gunther Farnsworth', pic: '/images/avatars/monkey.jpg'},
+  {id: 'koala', name: 'Eu Calyptus', pic: '/images/avatars/koala.jpg'},
+  {id: 'bunny', name: 'Bugs Hoppy', pic: '/images/avatars/bunny.jpg'},
+  {id: 'octopus', name: 'Armand Yeats', pic: '/images/avatars/octopus.jpg'}
+];
 var IMG_PREFIX = 'https://storage.googleapis.com/teamoji-app.appspot.com/emoji/svg/emoji_u';
 
 firebase.initializeApp({
@@ -24,26 +33,21 @@ function nextUpdate() {
 }
 
 function randomUpdate() {
-  var updatesRef = domainRef.child('updates').child(randomFrom(TEAMS))
-  updatesRef.once('value').then(function(snap) {
-    var uid = randomFrom(Object.keys(snap.val()));
-    if (uid === '109558306803631921811C1E47ADACEC4F3C6CEB3DD9') {
-      console.log('Was Michael, skipping...');
-      return randomUpdate();
-    }
-    var emoji = randomFrom(WHITELIST);
-    updatesRef.child(uid).update({
+  var user = randomFrom(USERS);
+  var team = randomFrom(TEAMS);
+  var emoji = randomFrom(WHITELIST);
+  domainRef.child('updates')
+    .child(team)
+    .child(user.id)
+    .set({
+      name: user.name,
+      pic: user.pic,
       updated: firebase.database.ServerValue.TIMESTAMP,
       emoji: IMG_PREFIX + emoji + '.svg'
     }).then(function() {
-      console.log('Updated', snap.child(uid).child('name').val(), 'on team', updatesRef.key, 'to', emoji);
+      console.log('Updating', user.name, 'to', emoji);
       return setTimeout(randomUpdate, nextUpdate());
-    }).catch(function(err) {
-      console.log(err);
     });
-  }).catch(function(err) {
-    console.log(err);
-  });
 }
 
 randomUpdate();
