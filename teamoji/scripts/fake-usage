@@ -1,0 +1,49 @@
+#!/usr/bin/env node
+
+var firebase = require('firebase');
+var WHITELIST = '1f638 1f642 1f989 1f984 1f451 1f426 1f355 1f363 1f369 1f60e 1f44d 1f32e 1f6eb 1f4f4 1f3a5 1f6b4 1f6cc 1f6cd 1f42c 1f302 1f487 1f635 1f634 2603 270f 1f680 1f697 1f687 1f575 1f64c'.split(' ');
+var TEAMS = ['firebase', 'googleio'];
+var IMG_PREFIX = 'https://storage.googleapis.com/teamoji-app.appspot.com/emoji/svg/emoji_u';
+
+firebase.initializeApp({
+  serviceAccount: __dirname + '/data/service-account.json',
+  databaseURL: 'https://teamoji-app.firebaseio.com'
+});
+
+var db = firebase.database();
+var domainRef = db.ref('domains/google,com');
+
+function randomFrom(arr) {
+  return arr[Math.floor(Math.random()*arr.length)];
+}
+
+function nextUpdate() {
+  var time = Math.random() * 15000 + 5000;
+  console.log('Updating next in', (time / 1000.0) + 's');
+  return time;
+}
+
+function randomUpdate() {
+  var updatesRef = domainRef.child('updates').child(randomFrom(TEAMS))
+  updatesRef.once('value').then(function(snap) {
+    var uid = randomFrom(Object.keys(snap.val()));
+    if (uid === '109558306803631921811C1E47ADACEC4F3C6CEB3DD9') {
+      console.log('Was Michael, skipping...');
+      return randomUpdate();
+    }
+    var emoji = randomFrom(WHITELIST);
+    updatesRef.child(uid).update({
+      updated: firebase.database.ServerValue.TIMESTAMP,
+      emoji: IMG_PREFIX + emoji + '.svg'
+    }).then(function() {
+      console.log('Updated', snap.child(uid).child('name').val(), 'on team', updatesRef.key, 'to', emoji);
+      return setTimeout(randomUpdate, nextUpdate());
+    }).catch(function(err) {
+      console.log(err);
+    });
+  }).catch(function(err) {
+    console.log(err);
+  });
+}
+
+randomUpdate();

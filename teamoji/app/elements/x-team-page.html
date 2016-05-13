@@ -96,18 +96,6 @@ limitations under the License.
           type: Object
         }
       },
-      asArray: function(obj) {
-        var out = [];
-        if (obj) {
-          for (var key in obj) {
-            out.push(Object.assign({$key: key}, obj[key]));
-          }
-        }
-        out.sort(function(a, b) {
-          return b.updated - a.updated;
-        });
-        return out;
-      },
       startUpdate: function() {
         app.openShade('emojiShade');
       },
