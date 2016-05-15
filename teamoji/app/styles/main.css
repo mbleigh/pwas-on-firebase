@@ -13,3 +13,8 @@ body {
   font-family: 'Varela Round', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
 }
+
+paper-toast a {
+  color: #ffecb3;
+  font-weight: bold;
+}

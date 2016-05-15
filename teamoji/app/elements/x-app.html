@@ -16,8 +16,9 @@ limitations under the License.
 <link rel="import" href="../bower_components/app-layout/app-layout.html">
 <link rel="import" href="../bower_components/paper-menu/paper-menu.html">
 <link rel="import" href="../bower_components/paper-item/paper-item.html">
+<link rel="import" href="../bower_components/paper-toast/paper-toast.html">
 <link rel="import" href="../bower_components/polymerfire/polymerfire.html">
-<link rel="import" href="../bower_components/carbon-storage/carbon-indexeddb-mirror/carbon-indexeddb-mirror.html">
+<link rel="import" href="../bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
 <link rel="import" href="x-shade.html">
 <link rel="import" href="x-login.html">
 <link rel="import" href="x-create-team.html">
@@ -66,6 +67,12 @@ limitations under the License.
         padding: 8px;
         margin: 8px 16px;
       }
+
+      #toast {
+        font-size: 16px;
+        font-family: 'Varela Round', sans-serif;
+        --paper-toast-background-color: var(--paper-blue-500);
+      }
     </style>
 
     <firebase-app
@@ -79,12 +86,14 @@ limitations under the License.
       data="{{_fbPrefs}}"
       path="/prefs/[[user.uid]]">
     </firebase-document>
-    <carbon-indexeddb-mirror
+    <app-indexeddb-mirror
+      worker-url="/bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror-worker.js"
+      session="[[user.uid]]"
       key="/prefs/[[user.uid]]"
       data="[[_fbPrefs]]"
       persisted-data="{{prefs}}"
       online="[[online]]">
-    </carbon-indexeddb-mirror>
+    </app-indexeddb-mirror>
 
     <firebase-query id="updates"
       data="{{_fbTeamUpdates}}"
@@ -92,23 +101,27 @@ limitations under the License.
       order-by-child="updated"
       start-at="[[yesterday]]">
     </firebase-query>
-    <carbon-indexeddb-mirror
+    <app-indexeddb-mirror
+      worker-url="/bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror-worker.js"
+      session="[[user.uid]]"
       key="/domains/[[_domainId]]/updates/[[activeTeam.id]]"
       data="[[_fbTeamUpdates]]"
       persisted-data="{{activeTeamUpdates}}"
       online="[[online]]">
-    </carbon-indexeddb-mirror>
+    </app-indexeddb-mirror>
 
     <firebase-query id="teams"
       data="{{_fbTeams}}"
       path="/domains/[[_domainId]]/teams">
     </firebase-query>
-    <carbon-indexeddb-mirror
+    <app-indexeddb-mirror
+      worker-url="/bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror-worker.js"
+      session="[[user.uid]]"
       key="/domains/[[_domainId]]/teams"
       data="[[_fbTeams]]"
       persisted-data="{{teams}}"
       online="[[online]]">
-    </carbon-indexeddb-mirror>
+    </app-indexeddb-mirror>
 
     <app-drawer-layout>
       <app-drawer id="drawer" swipe-open>
@@ -141,6 +154,8 @@ limitations under the License.
     <x-shade id="loginShade" active="[[!user]]">
       <x-login id="login" user="{{user}}"></x-login>
     </x-shade>
+
+    <paper-toast class="fit-bottom" id="toast"></paper-toast>
   </template>
   <script>
     var ONE_DAY = 1000 * 60 * 60 * 24;
@@ -189,6 +204,7 @@ limitations under the License.
         'setTeam(prefs.activeTeam, teams.length)'
       ],
       ready: function() {
+        console.log(firebase.auth().currentUser);
         this.yesterday = Date.now() - ONE_DAY;
         this.offline = navigator.onLine === false;
         window.addEventListener('online', function() {
@@ -226,6 +242,13 @@ limitations under the License.
           shade = e.currentTarget.getAttribute('shade');
         }
         this.$[shade].active = true;
+      },
+      toast: function(message, duration) {
+        if (typeof duration === 'undefined') {
+          duration = 3000;
+        }
+        this.$.toast.innerHTML = message;
+        this.$.toast.show({duration: duration});
       },
       closeShade: function(name) {
         this.$[name].active = false;

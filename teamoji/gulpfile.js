@@ -147,7 +147,7 @@ gulp.task('copy', function() {
   // Copy over only the bower_components we need
   // These are things which cannot be vulcanized
   var bower = gulp.src([
-    'app/bower_components/{webcomponentsjs,promise-polyfill}/**/*'
+    'app/bower_components/{webcomponentsjs,promise-polyfill,app-storage}/**/*.js'
   ]).pipe(gulp.dest(dist('bower_components')));
 
   return merge(app, bower, data)
@@ -196,6 +196,7 @@ gulp.task('generate-dev-service-worker', function(callback) {
     ],
     stripPrefix: dir,
     logger: $.util.log,
+    verbose: true,
     navigateFallback: '/index.html',
     runtimeCaching: [{
       urlPattern: /^https:\/\/fonts.googleapis.com\/.*/,
@@ -215,22 +216,23 @@ gulp.task('generate-service-worker', function(callback) {
   swPrecache.write(path.join(dir, 'service-worker.js'), {
     cacheId: packageJson.name,
     staticFileGlobs: [
-      dir + '/**/*.{js,html,css,png,svg,jpg,gif,json}'
+      dir + '/**/*.{js,html,css,png,svg,jpg,gif}',
+      dir + '/data/emoji.json'
     ],
     stripPrefix: dir,
     logger: $.util.log,
     runtimeCaching: [{
-      urlPattern: /^\/__\/.*$/,
-      handler: 'networkFirst'
-    },{
-      urlPattern: /^https:\/\/fonts.googleapis.com\/.*/,
+      // cache Google Web Fonts (both css and font files)
+      urlPattern: /^https:\/\/fonts.(?:googleapis|gstatic).com\/.*/,
       handler: 'cacheFirst'
     },
     {
+      // cache Google user profile pics
       urlPattern: /^https:\/\/lh3.googleusercontent.com\/.*/,
       handler: 'networkFirst'
     },
     {
+      // cache Firebase Storage data
       urlPattern: /^https:\/\/storage.googleapis.com\/teamoji-app.appspot.com\/.*/,
       handler: 'networkFirst'
     }]

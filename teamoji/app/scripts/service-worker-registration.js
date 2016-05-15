@@ -33,15 +33,9 @@ if ('serviceWorker' in navigator) {
         switch (installingWorker.state) {
           case 'installed':
             if (navigator.serviceWorker.controller) {
-              // At this point, the old content will have been purged and the fresh content will
-              // have been added to the cache.
-              // It's the perfect time to display a "New content is available; please refresh."
-              // message in the page's interface.
-              console.log('New or updated content is available.');
+              app.toast('A new version of Teamoji is available. <a onclick="javascript:window.location.reload()">Refresh</a>', 5000);
             } else {
-              // At this point, everything has been precached.
-              // It's the perfect time to display a "Content is cached for offline use." message.
-              console.log('Content is now available offline!');
+              app.toast('Teamoji is now offline ready!');
             }
             break;
 

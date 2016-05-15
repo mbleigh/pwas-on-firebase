@@ -16,6 +16,7 @@ limitations under the License.
 <link rel="import" href="../bower_components/neon-animation/neon-animation-runner-behavior.html">
 <link rel="import" href="../bower_components/neon-animation/animations/slide-from-bottom-animation.html">
 <link rel="import" href="../bower_components/neon-animation/animations/slide-down-animation.html">
+<link rel="import" href="../bower_components/neon-animation/animations/fade-out-animation.html">
 
 <dom-module id="x-shade">
   <template>
@@ -53,22 +54,22 @@ limitations under the License.
         this._t0 = Date.now();
       },
       _hide: function() {
-        if (Date.now() - 1000 > this._t0) {
-          this['playAnimation']('exit');
-        } else {
-          this.style.display = 'none';
+        if (Date.now() - 1000 < this._t0) {
+          this.exitAnimation = 'fade-out-animation';
         }
+        this.playAnimation('exit');
       },
       _show: function() {
         this.style.display = 'block';
         if (Date.now() - 1000 > this._t0) {
-          this['playAnimation']('entry');
+          this.playAnimation('entry');
         }
       },
       _animationFinished: function() {
         if (!this.active) {
           this.style.display = 'none';
         }
+        this.exitAnimation = 'slide-down-animation';
       },
       _activeChanged: function() {
         this.active ? this._show() : this._hide();
