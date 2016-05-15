@@ -86,7 +86,7 @@ limitations under the License.
       data="{{_fbPrefs}}"
       path="/prefs/[[user.uid]]">
     </firebase-document>
-    <app-indexeddb-mirror
+    <app-indexeddb-mirror id="prefsMirror"
       worker-url="/bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror-worker.js"
       session="[[user.uid]]"
       key="/prefs/[[user.uid]]"
@@ -95,13 +95,13 @@ limitations under the License.
       online="[[online]]">
     </app-indexeddb-mirror>
 
-    <firebase-query id="updates"
+    <firebase-query id="updates" log
       data="{{_fbTeamUpdates}}"
       path="/domains/[[_domainId]]/updates/[[activeTeam.id]]"
       order-by-child="updated"
       start-at="[[yesterday]]">
     </firebase-query>
-    <app-indexeddb-mirror
+    <app-indexeddb-mirror id="updatesMirror"
       worker-url="/bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror-worker.js"
       session="[[user.uid]]"
       key="/domains/[[_domainId]]/updates/[[activeTeam.id]]"
@@ -114,7 +114,7 @@ limitations under the License.
       data="{{_fbTeams}}"
       path="/domains/[[_domainId]]/teams">
     </firebase-query>
-    <app-indexeddb-mirror
+    <app-indexeddb-mirror id="teamsMirror"
       worker-url="/bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror-worker.js"
       session="[[user.uid]]"
       key="/domains/[[_domainId]]/teams"
