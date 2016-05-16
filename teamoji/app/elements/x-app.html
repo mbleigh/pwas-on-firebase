@@ -204,7 +204,6 @@ limitations under the License.
         'setTeam(prefs.activeTeam, teams.length)'
       ],
       ready: function() {
-        console.log(firebase.auth().currentUser);
         this.yesterday = Date.now() - ONE_DAY;
         this.offline = navigator.onLine === false;
         window.addEventListener('online', function() {
@@ -285,10 +284,18 @@ limitations under the License.
           this.domainRef.update(update);
         }
       },
+      teamById: function(id) {
+        for (var i = 0; i < this.teams.length; i++) {
+          if (id === this.teams[i].$key) {
+            return this.teams[i];
+          }
+        }
+        return null;
+      },
       setTeam: function(id) {
         if (this.user && this.teams) {
           firebase.database().ref('/prefs').child(this.user.uid).update({activeTeam: id});
-          this.activeTeam = this.$.teams.child(id);
+          this.activeTeam = this.teamById(id);
           this.activeTeamId = id;
         } else {
           this._pendingTeamId = id;

@@ -189,21 +189,26 @@ gulp.task('generate-dev-service-worker', function(callback) {
   var swPrecache = require('sw-precache');
 
   swPrecache.write(path.join('.tmp', 'service-worker.js'), {
-    handleFetch: false,
     cacheId: packageJson.name,
     staticFileGlobs: [
-      dir + '/**/*.{js,html,css,png,svg,jpg,gif,json}'
+      dir + '/**/*.{js,html,css,png,svg,jpg,gif}',
+      dir + '/data/emoji.json'
     ],
     stripPrefix: dir,
     logger: $.util.log,
-    verbose: true,
-    navigateFallback: '/index.html',
     runtimeCaching: [{
-      urlPattern: /^https:\/\/fonts.googleapis.com\/.*/,
+      // cache Google Web Fonts (both css and font files)
+      urlPattern: /^https:\/\/fonts.(?:googleapis|gstatic).com\/.*/,
       handler: 'cacheFirst'
     },
     {
-      urlPattern: /^https:\/\/www.gstatic.com\/.*/,
+      // cache Google user profile pics
+      urlPattern: /^https:\/\/lh3.googleusercontent.com\/.*/,
+      handler: 'networkFirst'
+    },
+    {
+      // cache Firebase Storage data
+      urlPattern: /^https:\/\/storage.googleapis.com\/teamoji-app.appspot.com\/.*/,
       handler: 'networkFirst'
     }]
   }, callback);
@@ -221,6 +226,7 @@ gulp.task('generate-service-worker', function(callback) {
     ],
     stripPrefix: dir,
     logger: $.util.log,
+    verbose: true,
     runtimeCaching: [{
       // cache Google Web Fonts (both css and font files)
       urlPattern: /^https:\/\/fonts.(?:googleapis|gstatic).com\/.*/,
@@ -270,7 +276,6 @@ gulp.task('serve', ['styles', 'elements', 'generate-dev-service-worker'], functi
     }
   });
 
-  console.log(Object.assign({}, fbConfig.hosting, {public: ['.tmp', 'app']}));
   gulp.watch(['app/**/*.html'], ['generate-dev-service-worker', reload]);
   gulp.watch(['app/styles/**/*.css'], ['styles', 'generate-dev-service-worker', reload]);
   gulp.watch(['app/elements/**/*.css'], ['elements', 'generate-dev-service-worker', reload]);
