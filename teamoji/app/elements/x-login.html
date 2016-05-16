@@ -78,17 +78,24 @@ limitations under the License.
         font-weight: normal;
         color: rgba(255,255,255,0.7);
       }
+
+      #offline {
+        background: var(--paper-grey-700);
+        color: white;
+      }
     </style>
 
     <img id="bigimg" src="https://storage.googleapis.com/teamoji-app.appspot.com/emoji/svg/emoji_u1f63b.svg">
     <h1>Teamoji</h1>
     <h2><img src="https://storage.googleapis.com/teamoji-app.appspot.com/emoji/svg/emoji_u1f551.svg" width="24" height="24"> Team Status <img src="https://storage.googleapis.com/teamoji-app.appspot.com/emoji/svg/emoji_u1f680.svg" width="24" height="24"></h2>
 
-    <paper-button on-tap="login" raised>Sign in with Google</paper-button>
+
+    <paper-button on-tap="login" raised hidden$="[[offline]]">Sign in with Google</paper-button>
+    <paper-button id="offline" disabled hidden$="[[!offline]]">Go online to sign in</paper-button>
 
     <div id="space"></div>
     <p>powered by <a href="https://firebase.google.com/" target="_blank">Firebase</a>
-    <p class="small"><a href="https://github.com/mbleigh/teamoji" target="_blank">source on GitHub</a></p>
+    <p class="small"><a href="https://github.com/mbleigh/pwas-on-firebase/tree/master/teamoji" target="_blank">source on GitHub</a></p>
   </template>
   <script>
     Polymer({
@@ -105,6 +112,9 @@ limitations under the License.
         exitAnimation: {
           type: String,
           value: 'slide-down-animation'
+        },
+        offline: {
+          type: Boolean
         }
       },
       ready: function() {

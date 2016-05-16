@@ -87,7 +87,6 @@ limitations under the License.
       path="/prefs/[[user.uid]]">
     </firebase-document>
     <app-indexeddb-mirror id="prefsMirror"
-      worker-url="/bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror-worker.js"
       session="[[user.uid]]"
       key="/prefs/[[user.uid]]"
       data="[[_fbPrefs]]"
@@ -102,7 +101,6 @@ limitations under the License.
       start-at="[[yesterday]]">
     </firebase-query>
     <app-indexeddb-mirror id="updatesMirror"
-      worker-url="/bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror-worker.js"
       session="[[user.uid]]"
       key="/domains/[[_domainId]]/updates/[[activeTeam.id]]"
       data="[[_fbTeamUpdates]]"
@@ -115,7 +113,6 @@ limitations under the License.
       path="/domains/[[_domainId]]/teams">
     </firebase-query>
     <app-indexeddb-mirror id="teamsMirror"
-      worker-url="/bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror-worker.js"
       session="[[user.uid]]"
       key="/domains/[[_domainId]]/teams"
       data="[[_fbTeams]]"
@@ -137,7 +134,7 @@ limitations under the License.
               </template>
             </paper-menu>
 
-            <paper-button raised on-tap="openShade" shade="teamShade">Create Team</paper-button>
+            <paper-button raised on-tap="openShade" shade="teamShade" hidden$="[[offline]]">Create Team</paper-button>
             <paper-button raised on-tap="logout">Sign Out</paper-button>
           </section>
         </div>
@@ -152,7 +149,7 @@ limitations under the License.
       <x-emoji-picker id="emoji" domain="[[domain]]" team="[[activeTeamId]]"></x-emoji-picker>
     </x-shade>
     <x-shade id="loginShade" active="[[!user]]">
-      <x-login id="login" user="{{user}}"></x-login>
+      <x-login id="login" user="{{user}}" offline="[[offline]]"></x-login>
     </x-shade>
 
     <paper-toast class="fit-bottom" id="toast"></paper-toast>
