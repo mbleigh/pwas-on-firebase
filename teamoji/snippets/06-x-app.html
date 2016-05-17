@@ -1,0 +1,39 @@
+<link rel="import" href="../bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
+
+<firebase-document id="prefs"
+  data="{{_fbPrefs}}"
+  path="/prefs/[[user.uid]]">
+</firebase-document>
+<app-indexeddb-mirror id="prefsMirror"
+  session="[[user.uid]]"
+  key="/prefs/[[user.uid]]"
+  data="[[_fbPrefs]]"
+  persisted-data="{{prefs}}"
+  online="[[online]]">
+</app-indexeddb-mirror>
+
+<firebase-query id="updates" log
+  data="{{_fbTeamUpdates}}"
+  path="/domains/[[_domainId]]/updates/[[activeTeam.id]]"
+  order-by-child="updated"
+  start-at="[[yesterday]]">
+</firebase-query>
+<app-indexeddb-mirror id="updatesMirror"
+  session="[[user.uid]]"
+  key="/domains/[[_domainId]]/updates/[[activeTeam.id]]"
+  data="[[_fbTeamUpdates]]"
+  persisted-data="{{activeTeamUpdates}}"
+  online="[[online]]">
+</app-indexeddb-mirror>
+
+<firebase-query id="teams"
+  data="{{_fbTeams}}"
+  path="/domains/[[_domainId]]/teams">
+</firebase-query>
+<app-indexeddb-mirror id="teamsMirror"
+  session="[[user.uid]]"
+  key="/domains/[[_domainId]]/teams"
+  data="[[_fbTeams]]"
+  persisted-data="{{teams}}"
+  online="[[online]]">
+</app-indexeddb-mirror>

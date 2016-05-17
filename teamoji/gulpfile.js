@@ -184,74 +184,13 @@ gulp.task('vulcanize', function() {
     .pipe($.size({title: 'vulcanize'}));
 });
 
-gulp.task('generate-dev-service-worker', function(callback) {
-  var dir = 'app';
-  var swPrecache = require('sw-precache');
-
-  swPrecache.write(path.join('.tmp', 'service-worker.js'), {
-    cacheId: packageJson.name,
-    staticFileGlobs: [
-      dir + '/**/*.{js,html,css,png,svg,jpg,gif}',
-      dir + '/data/emoji.json'
-    ],
-    stripPrefix: dir,
-    logger: $.util.log,
-    runtimeCaching: [{
-      // cache Google Web Fonts (both css and font files)
-      urlPattern: /^https:\/\/fonts.(?:googleapis|gstatic).com\/.*/,
-      handler: 'cacheFirst'
-    },
-    {
-      // cache Google user profile pics
-      urlPattern: /^https:\/\/lh3.googleusercontent.com\/.*/,
-      handler: 'networkFirst'
-    },
-    {
-      // cache Firebase Storage data
-      urlPattern: /^https:\/\/storage.googleapis.com\/teamoji-app.appspot.com\/.*/,
-      handler: 'networkFirst'
-    }]
-  }, callback);
-});
-
-gulp.task('generate-service-worker', function(callback) {
-  var dir = dist();
-  var swPrecache = require('sw-precache');
-
-  swPrecache.write(path.join(dir, 'service-worker.js'), {
-    cacheId: packageJson.name,
-    staticFileGlobs: [
-      dir + '/**/*.{js,html,css,png,svg,jpg,gif}',
-      dir + '/data/emoji.json'
-    ],
-    stripPrefix: dir,
-    logger: $.util.log,
-    verbose: true,
-    runtimeCaching: [{
-      // cache Google Web Fonts (both css and font files)
-      urlPattern: /^https:\/\/fonts.(?:googleapis|gstatic).com\/.*/,
-      handler: 'cacheFirst'
-    },
-    {
-      // cache Google user profile pics
-      urlPattern: /^https:\/\/lh3.googleusercontent.com\/.*/,
-      handler: 'networkFirst'
-    },
-    {
-      // cache Firebase Storage data
-      urlPattern: /^https:\/\/storage.googleapis.com\/teamoji-app.appspot.com\/.*/,
-      handler: 'networkFirst'
-    }]
-  }, callback);
-});
-
 // Clean output directory
 gulp.task('clean', function() {
   return del(['.tmp', dist()]);
 });
 
 // Watch files for changes & reload
-gulp.task('serve', ['styles', 'elements', 'generate-dev-service-worker'], function() {
+gulp.task('serve', ['styles', 'elements'], function() {
   browserSync({
     port: 5000,
     notify: false,
@@ -276,10 +215,10 @@ gulp.task('serve', ['styles', 'elements', 'generate-dev-service-worker'], functi
     }
   });
 
-  gulp.watch(['app/**/*.html'], ['generate-dev-service-worker', reload]);
-  gulp.watch(['app/styles/**/*.css'], ['styles', 'generate-dev-service-worker', reload]);
-  gulp.watch(['app/elements/**/*.css'], ['elements', 'generate-dev-service-worker', reload]);
-  gulp.watch(['app/images/**/*'], ['generate-dev-service-worker', reload]);
+  gulp.watch(['app/**/*.html'], [reload]);
+  gulp.watch(['app/styles/**/*.css'], ['styles', reload]);
+  gulp.watch(['app/elements/**/*.css'], ['elements', reload]);
+  gulp.watch(['app/images/**/*'], [reload]);
 });
 
 // Build and serve the output from the dist build
@@ -312,7 +251,6 @@ gulp.task('default', ['clean'], function(cb) {
     'elements',
     ['images', 'fonts', 'html'],
     'vulcanize',
-    'generate-service-worker',
     cb);
 });
 

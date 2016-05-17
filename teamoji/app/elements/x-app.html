@@ -18,7 +18,6 @@ limitations under the License.
 <link rel="import" href="../bower_components/paper-item/paper-item.html">
 <link rel="import" href="../bower_components/paper-toast/paper-toast.html">
 <link rel="import" href="../bower_components/polymerfire/polymerfire.html">
-<link rel="import" href="../bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
 <link rel="import" href="x-shade.html">
 <link rel="import" href="x-login.html">
 <link rel="import" href="x-create-team.html">
@@ -83,42 +82,21 @@ limitations under the License.
     </firebase-app>
 
     <firebase-document id="prefs"
-      data="{{_fbPrefs}}"
+      data="{{prefs}}"
       path="/prefs/[[user.uid]]">
     </firebase-document>
-    <app-indexeddb-mirror id="prefsMirror"
-      session="[[user.uid]]"
-      key="/prefs/[[user.uid]]"
-      data="[[_fbPrefs]]"
-      persisted-data="{{prefs}}"
-      online="[[online]]">
-    </app-indexeddb-mirror>
 
     <firebase-query id="updates" log
-      data="{{_fbTeamUpdates}}"
+      data="{{activeTeamUpdates}}"
       path="/domains/[[_domainId]]/updates/[[activeTeam.id]]"
       order-by-child="updated"
       start-at="[[yesterday]]">
     </firebase-query>
-    <app-indexeddb-mirror id="updatesMirror"
-      session="[[user.uid]]"
-      key="/domains/[[_domainId]]/updates/[[activeTeam.id]]"
-      data="[[_fbTeamUpdates]]"
-      persisted-data="{{activeTeamUpdates}}"
-      online="[[online]]">
-    </app-indexeddb-mirror>
 
     <firebase-query id="teams"
-      data="{{_fbTeams}}"
+      data="{{teams}}"
       path="/domains/[[_domainId]]/teams">
     </firebase-query>
-    <app-indexeddb-mirror id="teamsMirror"
-      session="[[user.uid]]"
-      key="/domains/[[_domainId]]/teams"
-      data="[[_fbTeams]]"
-      persisted-data="{{teams}}"
-      online="[[online]]">
-    </app-indexeddb-mirror>
 
     <app-drawer-layout>
       <app-drawer id="drawer" swipe-open>
@@ -202,13 +180,6 @@ limitations under the License.
       ],
       ready: function() {
         this.yesterday = Date.now() - ONE_DAY;
-        this.offline = navigator.onLine === false;
-        window.addEventListener('online', function() {
-          this.offline = false;
-        }.bind(this));
-        window.addEventListener('offline', function() {
-          this.offline = true;
-        }.bind(this));
       },
       _userChanged: function() {
         if (this.user && this.user.emailVerified) {
