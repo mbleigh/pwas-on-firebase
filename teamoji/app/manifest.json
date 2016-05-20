@@ -1,7 +1,7 @@
 {
   "name": "Teamoji Team Status",
   "short_name": "Teamoji",
-  "theme_color": "#2196f3",
+  "theme_color": "#ffd54f",
   "background_color": "#2196f3",
   "display": "standalone",
   "orientation": "portrait",
@@ -48,6 +48,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "splash_pages": null
+  ]
 }
