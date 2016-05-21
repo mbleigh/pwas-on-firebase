@@ -5,7 +5,7 @@
     "browser-sync": "^2.7.7",
     "connect-history-api-fallback": "^1.1.0",
     "del": "^2.0.2",
-    "firebase": "https://www.gstatic.com/firebasejs/staging/3.0.0/firebase.tgz",
+    "firebase": "^3.0",
     "glob-all": "^3.0.1",
     "gulp": "^3.8.5",
     "gulp-autoprefixer": "^3.1.0",
